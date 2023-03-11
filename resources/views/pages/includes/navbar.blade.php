@@ -1,0 +1,339 @@
+
+        <!-- Start Top Header Area -->
+        <div class="top-header-area bg-info">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-8 col-md-12">
+                        <ul class="top-header-information">
+                            <li>
+                                <i class='bx bxs-map'></i>
+                                <span class="text-white">
+                                <b>In den Shadow Arkaden</b> · Schadowstraße 11B · 240212 Düsseldorf
+                                </span>
+                            </li>
+                            <li>
+                                <i class='bx bx-envelope-open'></i>
+                                <a href="mailto:info@firstbiodent.de">
+                                    <span>info@firstbiodent.de</span></a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-4 col-md-12">
+                        <ul class="top-header-optional">
+                            <li class="p-1">
+                                <a title="LinkedIn" alt="LinkedIn" href="https://www.linkedin.com/in/dr-hansj%C3%B6rg-lammers-09a01147/?originalSubdomain=de" target="_blank">
+                                    <i class='bx bxl-linkedin'></i>
+                                </a>
+                                <a title="Instagram" alt="Instagram" href="https://www.instagram.com/explore/tags/firstbiodent/" target="_blank">
+                                    <i class='bx bxl-instagram'></i>
+                                </a>
+                            </li>
+                            <li class="languages-list">
+                                <select class=" text-white">
+                                    <option value="1">Deutsch</option>
+                                    <option value="2">English</option>
+                                </select>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Top Header Area -->
+
+        <!-- Start Middle Header Area -->
+        <div class="middle-header-area">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-4 col-md-12 pt-1">
+                        <div class="middle-header d-flex">
+                            <a class="pointer" href="/">
+                                <img alt="FirstBiodent Logo" title="FirstBiodent Logo" class="d-none d-xl-block" style="height: 4.4em; widht: auto;" src="/template-assets/images/firstbiodent-logo.svg"></img>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-8 col-md-12">
+                        <ul class="middle-header-content">
+                            <li>
+                                <i class="bi bi-telephone-forward"></i>
+                                Jetzt anrufen
+                                <span><a href="tel:02119849880">+49 211 984 988 0</a></span>
+                            </li>
+
+                            <li>
+                                <i class="bi bi-clock"></i>
+                                Öffnungszeiten wochentags
+                                <span>09:00 Uhr - 18:00 Uhr</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Middle Header Area -->
+
+        <!-- Start Navbar Area -->
+        <div class="navbar-area">
+            <div class="main-responsive-nav">
+                <div class="container">
+                    <div class="main-responsive-menu">
+                        <div class="logo">
+                            <!--
+                            <a href="#">-->
+                                <img src="/template-assets/images/logo.png" class="main-logo" alt="logo">
+                                <img src="/template-assets/images/logo-2.png" class="white-logo" alt="logo"><!--
+                            </a>-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="main-navbar" style="background:  rgb(238,238,238);">
+                <div class="container">
+                    <nav class="navbar navbar-expand-md navbar-light" style="background:  rgb(238,238,238);">
+                        <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent" style="background:  rgb(238,238,238);">
+                            <ul class="navbar-nav">
+                                <!--
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link active">
+                                        Home 
+                                        <i class='bx bx-caret-down'></i>
+                                    </a>
+
+                                    <ul class="dropdown-menu">
+                                        <li class="nav-item">
+                                            <a href="index.html" class="nav-link active">Home One</a>
+                                        </li>
+
+                                        <li class="nav-item">
+                                            <a href="index-2.html" class="nav-link">Home Two</a>
+                                        </li>
+
+                                        <li class="nav-item">
+                                            <a href="index-3.html" class="nav-link">Home Three</a>
+                                        </li>
+
+                                        <li class="nav-item">
+                                            <a href="index-4.html" class="nav-link">Home Four</a>
+                                        </li>
+
+                                        <li class="nav-item">
+                                            <a href="index-5.html" class="nav-link">Home Five</a>
+                                        </li>
+
+                                        <li class="nav-item">
+                                            <a href="index-6.html" class="nav-link">Home Six</a>
+                                        </li>
+
+                                        <li class="nav-item">
+                                            <a href="index-7.html" class="nav-link">Home Seven</a>
+                                        </li>
+
+                                        <li class="nav-item">
+                                            <a href="index-8.html" class="nav-link">Home Eight</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                -->
+
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">Unsere Praxis
+                                    <i class='bx bx-caret-down'></i></a>
+
+                                    <ul class="dropdown-menu">
+                                        <li class="nav-item">
+                                            <a href="#" class="nav-link">Ärztevorstellung</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="#" class="nav-link">Kooperationen</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="#" class="nav-link">Fortbildungen</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="#" class="nav-link">Hygienemaßnahmen</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="#" class="nav-link">Materialien</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="#" class="nav-link">Referenzen</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="#" class="nav-link">Long Covid Therapie</a>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">
+                                        Biologische Zahnmedizin 
+                                        <i class='bx bx-caret-down'></i>
+                                    </a>
+
+                                    <ul class="dropdown-menu">
+                                        <li class="nav-item">
+                                            <a href="#" class="nav-link">Ganzheitliche Zahnmedizin</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="#" class="nav-link">Amalgam Sanierung</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="#" class="nav-link">Ganzheitliche Zahnimplantate</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="#" class="nav-link">Entgiftung</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="#" class="nav-link">Integrative Zahnmedizin</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="#" class="nav-link">Kiefernentzündung</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="#" class="nav-link">Störfeldsanierung</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="#" class="nav-link">Paradontaltherapie</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="#" class="nav-link">Umweltzahnmedizin</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="#" class="nav-link">Mundgeruch</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="#" class="nav-link">Umweltzahnmedizin</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="#" class="nav-link">Metallssanierungen</a>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">
+                                        Leistungen 
+                                        <i class='bx bx-caret-down'></i>
+                                    </a>
+
+                                    <ul class="dropdown-menu">
+                                        <li class="nav-item">
+                                            <a href="#" class="nav-link">Zahnreinigung</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="#" class="nav-link">CMD</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="#" class="nav-link">Veneers</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="#" class="nav-link">Unsichtbare Zahnspange</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="#" class="nav-link">Rot-Weiß-Ästhetik</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="#" class="nav-link">Schnarchschiene</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="#" class="nav-link">Zahnersatz</a>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">
+                                        Medical Detox SPA 
+                                    </a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">
+                                        Blog 
+                                        <i class='bx bx-caret-down'></i>
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li class="nav-item">
+                                            <a href="#" class="nav-link">Interessantes</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="#" class="nav-link">Publikationen</a>
+                                        </li>
+                                    </ul>
+                                </li>
+    
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">Kontakt
+                                    <i class='bx bx-caret-down'></i></a>
+                                    <ul class="dropdown-menu">
+                                        <li class="nav-item">
+                                            <a href="#" class="nav-link">Praxistermin</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="#" class="nav-link">Online Video Meeting</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="#" class="nav-link">Anfahrt</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+
+                            <div class="others-options d-flex align-items-center">
+                            	<!--
+                                <div class="option-item">
+                                    <div class="search-btn">
+                                        <a class="" href="#searchmodal" data-bs-toggle="modal" data-bs-target="#searchmodal">
+                                            <i alt="search" title="search" class="flaticon-search"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            	-->
+
+                                <div class="option-item">
+                                    <div class="navbar-btn">
+                                        <a href="/date" class="default-btn">Onlinetermin</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+
+            <div class="others-option-for-responsive">
+                <div class="container">
+                    <div class="dot-menu">
+                        <div class="inner">
+                            <div class="circle circle-one"></div>
+                            <div class="circle circle-two"></div>
+                            <div class="circle circle-three"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="container">
+                        <div class="option-inner">
+                            <div class="others-options d-flex align-items-center">
+                                <div class="option-item">
+                                    <div class="search-btn">
+                                        <a class="#" href="#searchmodal" data-bs-toggle="modal" data-bs-target="#searchmodal">
+                                            <i class="flaticon-search"></i>
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <div class="option-item">
+                                    <div class="navbar-btn">
+                                        <a href="/date/1" class="default-btn" style="background: #197720;">Book Appointment</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Navbar Area -->
