@@ -88,28 +88,32 @@
                 <div class="row">
                     <div class="col-lg-4 col-md-6">
                         <div class="single-features bg-secondary pointer" style="margin-top: -70px; min-height: 190px;">
+                            <a href="/medical-detox">
                             <div class="content pt-0">
                                 <div class="icon">
                                     <i class="flaticon-doctor"></i>
                                 </div>
                                 <h3>
-                                    <a href="/medical-detox">MedicalDetox SPA</a>
+                                    MedicalDetox SPA
                                 </h3>
                                 <p>Mit Wellness-Bereich zur Regeneration von Körper & Seele</p>
                             </div>
+                            </a>
                         </div>
                     </div>
 
                     <div class="col-lg-4 col-md-6">
                         <div class="single-features bg-info pointer" style="margin-top: -70px; min-height: 190px;">
                             <div class="content pt-0">
+                                <a href="/services">
                                 <div class="icon">
                                     <i class="flaticon-chair"></i>
                                 </div>
                                 <h3>
-                                    <a href="/services">Leistungen<sup class="fw-bold">+</sup></a>
+                                    Leistungen<sup class="fw-bold">+</sup>
                                 </h3>
                                 <p>Vorsorge, Ästhetik, Diagnostik & Zahn- und Kiefer-Behandlungen</p>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -117,13 +121,15 @@
                     <div class="col-lg-4 col-md-6 offset-lg-0 offset-md-3">
                         <div class="single-features pointer" style="margin-top: -70px; min-height: 190px;">
                             <div class="content pt-0">
+                                <a href="/eco-dentist">
                                 <div class="icon">
                                     <i class="flaticon-healthcare"></i>
                                 </div>
                                 <h3>
-                                    <a href="/eco-dentist">Bio-Zahnmedizin</a>
+                                    Bio-Zahnmedizin
                                 </h3>
                                 <p>Behandlungskonzept mit Blick auf den ganzen Körper</p>
+                                </a>
                             </div>
                         </div>
                     </div>
