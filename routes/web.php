@@ -41,7 +41,7 @@ Route::get('/doc/main',
 Route::get('/doc/second', 
     [App\Http\Controllers\PageController::class, 'secondDoc']
 );
-Route::get('/blog/index', 
+Route::get('/blog', 
     [App\Http\Controllers\PageController::class, 'blogHome']
 );
 Route::get('/blog/detail', 

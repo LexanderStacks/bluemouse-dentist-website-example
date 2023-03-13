@@ -16,7 +16,7 @@
                             </div>
                             <div class="footer-info">
                                 <img width="120" height="120" src="/template-assets/images/footer/footer-1.jpg" alt="image">
-                                <p class="h-4">Dr. med. Lammers</p>
+                                <a style="text-decoration: none;" href="/doc/main"><p class="h-4">Dr. med. Lammers</p></a>
                                 <span>Praxisgründer & Zahnarzt</span>
                             </div>
                             <div class="text-light mt-3">
@@ -62,7 +62,7 @@ li.hover-no-underline:hover{
                                     <a href="/privacy">Datenschutzrichtlinien</a>
                                 </li>
                                 <li>
-                                    <a href="/impring">Impressum</a>
+                                    <a href="/imprint">Impressum</a>
                                 </li>
                             </ul>
                         </div>
