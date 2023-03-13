@@ -4,7 +4,8 @@
             <div class="container">
                 <div class="section-title">
                     <span class="sub-title">
-                        <i class="flaticon-hashtag-symbol"></i>
+                        
+                        <i class="bi bi-hash fs-4 text-primary"></i>
                         Update News and Blogs
                     </span>
                     <h2>Stay Updated with Our Latest News and Blog</h2>

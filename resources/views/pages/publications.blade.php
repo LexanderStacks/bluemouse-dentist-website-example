@@ -4,7 +4,8 @@
             <div class="container">
                 <div class="section-title">
                     <span class="sub-title">
-                        <i class="flaticon-hashtag-symbol"></i>
+                        
+<i class="bi bi-hash fs-4 text-primary"></i>
                         Unsere Publikationen
                     </span>
                     <h2>Our Cases & Patient Stories We Create  Beautiful Smiles</h2>
