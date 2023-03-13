@@ -31,12 +31,6 @@
     								<br>
     								Leitung der FirstBioDent-Praxis Düsseldorf
 								</p>
-
-                                <p><span>Professional Skills:</span> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-
-                                <p><span>Education:</span> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-
-                                <p><span>Awards:</span> National Specialist Register in Dental</p>
                             </div>
                         </div>
                     </div>
@@ -56,7 +50,7 @@
 
 					<div class="overview-text">
 						<h3>Werdegang</h3>
-                        <p><span>1985 – 1990</span><br><br>Studium der ganzheitlichen Zahnheilkunde an der privaten Universität Witten/Herdecke mit folgenden integrierten Studiengängen der komplementären Medizin
+                        <p><span>1985 – 1990</span><br>Studium der ganzheitlichen Zahnheilkunde an der privaten Universität Witten/Herdecke mit folgenden integrierten Studiengängen der komplementären Medizin
                         </p>
                         <ul style="list-style: none;">
 	                        <li>
@@ -91,19 +85,19 @@
                     </div>
                     <div class="overview-text">
 						<h3 class="mt-4">Weitere Fortbildungen </h3>
-                        <p><span>Seit 1995</span><br><br>Zweimal jährlich in USA auf den Gebieten Präventiv-, Umwelt- und Vitamin-Medizin</p>
+                        <p><span>Seit 1995</span><br>Zweimal jährlich in USA auf den Gebieten Präventiv-, Umwelt- und Vitamin-Medizin</p>
 
-                        <p><span>1995</span><br><br>Weiterbildungsaufenthalt in der Umweltklinik von Prof. William Rea, Dallas/Texas (Environmental Health Center Dallas)</p>
+                        <p><span>1995</span><br>Weiterbildungsaufenthalt in der Umweltklinik von Prof. William Rea, Dallas/Texas (Environmental Health Center Dallas)</p>
 
-                        <p><span>2000</span><br><br>Referent für American Biologics (AB)/Kalifornien in Lissabon</p>
+                        <p><span>2000</span><br>Referent für American Biologics (AB)/Kalifornien in Lissabon</p>
 
-                        <p><span>2003</span><br><br>Referent für AB in Salzburg</p>
+                        <p><span>2003</span><br>Referent für AB in Salzburg</p>
 
-                        <p><span>2004</span><br><br>Wissenschaftsvortrag für Bioimmune in Scottsdale/Arizona</p>
+                        <p><span>2004</span><br>Wissenschaftsvortrag für Bioimmune in Scottsdale/Arizona</p>
 
-                        <p><span>2004-2009</span><br><br>Ausbilder im „Anti-Aging Medicine Specialization“ Programm der E3A (European Academy of AAM-Paris von Dr. Thierry Hertoghe)</p>
+                        <p><span>2004-2009</span><br>Ausbilder im „Anti-Aging Medicine Specialization“ Programm der E3A (European Academy of AAM-Paris von Dr. Thierry Hertoghe)</p>
 
-                        <p><span>2008</span><br><br>Referent für AB in Heiligendamm/Germany 2009 für die A4M/USA jährlich z.B. in Shanghai , Orlando (2010), Las Vegas (2012) u.v.m</p>
+                        <p><span>2008</span><br>Referent für AB in Heiligendamm/Germany 2009 für die A4M/USA jährlich z.B. in Shanghai , Orlando (2010), Las Vegas (2012) u.v.m</p>
                     </div>
                 </div>
             </div>
