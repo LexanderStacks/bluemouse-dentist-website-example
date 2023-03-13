@@ -20,8 +20,52 @@
                                 <a href="https://www.instagram.com/explore/tags/firstbiodent/" target="_blank"><i class='bx bxl-instagram'></i></a>
                             </div>
 
-                            <div class="content-overview">
-                              
+                           <div class="overview-text">
+                                <h3>Werdegang</h3>
+
+                                <p><span>04/ 2006 – 11/ 2012</span><br>
+                                    Zahnmedizin in Marburg
+                                Note („gut“)</p>
+
+                                <p><span>03/ 2013 – 03/ 2015</span><br>Assistenzzahnarzt in der Zahnarztpraxis Dr. Kraus & Kollegen in Mainz</p>
+
+                                <p><span>04/ 2015 – 08/ 2016</span><br>Angestellter Zahnarzt in der Zahnarztpraxis Dr. Kraus & Kollegen in Mainz</p>
+
+                                <p><span>2016 – 2019</span><br>Begleitung und live – OP im Rahmen diverser DGI und EAO Kurse an der UNI Düsseldorf</p>
+
+                                <p><span>04/ 2016</span><br>Promotion zum Thema: Vergleich von Pulverstrahl- Prophylaxepulvern und deren Effekte auf Schmelz und Dentin.</p>
+
+                                <p><span>08/ 2016 – 09/ 2019</span>
+                                    <br>
+                                    Weiterbildungsassistent / Oralchirurg am Universitätsklinikum Düsseldorf. Abteilung für Zahnärztliche Chirurgie und Aufnahme bei Prof. Dr. Becker.
+                                    Begleitende zahnärztliche und oralchirurgische Tätigkeit in der Paxis Dr. Regina Becker.
+                                </p>
+
+
+
+
+
+                                <p><span>06/2019</span><br>Erwerb der Gebietsbezeichnung Fachzahnarzt für Oralchirurgie</p>
+
+                                <p><span>09/ 2019 – 06/ 2021</span><br>Oralchirurg als Vertretungszahnarzt in verschiedenen Praxen in NRW</p>
+
+
+                                <p><span>07/ 2021 – heute</span><br>Oralchirurg bei FirstBioDent in Düsseldorf</p>
+                            </div>
+                            <div class="overview-text">
+                                <h3 class="mt-3">Weitere Fortbildungen </h3>
+
+                                <p><span>05/ 2015 – 11/ 2016</span><br>DGI Curriculum Implantologie</p>
+
+                                <p><span>06/ 2015</span><br>Zertifizierungskurs Inman Aligner</p>
+
+                                <p><span>04/ 2017</span><br>Erwerb der DVT- Fachkunde</p>
+
+                                <p><span>2016 – 2019</span><br>Begleitung und live – OP im Rahmen diverser DGI und EAO Kurse an der UNI Düsseldorf</p>
+
+                                <p><span>05/ 2022</span><br>Aktualisierung der Fachkunde im Strahlenschutz</p>
+
+                                <p><span>01/ 2021 – 02/ 2022</span><br>Fit For Leadership (Camlog)</p>
                             </div>
                         </div>
                     </div>
@@ -46,66 +90,6 @@
                         Störfeldsanierung
                         </li>
                     </ul>
-
-                    <div class="row">
-                        <div class="col-lg-6">
-                            <div class="details-overview-image">
-                                <img src="assets/images/dentist-details-1.jpg" alt="image">
-                            </div>
-                        </div>
-
-                        <div class="col-lg-6">
-                            <div class="details-overview-image">
-                                <img src="assets/images/dentist-details-2.jpg" alt="image">
-                            </div>
-                        </div>
-                    </div>
-
-
-                    <div class="overview-text">
-                        <h3>Werdegang</h3>
-
-                        <p><span>04/ 2006 – 11/ 2012</span><br>
-                            Zahnmedizin in Marburg
-                        Note („gut“)</p>
-
-                        <p><span>03/ 2013 – 03/ 2015</span><br>Assistenzzahnarzt in der Zahnarztpraxis Dr. Kraus & Kollegen in Mainz</p>
-
-                        <p><span>04/ 2015 – 08/ 2016</span><br>Angestellter Zahnarzt in der Zahnarztpraxis Dr. Kraus & Kollegen in Mainz</p>
-
-                        <p><span>2016 – 2019</span><br>Begleitung und live – OP im Rahmen diverser DGI und EAO Kurse an der UNI Düsseldorf</p>
-
-                        <p><span>04/ 2016</span><br>Promotion zum Thema: Vergleich von Pulverstrahl- Prophylaxepulvern und deren Effekte auf Schmelz und Dentin.</p>
-
-                        <p><span>08/ 2016 – 09/ 2019</span><br>Weiterbildungsassistent / Oralchirurg am Universitätsklinikum Düsseldorf. Abteilung für Zahnärztliche Chirurgie und Aufnahme bei Prof. Dr. Becker.
-Begleitende zahnärztliche und oralchirurgische Tätigkeit in der Paxis Dr. Regina Becker.</p>
-
-
-
-
-
-                        <p><span>06/2019</span><br>Erwerb der Gebietsbezeichnung Fachzahnarzt für Oralchirurgie</p>
-
-                        <p><span>09/ 2019 – 06/ 2021</span><br>Oralchirurg als Vertretungszahnarzt in verschiedenen Praxen in NRW</p>
-
-
-                        <p><span>07/ 2021 – heute</span><br>Oralchirurg bei FirstBioDent in Düsseldorf</p>
-                    </div>
-                    <div class="overview-text">
-						<h3 class="mt-3">Weitere Fortbildungen </h3>
-
-                        <p><span>05/ 2015 – 11/ 2016</span><br>DGI Curriculum Implantologie</p>
-
-                        <p><span>06/ 2015</span><br>Zertifizierungskurs Inman Aligner</p>
-
-                        <p><span>04/ 2017</span><br>Erwerb der DVT- Fachkunde</p>
-
-                        <p><span>2016 – 2019</span><br>Begleitung und live – OP im Rahmen diverser DGI und EAO Kurse an der UNI Düsseldorf</p>
-
-                        <p><span>05/ 2022</span><br>Aktualisierung der Fachkunde im Strahlenschutz</p>
-
-                        <p><span>01/ 2021 – 02/ 2022</span><br>Fit For Leadership (Camlog)</p>
-                    </div>
                 </div>
             </div>
         </section>
