@@ -44,7 +44,7 @@
 
                             <div class="col-lg-12 col-md-12">
                                 <div class="form-group">
-                                    <textarea name="message" class="form-control" id="message" cols="30" rows="5" required data-error="Write your message" placeholder="Ihre Mitteilung"></textarea>
+                                    <textarea name="message" class="form-control" id="message" cols="30" rows="5" required data-error="Mitteilung eintragen" placeholder="Ihre Mitteilung"></textarea>
                                     <div class="help-block with-errors"></div>
                                 </div>
                             </div>
