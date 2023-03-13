@@ -30,21 +30,21 @@
 
                             <div class="col-lg-6 col-md-6">
                                 <div class="form-group">
-                                    <input type="text" name="phone_number" id="phone_number" required data-error="Please enter your number" class="form-control" placeholder="Phone">
+                                    <input type="text" name="phone_number" id="phone_number" required data-error="Please enter your number" class="form-control" placeholder="Telefon">
                                     <div class="help-block with-errors"></div>
                                 </div>
                             </div>
 
                             <div class="col-lg-6 col-md-6">
                                 <div class="form-group">
-                                    <input type="text" name="msg_subject" id="msg_subject" class="form-control" required data-error="Please enter your subject" placeholder="Subject">
+                                    <input type="text" name="msg_subject" id="msg_subject" class="form-control" required data-error="Please enter your subject" placeholder="Ihr Anliegen">
                                     <div class="help-block with-errors"></div>
                                 </div>
                             </div>
 
                             <div class="col-lg-12 col-md-12">
                                 <div class="form-group">
-                                    <textarea name="message" class="form-control" id="message" cols="30" rows="5" required data-error="Write your message" placeholder="Your Message"></textarea>
+                                    <textarea name="message" class="form-control" id="message" cols="30" rows="5" required data-error="Write your message" placeholder="Ihre Mitteilung"></textarea>
                                     <div class="help-block with-errors"></div>
                                 </div>
                             </div>
@@ -68,11 +68,9 @@
                         </h2>
 
                         <ul class="social">
-                            <li><a href="#" target="_blank"><i class='bx bxl-twitter'></i></a></li>
-                            <li><a href="#" target="_blank"><i class='bx bxl-youtube'></i></a></li>
-                            <li><a href="#" target="_blank"><i class='bx bxl-facebook'></i></a></li>
-                            <li><a href="#" target="_blank"><i class='bx bxl-linkedin'></i></a></li>
-                            <li><a href="#" target="_blank"><i class='bx bxl-instagram'></i></a></li>
+                            <li><a href="https://www.youtube.com/@firstbiodent2817" target="_blank"><i class='bx bxl-youtube'></i></a></li>
+                            <li><a href="https://www.linkedin.com/in/dr-hansj%C3%B6rg-lammers-09a01147/?originalSubdomain=de" target="_blank"><i class='bx bxl-linkedin'></i></a></li>
+                            <li><a href="https://www.instagram.com/explore/tags/firstbiodent/" target="_blank"><i class='bx bxl-instagram'></i></a></li>
                         </ul>
                     </div>
                 </div>
