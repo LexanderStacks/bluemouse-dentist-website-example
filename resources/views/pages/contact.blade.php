@@ -16,28 +16,28 @@
                         <div class="row">
                             <div class="col-lg-6 col-md-6">
                                 <div class="form-group">
-                                    <input type="text" name="name" id="name" class="form-control" required data-error="Please enter your name" placeholder="Name">
+                                    <input type="text" name="name" id="name" class="form-control" required data-error="Bitte tragen Sie Ihren Namen ein" placeholder="Name">
                                     <div class="help-block with-errors"></div>
                                 </div>
                             </div>
 
                             <div class="col-lg-6 col-md-6">
                                 <div class="form-group">
-                                    <input type="email" name="email" id="email" class="form-control" required data-error="Please enter your email" placeholder="Email">
+                                    <input type="email" name="email" id="email" class="form-control" required data-error="Bitte tragen Sie Ihre Email Adresse ein" placeholder="Email">
                                     <div class="help-block with-errors"></div>
                                 </div>
                             </div>
 
                             <div class="col-lg-6 col-md-6">
                                 <div class="form-group">
-                                    <input type="text" name="phone_number" id="phone_number" required data-error="Please enter your number" class="form-control" placeholder="Telefon">
+                                    <input type="text" name="phone_number" id="phone_number" required data-error="Bitte tragen Sie Ihre Telefonnummer ein" class="form-control" placeholder="Telefon">
                                     <div class="help-block with-errors"></div>
                                 </div>
                             </div>
 
                             <div class="col-lg-6 col-md-6">
                                 <div class="form-group">
-                                    <input type="text" name="msg_subject" id="msg_subject" class="form-control" required data-error="Please enter your subject" placeholder="Ihr Anliegen">
+                                    <input type="text" name="msg_subject" id="msg_subject" class="form-control" required data-error="Bitte tragen Sie Ihr Anliegen ein." placeholder="Ihr Anliegen">
                                     <div class="help-block with-errors"></div>
                                 </div>
                             </div>
