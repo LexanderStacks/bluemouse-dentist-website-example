@@ -23,7 +23,7 @@ Route::get('/',
     [App\Http\Controllers\WelcomeController::class, 'showWelcomeView']
 );
 Route::get('/en/', 
-    [App\Http\Controllers\WelcomeController::class, 'showWelcomeView']
+    [App\Http\Controllers\WelcomeController::class, 'showWelcomeViewEnglish']
 );
 /* --- PAGES --- */
 Route::get('/publications', 
@@ -56,6 +56,9 @@ Route::get('/medical-detox',
 Route::get('/contact', 
     [App\Http\Controllers\PageController::class, 'contact']
 );
+Route::get('/contact-online', 
+    [App\Http\Controllers\PageController::class, 'contactOnline']
+);
 Route::get('/about-covid', 
     [App\Http\Controllers\PageController::class, 'aboutCovid']
 );
@@ -74,7 +77,21 @@ Route::get('/materials',
 Route::get('/hygiene', 
     [App\Http\Controllers\PageController::class, 'hygiene']
 );
-
+Route::get('/about', 
+    [App\Http\Controllers\PageController::class, 'about']
+);
+Route::get('/eco-dentist', 
+    [App\Http\Controllers\PageController::class, 'ecoDentist']
+);
+Route::get('/faq', 
+    [App\Http\Controllers\PageController::class, 'faq']
+);
+Route::get('/privacy', 
+    [App\Http\Controllers\PageController::class, 'privacy']
+);
+Route::get('/imprint', 
+    [App\Http\Controllers\PageController::class, 'imprint']
+);
 /* --- ./ PAGES --- */
 
 

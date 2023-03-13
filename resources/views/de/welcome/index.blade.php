@@ -26,9 +26,9 @@
                         <p class="text-black">Buchen Sie einen Online Termin um ein ganzheitliches Konzept für die Verbesserung Ihrer Gesundheit erstellen zu lassen.</p>
 
                         <div class="slides-btn">
-                            <a href="#" class="optional-btn">Onlinetermin</a>
+                            <a href="/contact-online" class="optional-btn">Onlinetermin</a>
                             
-                            <a href="#" class="default-btn">Praxistermin vereinbaren</a>
+                            <a href="/contact" class="default-btn">Praxistermin vereinbaren</a>
                         </div>
                     </div>
                 </div>
@@ -45,9 +45,9 @@
                         <p class="text-black">Buchen Sie bei uns eine professionelle Zahnreinigung um Ihre Gesundheit und Wohlbefinden zu erhöhen.</p>
                         
                         <div class="slides-btn">
-                            <a href="#" class="optional-btn">Zahnreinigung buchen</a>
+                            <a href="/contact" class="optional-btn">Zahnreinigung buchen</a>
                             
-                            <a href="#" class="default-btn">Beratungstermin vereinbaren</a>
+                            <a href="/contact" class="default-btn">Beratungstermin vereinbaren</a>
                         </div>
 
                     </div>
@@ -93,7 +93,7 @@
                                     <i class="flaticon-doctor"></i>
                                 </div>
                                 <h3>
-                                    <a href="services-details.html">MedicalDetox SPA</a>
+                                    <a href="/medical-detox">MedicalDetox SPA</a>
                                 </h3>
                                 <p>Mit Wellness-Bereich zur Regeneration von Körper & Seele</p>
                             </div>
@@ -107,7 +107,7 @@
                                     <i class="flaticon-chair"></i>
                                 </div>
                                 <h3>
-                                    <a href="services-details.html">Leistungen<sup class="fw-bold">+</sup></a>
+                                    <a href="/services">Leistungen<sup class="fw-bold">+</sup></a>
                                 </h3>
                                 <p>Vorsorge, Ästhetik, Diagnostik & Zahn- und Kiefer-Behandlungen</p>
                             </div>
@@ -121,7 +121,7 @@
                                     <i class="flaticon-healthcare"></i>
                                 </div>
                                 <h3>
-                                    <a href="services-details.html">Bio-Zahnmedizin</a>
+                                    <a href="/eco-dentist">Bio-Zahnmedizin</a>
                                 </h3>
                                 <p>Behandlungskonzept mit Blick auf den ganzen Körper</p>
                             </div>
@@ -178,7 +178,7 @@
 
                     <div class="col-lg-5">
                         <div class="section-warp-btn">
-                            <a href="services.html" class="default-btn">
+                            <a href="/services" class="default-btn">
                                 Leistungen anzeigen
                             </a>
                         </div>
@@ -190,16 +190,16 @@
                     <div class="col-lg-4 col-md-6">
                         <div class="single-services">
                             <div class="services-image">
-                                <a href="services-details.html"><img src="/template-assets/images/services/services-3.jpg" alt="image"></a>
+                                <a href="/services"><img src="/template-assets/images/services/services-3.jpg" alt="image"></a>
 
                                 <div class="icon">
-                                    <a href="services-details.html"><i class="flaticon-dental-implant"></i></a>
+                                    <a href="/services"><i class="flaticon-dental-implant"></i></a>
                                 </div>
                             </div>
 
                             <div class="services-content">
                                 <h3>
-                                    <a href="services-details.html">Zahnersatz</a>
+                                    <a href="/services">Zahnersatz</a>
                                 </h3>
                                 <p>Als ganzheitlich ausgerichtete Zahnarztpraxis achtet Ihr Zahnarzt in Düsseldorf bei der Versorgung mit Zahnersatz nicht nur auf Funktionalität und Ästhetik, sondern berücksichtigen stets auch die individuelle Körperverträglichkeit der in die Mundhöhle eingebrachten Fremdmaterialien.</p>
                             </div>
@@ -209,16 +209,16 @@
                     <div class="col-lg-4 col-md-6">
                         <div class="single-services">
                             <div class="services-image">
-                                <a href="services-details.html"><img src="/template-assets/images/services/services-6.jpg" alt="image"></a>
+                                <a href="/services"><img src="/template-assets/images/services/services-6.jpg" alt="image"></a>
 
                                 <div class="icon">
-                                    <a href="services-details.html"><i class="flaticon-tooth-2"></i></a>
+                                    <a href="/services"><i class="flaticon-tooth-2"></i></a>
                                 </div>
                             </div>
 
                             <div class="services-content">
                                 <h3>
-                                    <a href="services-details.html">Zahnreinigung</a>
+                                    <a href="/services">Zahnreinigung</a>
                                 </h3>
                                 <p>Die zahnmedizinische Prophylaxe umfasst präventive Maßnahmen, um Krankheiten an den Zähnen und am Zahnfleisch vorzubeugen. Die meisten Schäden im Mundraum entstehen durch weiche und harte Zahnbeläge (Plaque und Zahnstein), die Karies und Entzündungen des Zahnfleisches (Parodontitis) begünstigen.</p>
                             </div>
@@ -227,16 +227,16 @@
                     <div class="col-lg-4 col-md-6">
                         <div class="single-services">
                             <div class="services-image">
-                                <a href="services-details.html"><img src="/template-assets/images/services/services-4.jpg" alt="image"></a>
+                                <a href="/services"><img src="/template-assets/images/services/services-4.jpg" alt="image"></a>
 
                                 <div class="icon">
-                                    <a href="services-details.html"><i class="flaticon-tooth"></i></a>
+                                    <a href="/services"><i class="flaticon-tooth"></i></a>
                                 </div>
                             </div>
 
                             <div class="services-content">
                                 <h3>
-                                    <a href="services-details.html">Unsichtbare Zahnspange</a>
+                                    <a href="/services">Unsichtbare Zahnspange</a>
                                 </h3>
                                 <p>Zahnlücken und Zahnfehlstellungen sind nicht nur ein optisches Problem – Sie erhöhen das Risiko für Nischenbildung im Zahnfleisch bis hin zum Zahnverlust. Auch das Kiefergelenk wird durch Fehlstellungen unregelmäßig belastet und kann Kieferschmerzen und Muskelverspannungen (CMD) hervorrufen.</p>
                             </div>
@@ -246,16 +246,16 @@
                     <div class="col-lg-3 col-md-6">
                         <div class="single-services">
                             <div class="services-image">
-                                <a href="services-details.html"><img src="/template-assets/images/services/services-1.jpg" alt="image"></a>
+                                <a href="/services"><img src="/template-assets/images/services/services-1.jpg" alt="image"></a>
 
                                 <div class="icon">
-                                    <a href="services-details.html"><i class="flaticon-chair"></i></a>
+                                    <a href="/services"><i class="flaticon-chair"></i></a>
                                 </div>
                             </div>
 
                             <div class="services-content">
                                 <h3>
-                                    <a href="services-details.html">CMD <sup>Kieferbehandlung</sup></a>
+                                    <a href="/services">CMD <sup>Kieferbehandlung</sup></a>
                                 </h3>
                                 <p>Unter dem Oberbegriff CMD (craniomandibuläre Dysfunktion) fasst man funktionale Störungen im Kiefergelenk zusammen.</p>
                             </div>
@@ -265,10 +265,10 @@
                     <div class="col-lg-3 col-md-6">
                         <div class="single-services">
                             <div class="services-image">
-                                <a href="services-details.html"><img src="/template-assets/images/services/services-5.jpg" alt="image"></a>
+                                <a href="/services"><img src="/template-assets/images/services/services-5.jpg" alt="image"></a>
 
                                 <div class="icon">
-                                    <a href="services-details.html">
+                                    <a href="/services">
                                         <!--
                                         <i class="flaticon-tooth-1"></i>-->
                                         <i class="flaticon-tooth"></i>
@@ -278,7 +278,7 @@
 
                             <div class="services-content">
                                 <h3>
-                                    <a href="services-details.html">Schnarchschienen</a>
+                                    <a href="/services">Schnarchschienen</a>
                                 </h3>
                                 <p>
                                     Schnarchen und gefährliche Nacht-Atemaussetzer <sup>(Obstruktive Schlafapnoe-Syndrom)</sup>, können beträchtliche gesundheitliche Auswirkungen haben.
@@ -290,16 +290,16 @@
                     <div class="col-lg-3 col-md-6">
                         <div class="single-services">
                             <div class="services-image">
-                                <a href="services-details.html"><img src="/template-assets/images/services/services-2.jpg" alt="image"></a>
+                                <a href="/services"><img src="/template-assets/images/services/services-2.jpg" alt="image"></a>
 
                                 <div class="icon">
-                                    <a href="services-details.html"><i class="flaticon-dental-care"></i></a>
+                                    <a href="/services"><i class="flaticon-dental-care"></i></a>
                                 </div>
                             </div>
 
                             <div class="services-content">
                                 <h3>
-                                    <a href="services-details.html">Rot-Weiß-Ästhetik</a>
+                                    <a href="/services">Rot-Weiß-Ästhetik</a>
                                 </h3>
                                 <p>Die sogenannte Rot-Weiß-Ästhetik bezeichnet das optische Zusammenwirken der roten und weißen Gebissanteile (Zahnfleisch und Zähne).</p>
                             </div>
@@ -309,10 +309,10 @@
                     <div class="col-lg-3 col-md-6">
                         <div class="single-services">
                             <div class="services-image">
-                                <a href="services-details.html"><img src="/template-assets/images/services/services-9.jpg" alt="image"></a>
+                                <a href="/services"><img src="/template-assets/images/services/services-9.jpg" alt="image"></a>
 
                                 <div class="icon">
-                                    <a href="services-details.html">
+                                    <a href="/services">
                                         <i class="flaticon-tooth-1"></i>
                                     </a>
                                 </div>
@@ -320,7 +320,7 @@
 
                             <div class="services-content">
                                 <h3>
-                                    <a href="services-details.html">Veneers</a>
+                                    <a href="/services">Veneers</a>
                                 </h3>
                                 <p>
                                     Mit Veneers können wir auch bei starken Schäden an den Frontzähnen in der Regel wieder ein makelloses Lächeln herstellen.
@@ -378,7 +378,7 @@
                                     </li>
                                 </ul>
                                 <p><span class="fw-bold">Unsere Sprechzeiten:</span> Montag bis Freitag von 09:00 – 19:00 Uhr.</p>
-                                <a href="contact-us.html" class="default-btn">Mitteilung schreiben</a>
+                                <a href="/contact" class="default-btn">Mitteilung schreiben</a>
                             </div>
                         </div>
                     </div>
@@ -540,7 +540,7 @@
                                 <i class="flaticon-policy"></i>
                             </div>
                             <h3>
-                                <a href="services-details.html">Meisterlabor</a>
+                                <a href="/about">Meisterlabor</a>
                             </h3>
                             <p>Qualifizierte Auswertungen ganzheitlicher Zahnheilkunde aus hauseigenen Labor.</p>
                         </div>
@@ -552,7 +552,7 @@
                                 <i class="flaticon-red-cross"></i>
                             </div>
                             <h3>
-                                <a href="services-details.html">Barrierefreie 500m<sup>2</sup></a>
+                                <a href="/about">Barrierefreie 500m<sup>2</sup></a>
                             </h3>
                             <p>Ausreichend Raum unserer Praxis zum Auftanken und Wohlfühlen.</p>
                         </div>
@@ -564,7 +564,7 @@
                                 <i class="flaticon-diamond"></i>
                             </div>
                             <h3>
-                                <a href="services-details.html">1A Qualität</a>
+                                <a href="/about">1A Qualität</a>
                             </h3>
                             <p>Klimatisierte Praxisräume im Feng-Shui Design und hochwertige Einsatzmaterialien</p>
                         </div>
@@ -576,7 +576,7 @@
                                 <i class="flaticon-hospitalisation"></i>
                             </div>
                             <h3>
-                                <a href="services-details.html">8 Praxisräume</a>
+                                <a href="/about">8 Praxisräume</a>
                             </h3>
                             <p>Unsere Praxis bietet die Möglichkeit erholsamer und ruhiger Behandlungen</p>
                         </div>
@@ -602,7 +602,7 @@
 
                     <div class="col-lg-7">
                         <div class="section-warp-btn">
-                            <a href="dentist.html" class="default-btn">Zur Ärztevorstellung</a>
+                            <a href="/doc/main" class="default-btn">Zur Ärztevorstellung</a>
                         </div>
                     </div>
                 </div>
@@ -610,11 +610,11 @@
                 <div class="row">
                     <div class="col-lg-4 col-md-6">
                         <div class="single-doctor">
-                            <a href="dentist-details.html"><img src="/template-assets/images/doctor/dent-doctor-1.jpg" alt="image"></a>
+                            <a href="/doc/second"><img src="/template-assets/images/doctor/dent-doctor-1.jpg" alt="image"></a>
 
                             <div class="doctor-content">
                                 <h3>
-                                    <a href="dentist-details.html">Dr. Jan Chalupa</a>
+                                    <a href="/doc/second">Dr. Jan Chalupa</a>
                                 </h3>
                                 <span>Zahnarzt & Oralchirurg</span>
                             </div>
@@ -648,7 +648,7 @@
                                     </ul>
                                 </div>
                                 <div class="col-6">
-                                    <a href="dentist-details.html">
+                                    <a href="/doc/main">
                                         <img src="/template-assets/images/doctor/dent-doctor-2.jpg" alt="image">
                                     </a>
                                 </div>
@@ -656,7 +656,7 @@
 
                             <div class="doctor-content">
                                 <h3>
-                                    <a href="dentist-details.html">Dr. med. dent. Hansjörg Lammers</a>
+                                    <a href="/doc/main">Dr. med. dent. Hansjörg Lammers</a>
                                 </h3>
                                 <span>Zahnarzt und Inhaber von FirstBioDent</span>
                                 <!--
@@ -808,7 +808,7 @@
 
                     <div class="col-lg-4">
                         <div class="section-warp-btn">
-                            <a href="blog.html" class="default-btn">Zum Blog</a>
+                            <a href="/blog" class="default-btn">Zum Blog</a>
                         </div>
                     </div>
                 </div>
@@ -817,24 +817,24 @@
                     <div class="col-lg-4 col-md-6">
                         <div class="single-blog">
                             <div class="blog-image">
-                                <a href="blog-details.html"><img src="/template-assets/images/blog/blog-1.jpg" alt="image"></a>
+                                <a href="/blog/"><img src="/template-assets/images/blog/blog-1.jpg" alt="image"></a>
 
                                 <div class="tag">10 Jun</div>
-                                <div class="tag-two"><a href="blog.html">Harmonische Zahnmedizin</a></div>
+                                <div class="tag-two"><a href="/blog">Ganzheitliche Zahnmedizin</a></div>
                             </div>
                             <div class="blog-content">
                                 <h3>
-                                    <a href="blog-details.html">Ganzheitliche Zahnmedizin in Düsseldorf</a>
+                                    <a href="/blog">Ganzheitliche Zahnmedizin in Düsseldorf</a>
                                 </h3>
                                 <p>Ganzheitliche Zahnmedizin betrachtet Zähne, Mundhöhle und Kiefer nicht isoliert vom restlichen Organismus.</p>
                                 <div class="text-end">
-                                    <a href="blog-details.html" class="blog-btn">Mehr Lesen</a>
+                                    <a href="/blog" class="blog-btn">Mehr Lesen</a>
                                 </div>
 
                                 <ul class="entry-meta">
                                     <li>
                                         <i class='bx bxs-user'></i>
-                                        <span>Von <a href="blog-right-sidebar.html">Dr. Med. Hansjörg Lammers</a></span>
+                                        <span>Von <a href="/doc/main">Dr. Med. Hansjörg Lammers</a></span>
                                     </li>
                                     <!--
                                     <li>
@@ -850,24 +850,24 @@
                     <div class="col-lg-4 col-md-6">
                         <div class="single-blog">
                             <div class="blog-image">
-                                <a href="blog-details.html"><img src="/template-assets/images/blog/blog-2.jpg" alt="image"></a>
+                                <a href="/blog"><img src="/template-assets/images/blog/blog-2.jpg" alt="image"></a>
 
                                 <div class="tag">11 Jun</div>
-                                <div class="tag-two"><a href="blog.html">Zahnzusatzversicherung</a></div>
+                                <div class="tag-two"><a href="/blog">Zahnzusatzversicherung</a></div>
                             </div>
                             <div class="blog-content">
                                 <h3>
-                                    <a href="blog-details.html">Zahnzusatz-Versicherung in Düsseldorf </a>
+                                    <a href="/blog">Zahnzusatz-Versicherung in Düsseldorf </a>
                                 </h3>
                                 <p>Worauf Sie achten müssen, um nicht leer auszugehen. Durch die ständig steigenden Eigenanteilskosten bei...</p>
                                 <div class="text-end">
-                                    <a href="blog-details.html" class="blog-btn">Mehr Lesen</a>
+                                    <a href="/blog" class="blog-btn">Mehr Lesen</a>
                                 </div>
 
                                 <ul class="entry-meta">
                                     <li>
                                         <i class='bx bxs-user'></i>
-                                        <span>Von <a href="blog-right-sidebar.html">Dr. Med. Hansjörg Lammers</a></span>
+                                        <span>Von <a href="/doc/main">Dr. Med. Hansjörg Lammers</a></span>
                                     </li>
                                     <!--
                                     <li>
@@ -883,24 +883,24 @@
                     <div class="col-lg-4 col-md-6 offset-lg-0 offset-md-3">
                         <div class="single-blog">
                             <div class="blog-image">
-                                <a href="blog-details.html"><img src="/template-assets/images/blog/blog-3.jpg" alt="image"></a>
+                                <a href="/blog"><img src="/template-assets/images/blog/blog-3.jpg" alt="image"></a>
 
                                 <div class="tag">12 Jun</div>
-                                <div class="tag-two"><a href="blog.html">Detox</a></div>
+                                <div class="tag-two"><a href="/blog">Detox</a></div>
                             </div>
                             <div class="blog-content">
                                 <h3>
-                                    <a href="blog-details.html">DETOX in Düsseldorf – Körper und Mundraum entgiften</a>
+                                    <a href="/blog">DETOX in Düsseldorf – Körper und Mundraum entgiften</a>
                                 </h3>
                                 <p>Schwermetalle, wie Palladium, aus Zahngoldlegierungen, Quecksilber in Amalgamfüllungen, Arsen im Reis...</p>
                                 <div class="text-end">
-                                    <a href="blog-details.html" class="blog-btn">Mehr Lesen</a>
+                                    <a href="/blog" class="blog-btn">Mehr Lesen</a>
                                 </div>
 
                                 <ul class="entry-meta">
                                     <li>
                                         <i class='bx bxs-user'></i>
-                                        <span>Von <a href="blog-right-sidebar.html">Dr. Med. Hansjörg Lammers</a></span>
+                                        <span>Von <a href="/doc/main">Dr. Med. Hansjörg Lammers</a></span>
                                     </li>
                                     <!--
                                     <li>

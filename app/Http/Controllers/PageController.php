@@ -68,7 +68,7 @@ class PageController extends Controller
         return view('layouts.app', [
             'page' => "pages.index",
             'title' => "Leistungen",
-            'uri' => "services"
+            'uri' => "services.index"
         ]);
     }
     public function medicalDetox()
@@ -85,6 +85,14 @@ class PageController extends Controller
             'page' => "pages.index",
             'title' => "Kontakt",
             'uri' => "contact"
+        ]);
+    }
+    public function contactOnline()
+    {
+        return view('layouts.app', [
+            'page' => "pages.index",
+            'title' => "Online Termin",
+            'uri' => "contact-online"
         ]);
     }
     public function aboutCovid()
@@ -133,6 +141,48 @@ class PageController extends Controller
             'page' => "pages.index",
             'title' => "Hygienemaßnahmen",
             'uri' => "hygiene"
+        ]);
+    }
+    public function about()
+    {
+        return view('layouts.app', [
+            'page' => "pages.index",
+            'title' => "Über Uns",
+            'uri' => "about"
+        ]);
+    }
+    public function ecoDentist()
+    {
+        return view('layouts.app', [
+            'page' => "pages.index",
+            'title' => "Bio-Zahnmedizin",
+            'uri' => "eco-dentist"
+        ]);
+    }
+    public function faq()
+    {
+        $posts = \App\Models\Post::published()->type('post')->get();
+        return view('layouts.app', [
+            'page' => "pages.index",
+            'title' => "FAQ",
+            'uri' => "faq",
+            'posts' => $posts,
+        ]);
+    }
+    public function privacy()
+    {
+        return view('layouts.app', [
+            'page' => "pages.index",
+            'title' => "Privatsphäre Richtlinien",
+            'uri' => "privacy"
+        ]);
+    }
+    public function imprint()
+    {
+        return view('layouts.app', [
+            'page' => "pages.index",
+            'title' => "Impressum",
+            'uri' => "imprint"
         ]);
     }
 

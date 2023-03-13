@@ -31,8 +31,8 @@
                             </li>
                             <li class="languages-list">
                                 <select class=" text-white">
-                                    <option value="1">Deutsch</option>
-                                    <option value="2">English</option>
+                                        <option value="1">Deutsch</option>
+                                        <option class="disabled" value="2" disabled>English</option>
                                 </select>
                             </li>
                         </ul>
@@ -82,8 +82,10 @@
                         <div class="logo">
                             <!--
                             <a href="#">-->
-                                <img src="/template-assets/images/logo.png" class="main-logo" alt="logo">
-                                <img src="/template-assets/images/logo-2.png" class="white-logo" alt="logo"><!--
+                                <img alt="FirstBiodent Logo" title="FirstBiodent Logo" class="d-none d-xl-block" style="height: 4.4em; widht: auto;" src="/template-assets/images/firstbiodent-logo.svg"></img>
+                                <!--
+                                <img src="/template-assets/images/logo-2.png" class="white-logo" alt="logo">
+
                             </a>-->
                         </div>
                     </div>
@@ -144,25 +146,25 @@
 
                                     <ul class="dropdown-menu">
                                         <li class="nav-item">
-                                            <a href="#" class="nav-link">Ärztevorstellung</a>
+                                            <a href="/doc/main" class="nav-link">Ärztevorstellung</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a href="#" class="nav-link">Kooperationen</a>
+                                            <a href="/cooperations" class="nav-link">Kooperationen</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a href="#" class="nav-link">Fortbildungen</a>
+                                            <a href="/trainings" class="nav-link">Fortbildungen</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a href="#" class="nav-link">Hygienemaßnahmen</a>
+                                            <a href="/hygiene" class="nav-link">Hygienemaßnahmen</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a href="#" class="nav-link">Materialien</a>
+                                            <a href="/materials" class="nav-link">Materialien</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a href="#" class="nav-link">Referenzen</a>
+                                            <a href="/references" class="nav-link">Referenzen</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a href="#" class="nav-link">Long Covid Therapie</a>
+                                            <a href="/covid-therapy" class="nav-link">Long Covid Therapie</a>
                                         </li>
                                     </ul>
                                 </li>
@@ -221,62 +223,62 @@
 
                                     <ul class="dropdown-menu">
                                         <li class="nav-item">
-                                            <a href="#" class="nav-link">Zahnreinigung</a>
+                                            <a href="/services" class="nav-link">Zahnreinigung</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a href="#" class="nav-link">CMD</a>
+                                            <a href="/services" class="nav-link">CMD</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a href="#" class="nav-link">Veneers</a>
+                                            <a href="/services" class="nav-link">Veneers</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a href="#" class="nav-link">Unsichtbare Zahnspange</a>
+                                            <a href="/services" class="nav-link">Unsichtbare Zahnspange</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a href="#" class="nav-link">Rot-Weiß-Ästhetik</a>
+                                            <a href="/services" class="nav-link">Rot-Weiß-Ästhetik</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a href="#" class="nav-link">Schnarchschiene</a>
+                                            <a href="/services" class="nav-link">Schnarchschiene</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a href="#" class="nav-link">Zahnersatz</a>
+                                            <a href="/services" class="nav-link">Zahnersatz</a>
                                         </li>
                                     </ul>
                                 </li>
 
                                 <li class="nav-item">
-                                    <a href="#" class="nav-link">
+                                    <a href="/medical-detox" class="nav-link">
                                         Medical Detox SPA 
                                     </a>
                                 </li>
 
                                 <li class="nav-item">
-                                    <a href="#" class="nav-link">
+                                    <a href="/blog/index" class="nav-link">
                                         Blog 
                                         <i class='bx bx-caret-down'></i>
                                     </a>
                                     <ul class="dropdown-menu">
                                         <li class="nav-item">
-                                            <a href="#" class="nav-link">Interessantes</a>
+                                            <a href="/blog/index" class="nav-link">Interessantes</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a href="#" class="nav-link">Publikationen</a>
+                                            <a href="/publications" class="nav-link">Publikationen</a>
                                         </li>
                                     </ul>
                                 </li>
     
                                 <li class="nav-item">
-                                    <a href="#" class="nav-link">Kontakt
+                                    <a href="/contact" class="nav-link">Kontakt
                                     <i class='bx bx-caret-down'></i></a>
                                     <ul class="dropdown-menu">
                                         <li class="nav-item">
-                                            <a href="#" class="nav-link">Praxistermin</a>
+                                            <a href="/contact" class="nav-link">Praxistermin</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a href="#" class="nav-link">Online Video Meeting</a>
+                                            <a href="contact-online" class="nav-link">Online Termin</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a href="#" class="nav-link">Anfahrt</a>
+                                            <a href="/contact#map" class="nav-link">Anfahrt</a>
                                         </li>
                                     </ul>
                                 </li>
@@ -295,7 +297,7 @@
 
                                 <div class="option-item">
                                     <div class="navbar-btn">
-                                        <a href="/date" class="default-btn">Onlinetermin</a>
+                                        <a href="contact-online" class="default-btn">Online Termin</a>
                                     </div>
                                 </div>
                             </div>
@@ -317,6 +319,7 @@
                     <div class="container">
                         <div class="option-inner">
                             <div class="others-options d-flex align-items-center">
+                                <!--
                                 <div class="option-item">
                                     <div class="search-btn">
                                         <a class="#" href="#searchmodal" data-bs-toggle="modal" data-bs-target="#searchmodal">
@@ -324,10 +327,11 @@
                                         </a>
                                     </div>
                                 </div>
+                                -->
 
                                 <div class="option-item">
                                     <div class="navbar-btn">
-                                        <a href="/date/1" class="default-btn" style="background: #197720;">Book Appointment</a>
+                                        <a href="/contact-online" class="default-btn" style="background: #197720;">Online Termin</a>
                                     </div>
                                 </div>
                             </div>

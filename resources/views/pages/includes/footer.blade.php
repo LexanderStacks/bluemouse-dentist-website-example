@@ -41,31 +41,28 @@ li.hover-no-underline:hover{
 
                             <ul class="quick-links">
                                 <li>
-                                    <a href="#">Über uns</a>
+                                    <a href="/about">Über uns</a>
                                 </li>
                                 <li>
-                                    <a href="#">Biologische Zahnmedizin</a>
+                                    <a href="/eco-dentist">Biologische Zahnmedizin</a>
                                 </li>
                                 <li>
-                                    <a href="#">Behandlungsspektrum</a>
+                                    <a href="/services">Behandlungsspektrum</a>
                                 </li>
                                 <li>
-                                    <a href="#">Medical Detox Spa</a>
+                                    <a href="/medical-detox">Medical Detox Spa</a>
                                 </li>
                                 <li>
-                                    <a href="#">Blog</a>
+                                    <a href="/blog">Blog</a>
                                 </li>
                                 <li>
-                                    <a href="#">FAQs</a>
+                                    <a href="/faq">FAQs</a>
                                 </li>
                                 <li>
-                                    <a href="#">Spezialtermine</a>
+                                    <a href="/privacy">Datenschutzrichtlinien</a>
                                 </li>
                                 <li>
-                                    <a href="#">Datenschutzrichtlinien</a>
-                                </li>
-                                <li>
-                                    <a href="#">Impressum</a>
+                                    <a href="/impring">Impressum</a>
                                 </li>
                             </ul>
                         </div>
@@ -77,34 +74,34 @@ li.hover-no-underline:hover{
                             
                             <div class="footer-widget-blog">
                                 <article class="item">
-                                    <a href="/blog/1" class="thumb">
+                                    <a href="/blog" class="thumb">
                                         <!--
                                         <span class="fullimage bg1" role="img"></span>
                                     -->
-                                    <img alt="Blogartikel 1" title="Blogartikel 1" height="140" width="140" src="/template-assets/images/footer/footer-2.jpg">
+                                    <img alt="Blogartikel 1" title="Blogartikel 1" height="140" width="140" src="/template-assets/images/blog/blog-1.jpg">
                                     </a>
                                     <div class="info">
-                                        <span>Von<a href="/blog-7" style="color:  #8eff97;">Dr. med. Hansjörg Lammers</a></span>
-                                        <p><a class="text-white" href="/blog-12">Schonende Materialien für Implantate wählen</a></p>
+                                        <span>Von<a href="/blog" style="color:  #8eff97;">Dr. med. Hansjörg Lammers</a></span>
+                                        <p><a class="text-white" href="/blog">Ganzheitliche Zahnmedizin</a></p>
                                     </div>
                                 </article>
                                 <article class="item">
-                                    <a href="/blog/2" class="thumb">
-                                    <img alt="Blogartikel 2" title="Blogartikel 2" height="140" width="140" src="/template-assets/images/footer/footer-3.jpg">
+                                    <a href="/blog" class="thumb">
+                                    <img alt="Blogartikel 2" title="Blogartikel 2" height="140" width="140" src="/template-assets/images/blog/blog-2.jpg">
                                     </a>
                                     <div class="info">
-                                        <span>Von<a href="/blog-8" style="color:  #8eff97;">Dr. med. Hansjörg Lammers</a></span>
-                                        <p><a class="text-white" href="/blog-13">Zahnhygiene für Kinder</a></p>
+                                        <span>Von<a href="/blog" style="color:  #8eff97;">Dr. med. Hansjörg Lammers</a></span>
+                                        <p><a class="text-white" href="/blog">Zahnzusatzversicherung</a></p>
                                     </div>
                                 </article>
 
                                 <article class="item">
-                                    <a href="/blog/3" class="thumb" style="color:white;">
-                                        <img alt="Blogartikel 3" title="Blogartikel 3" height="140" width="140" src="/template-assets/images/footer/footer-4.jpg">
+                                    <a href="/blog" class="thumb" style="color:white;">
+                                        <img alt="Blogartikel 3" title="Blogartikel 3" height="140" width="140" src="/template-assets/images/blog/blog-3.jpg">
                                     </a>
                                     <div class="info">
-                                        <span>Von<a href="/blog-9" style="color:  #8eff97;">Dr. med. Hansjörg Lammers</a></span>
-                                        <p><a class="text-white" href="/blog-4">Was Gesundheit und Zähne verbindet</a></p>
+                                        <span>Von<a href="/blog" style="color:  #8eff97;">Dr. med. Hansjörg Lammers</a></span>
+                                        <p><a class="text-white" href="/blog">Detox</a></p>
                                     </div>
                                 </article>
                             </div>

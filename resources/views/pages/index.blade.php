@@ -1,11 +1,16 @@
 @include('pages.includes.navbar')
-<div class="container py-2">
-	<div class="row">
-		<div class="col-12">
-			<h1>{{$title}}</h1>
-			<p>Testausgabe... Inhalt folgt.</p>
-		</div>
-	</div>
+<!-- Start Page Banner -->
+<div class="page-banner-area">
+    <div class="container">
+        <div class="page-banner-content">
+            <h2>{{$title}}</h2>
+            <ul class="pages-list">
+                <li><a href="/">Startseite</a></li>
+                <li>{{$title}}</li>
+            </ul>
+        </div>
+    </div>
 </div>
-@include('pages.'.$uri, array('title'=>$title))
+<!-- End Page Banner -->
+@include('pages.'.$uri, array('title'=>$title, 'posts'=>$posts))
 @include('pages.includes.footer')
