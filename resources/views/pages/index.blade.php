@@ -12,5 +12,9 @@
     </div>
 </div>
 <!-- End Page Banner -->
-@include('pages.'.$uri, array('title'=>$title, 'posts'=>$posts))
+@if($uri == 'faq')
+	@include('pages.'.$uri, array('title'=>$title, 'posts'=>$posts))
+@else
+	@include('pages.'.$uri, array('title'=>$title, 'posts'=>$posts))
+@endif
 @include('pages.includes.footer')
