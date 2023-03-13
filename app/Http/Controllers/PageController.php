@@ -163,7 +163,7 @@ class PageController extends Controller
     {
         $posts = \App\Models\Post::published()->type('post')->get();
         return view('layouts.app', [
-            'page' => "pages.index",
+            'page' => "pages.blog-page",
             'title' => "FAQ",
             'uri' => "faq",
             'posts' => $posts,

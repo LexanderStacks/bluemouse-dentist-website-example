@@ -12,5 +12,7 @@
     </div>
 </div>
 <!-- End Page Banner -->
+
 @include('pages.'.$uri, array('title'=>$title, 'posts'=>$posts))
+
 @include('pages.includes.footer')
