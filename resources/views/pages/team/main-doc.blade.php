@@ -21,10 +21,14 @@
                             </div>
 
                             <div class="content-overview">
-                                <p><span>Zertifikate:</span> 
+                                <p><span>Profil:</span> 
+    								<br>
     								Zertifiziert in ganzheitlicher Zahnmedizin
+    								<br>
     								Tätigkeitsschwerpunkte: Naturheilverfahren, UmweltZahnMedizin, Orthomolekulare Medizin und Entgiftung (Chelattherapie)
+    								<br>
     								Promotion zum Dr. med. dent. an der Universität Berlin (Charité)
+    								<br>
     								Leitung der FirstBioDent-Praxis Düsseldorf
 								</p>
 
@@ -50,22 +54,9 @@
 						Gesundheitschecks zur Prävention, auch von familiär bedingten Erkrankungen (Bluthochdruck, Osteoporose, Diabetes, Tumore etc.). High-Tech-Diagnostik mittels Vitalstoffanalyse, Funktionelle Medizin und Gentestung.
 					</p>
 
-                    <div class="row">
-                        <div class="col-lg-6">
-                            <div class="details-overview-image">
-                                <img src="assets/images/dentist-details-1.jpg" alt="image">
-                            </div>
-                        </div>
-
-                        <div class="col-lg-6">
-                            <div class="details-overview-image">
-                                <img src="assets/images/dentist-details-2.jpg" alt="image">
-                            </div>
-                        </div>
-                    </div>
 					<div class="overview-text">
 						<h3>Werdegang</h3>
-                        <p><span>1985 – 1990</span>Studium der ganzheitlichen Zahnheilkunde an der privaten Universität Witten/Herdecke mit folgenden integrierten Studiengängen der komplementären Medizin
+                        <p><span>1985 – 1990</span><br><br>Studium der ganzheitlichen Zahnheilkunde an der privaten Universität Witten/Herdecke mit folgenden integrierten Studiengängen der komplementären Medizin
                         </p>
                         <ul style="list-style: none;">
 	                        <li>
@@ -91,28 +82,28 @@
 	                        </li>
 	                    </ul>
 
-                        <p><span>1988</span>Studienaufenthalt in Florida: Ästhetische- und Laser-Medizin</p>
+                        <p><span>1988</span><br><br>Studienaufenthalt in Florida: Ästhetische- und Laser-Medizin</p>
 
-                        <p><span>Seit 1990</span>Weiterbildung auf den Gebieten der Grundregulation (über die D.A.H. = Deutsche medizinische Arbeitsgemeinschaft für Herd- und Regulationsforschung), dentale Werkstoffkunde, Energiemedizin (Quantenphysik in der Medizin – Prof. Warnke) und Toxinausschwämmung mittels der Funktionellen Medizin nach Prof. Jeffrey Bland/Gig Harbour (Washington).</p>
+                        <p><span>Seit 1990</span><br><br>Weiterbildung auf den Gebieten der Grundregulation (über die D.A.H. = Deutsche medizinische Arbeitsgemeinschaft für Herd- und Regulationsforschung), dentale Werkstoffkunde, Energiemedizin (Quantenphysik in der Medizin – Prof. Warnke) und Toxinausschwämmung mittels der Funktionellen Medizin nach Prof. Jeffrey Bland/Gig Harbour (Washington).</p>
 
-                        <p><span>2003 – 2005</span>Ausbilder und Konsil-Arzt am Specialized Medical Center Hospital, Riad, Saudi Arabien</p>
+                        <p><span>2003 – 2005</span><br><br>Ausbilder und Konsil-Arzt am Specialized Medical Center Hospital, Riad, Saudi Arabien</p>
 
                     </div>
                     <div class="overview-text">
-						<h3>Weitere Fortbildungen </h3>
-                        <p><span>Seit 1995</span>Zweimal jährlich in USA auf den Gebieten Präventiv-, Umwelt- und Vitamin-Medizin</p>
+						<h3 class="mt-4">Weitere Fortbildungen </h3>
+                        <p><span>Seit 1995</span><br><br>Zweimal jährlich in USA auf den Gebieten Präventiv-, Umwelt- und Vitamin-Medizin</p>
 
-                        <p><span>1995</span>Weiterbildungsaufenthalt in der Umweltklinik von Prof. William Rea, Dallas/Texas (Environmental Health Center Dallas)</p>
+                        <p><span>1995</span><br><br>Weiterbildungsaufenthalt in der Umweltklinik von Prof. William Rea, Dallas/Texas (Environmental Health Center Dallas)</p>
 
-                        <p><span>2000</span>Referent für American Biologics (AB)/Kalifornien in Lissabon</p>
+                        <p><span>2000</span><br><br>Referent für American Biologics (AB)/Kalifornien in Lissabon</p>
 
-                        <p><span>2003</span>Referent für AB in Salzburg</p>
+                        <p><span>2003</span><br><br>Referent für AB in Salzburg</p>
 
-                        <p><span>2004</span>Wissenschaftsvortrag für Bioimmune in Scottsdale/Arizona</p>
+                        <p><span>2004</span><br><br>Wissenschaftsvortrag für Bioimmune in Scottsdale/Arizona</p>
 
-                        <p><span>2004-2009</span>Ausbilder im „Anti-Aging Medicine Specialization“ Programm der E3A (European Academy of AAM-Paris von Dr. Thierry Hertoghe)</p>
+                        <p><span>2004-2009</span><br><br>Ausbilder im „Anti-Aging Medicine Specialization“ Programm der E3A (European Academy of AAM-Paris von Dr. Thierry Hertoghe)</p>
 
-                        <p><span>2008</span>Referent für AB in Heiligendamm/Germany 2009 für die A4M/USA jährlich z.B. in Shanghai , Orlando (2010), Las Vegas (2012) u.v.m</p>
+                        <p><span>2008</span><br><br>Referent für AB in Heiligendamm/Germany 2009 für die A4M/USA jährlich z.B. in Shanghai , Orlando (2010), Las Vegas (2012) u.v.m</p>
                     </div>
                 </div>
             </div>
