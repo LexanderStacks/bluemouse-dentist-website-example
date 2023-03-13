@@ -5,7 +5,7 @@
                 <div class="section-title">
                     <span class="sub-title">
                         <i class="flaticon-hashtag-symbol"></i>
-                        Our Recent Work
+                        Unsere Publikationen
                     </span>
                     <h2>Our Cases & Patient Stories We Create  Beautiful Smiles</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.</p>

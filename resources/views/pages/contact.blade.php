@@ -5,10 +5,10 @@
                 <div class="section-title">
                     <span class="sub-title">
                         <i class="flaticon-hashtag-symbol"></i>
-                        Message Us
+                        Termin vereinbaren
                     </span>
-                    <h2>Drop Us Message for Any Query</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.</p>
+                    <h2>Reservien Sie bequem Ihren Termin</h2>
+                    <p>Wir setzen uns mit Ihnen in Verbindung sofern Ihr Wunschtermin nicht verfügbar ist.</p>
                 </div>
 
                 <div class="contact-form">
@@ -50,7 +50,7 @@
                             </div>
 
                             <div class="col-lg-12 col-md-12">
-                                <button type="submit" class="default-btn">Send Message</button>
+                                <button type="submit" class="default-btn">Terminanfrage senden</button>
                                 <div id="msgSubmit" class="h3 text-center hidden"></div>
                                 <div class="clearfix"></div>
                             </div>
@@ -60,11 +60,11 @@
 
                 <div class="contact-info">
                     <div class="contact-info-content">
-                        <h3>Contact Us by Phone Number or Email Address</h3>
+                        <h3>Sie können uns auch telefonisch erreichen:</h3>
                         <h2>
                             <a href="tel:+0881306298615">+088 130 629 8615</a>
-                            <span>OR</span>
-                            <a href="mailto:grin@gmail.com">grin@gmail.com</a>
+                            <span>oder per Email:</span>
+                            <a href="mailto:info@firstbiodent.de">info@firstbiodent.de</a>
                         </h2>
 
                         <ul class="social">
