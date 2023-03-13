@@ -93,7 +93,7 @@
                                 <div class="icon">
                                     <i class="flaticon-doctor"></i>
                                 </div>
-                                <h3>
+                                <h3 class="text-white">
                                     MedicalDetox SPA
                                 </h3>
                                 <p>Mit Wellness-Bereich zur Regeneration von Körper & Seele</p>
@@ -109,7 +109,7 @@
                                 <div class="icon">
                                     <i class="flaticon-chair"></i>
                                 </div>
-                                <h3>
+                                <h3 class="text-white">
                                     Leistungen<sup class="fw-bold">+</sup>
                                 </h3>
                                 <p>Vorsorge, Ästhetik, Diagnostik & Zahn- und Kiefer-Behandlungen</p>
@@ -125,7 +125,7 @@
                                 <div class="icon">
                                     <i class="flaticon-healthcare"></i>
                                 </div>
-                                <h3>
+                                <h3 class="text-white">
                                     Bio-Zahnmedizin
                                 </h3>
                                 <p>Behandlungskonzept mit Blick auf den ganzen Körper</p>
