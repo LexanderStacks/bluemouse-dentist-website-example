@@ -1,5 +1,5 @@
 
-        <!-- Start Gallery Area -->
+        <!-- Start Gallery Area
         <section class="gallery-area pt-100 pb-100">
             <div class="container">
                 <div class="section-title">
@@ -183,4 +183,4 @@
                 </div>
             </div>
         </section>
-        <!-- End Gallery Area -->
+        End Gallery Area -->
