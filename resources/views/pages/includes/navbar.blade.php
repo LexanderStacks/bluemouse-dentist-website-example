@@ -141,7 +141,7 @@
                                 -->
 
                                 <li class="nav-item">
-                                    <a href="#" class="nav-link">Unsere Praxis
+                                    <a href="/" class="nav-link">Unsere Praxis
                                     <i class='bx bx-caret-down'></i></a>
 
                                     <ul class="dropdown-menu">
