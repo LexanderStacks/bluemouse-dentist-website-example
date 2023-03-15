@@ -1,6 +1,6 @@
 
         <!-- Start Top Header Area -->
-        <div class="top-header-area bg-info">
+        <div class="top-header-area bg-info d-none d-lg-block">
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-lg-8 col-md-12">
@@ -43,7 +43,7 @@
         <!-- End Top Header Area -->
 
         <!-- Start Middle Header Area -->
-        <div class="middle-header-area">
+        <div class="middle-header-area d-none d-lg-block">
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-lg-4 col-md-12 pt-1">
@@ -307,18 +307,27 @@
             </div>
 
             <div class="others-option-for-responsive">
-                <div class="container">
+                <div class="container-fluid">
                     <div class="dot-menu">
-                        <div class="inner">
-                            <div class="circle circle-one"></div>
-                            <div class="circle circle-two"></div>
-                            <div class="circle circle-three"></div>
+                        <div class="inner mt-5 pe-5">
+                            <img alt="FirstBiodent Logo" title="FirstBiodent Logo" style="height: 2.8em; widht: auto;" src="/template-assets/images/firstbiodent-logo.svg"></img>
+                                <div class="option-item">
+                                    <div class="ms-3">
+                                        <a  href="tel:02119849880" class="btn btn-primary">Anrufen
+                                        </a>
+                                    </div>
+                                </div>
                         </div>
                     </div>
                     
-                    <div class="container">
+                    <div class="container-fluid pt-5">
                         <div class="option-inner">
                             <div class="others-options d-flex align-items-center">
+
+                            <p class="mt-3">
+                                <i class="bi bi-clock"></i>
+                                <span>Wochentags 09:00-18:00 Uhr</span>
+                            </p>
                                 <!--
                                 <div class="option-item">
                                     <div class="search-btn">
@@ -328,12 +337,6 @@
                                     </div>
                                 </div>
                                 -->
-
-                                <div class="option-item">
-                                    <div class="navbar-btn">
-                                        <a href="/contact-online" class="default-btn" style="background: #197720;">Online Termin</a>
-                                    </div>
-                                </div>
                             </div>
                         </div>
                     </div>
