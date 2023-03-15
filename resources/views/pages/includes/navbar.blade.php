@@ -141,7 +141,7 @@
                                 -->
 
                                 <li class="nav-item">
-                                    <a href="/" class="nav-link">Unsere Praxis
+                                    <a href="/" class="nav-link text-nowrap">Unsere Praxis
                                     <i class='bx bx-caret-down'></i></a>
 
                                     <ul class="dropdown-menu">
@@ -170,7 +170,7 @@
                                 </li>
 
                                 <li class="nav-item">
-                                    <a href="#" class="nav-link">
+                                    <a href="#" class="nav-link text-nowrap">
                                         Biologische Zahnmedizin 
                                         <i class='bx bx-caret-down'></i>
                                     </a>
@@ -215,7 +215,7 @@
                                     </ul>
                                 </li>
 
-                                <li class="nav-item">
+                                <li class="nav-item text-nowrap">
                                     <a href="#" class="nav-link">
                                         Leistungen 
                                         <i class='bx bx-caret-down'></i>
@@ -247,12 +247,12 @@
                                 </li>
 
                                 <li class="nav-item">
-                                    <a href="/medical-detox" class="nav-link">
+                                    <a href="/medical-detox" class="nav-link text-nowrap">
                                         Medical Detox SPA 
                                     </a>
                                 </li>
 
-                                <li class="nav-item">
+                                <li class="nav-item text-nowrap">
                                     <a href="/blog/index" class="nav-link">
                                         Blog 
                                         <i class='bx bx-caret-down'></i>
@@ -267,7 +267,7 @@
                                     </ul>
                                 </li>
     
-                                <li class="nav-item">
+                                <li class="nav-item text-nowrap">
                                     <a href="/contact" class="nav-link">Kontakt
                                     <i class='bx bx-caret-down'></i></a>
                                     <ul class="dropdown-menu">
@@ -295,7 +295,7 @@
                                 </div>
                             	-->
 
-                                <div class="option-item">
+                                <div class="option-item d-none d-xl-block">
                                     <div class="navbar-btn">
                                         <a href="contact-online" class="default-btn">Online Termin</a>
                                     </div>
@@ -308,7 +308,7 @@
 
             <div class="others-option-for-responsive">
                 <div class="container-fluid">
-                    <div class="dot-menu">
+                    <div class="dot-menu pe-5 me-5">
                         <div class="inner mt-5 pe-5">
                             <img alt="FirstBiodent Logo" title="FirstBiodent Logo" style="height: 2.8em; widht: auto;" src="/template-assets/images/firstbiodent-logo.svg"></img>
                                 <div class="option-item">

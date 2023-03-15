@@ -21,14 +21,17 @@
                             <i class="bi bi-hash fs-4 text-primary"></i>
                             Zähne, Gesundheit & Wellness
                         </span>
-                        <h1 class="text-uppercase">FirstBiodent<span> Zahnarzt</span> Düsseldorf
-                        </h1>
+                        <h1 class="text-uppercase fs-5 d-block d-lg-none">FirstBiodent<span> Zahnarzt</span> Düsseldorf</h1>
+                        <h1 class="d-none d-lg-block">FirstBiodent<span> Zahnarzt</span> Düsseldorf</h1>
                         <p class="text-black">Buchen Sie einen Online Termin um ein ganzheitliches Konzept für die Verbesserung Ihrer Gesundheit erstellen zu lassen.</p>
 
-                        <div class="slides-btn">
+                        <div class="slides-btn d-none d-lg-block">
                             <a href="/contact-online" class="optional-btn">Onlinetermin</a>
                             
-                            <a href="/contact" class="default-btn">Praxistermin vereinbaren</a>
+                            <a href="/contact" class="default-btn ms-2">Praxistermin vereinbaren</a>
+                        </div>
+                        <div class="slides-btn d-block d-lg-none">
+                            <a  href="tel:02119849880" class="default-btn">Jetzt anrufen</a>
                         </div>
                     </div>
                 </div>
@@ -41,13 +44,17 @@
                             <i class="bi bi-hash fs-4 text-primary"></i>
                             Professionelle Zahnreinigung
                         </span>
-                        <h1>Für Ihr strahlendes <span>Lächeln</span></h1>
+                        <h1 class="fs-5 d-block d-lg-none">Für Ihr strahlendes <span>Lächeln</span></h1>
+                        <h1 class="fs-1 d-none d-lg-block">Für Ihr strahlendes <span>Lächeln</span></h1>
                         <p class="text-black">Buchen Sie bei uns eine professionelle Zahnreinigung um Ihre Gesundheit und Wohlbefinden zu erhöhen.</p>
                         
-                        <div class="slides-btn">
+                        <div class="slides-btn d-none d-lg-block">
                             <a href="/contact" class="optional-btn">Zahnreinigung buchen</a>
                             
-                            <a href="/contact" class="default-btn">Beratungstermin vereinbaren</a>
+                            <a href="/contact" class="default-btn ms-2">Beratungstermin vereinbaren</a>
+                        </div>
+                        <div class="slides-btn d-block d-lg-none">
+                            <a  href="tel:02119849880" class="default-btn">Jetzt anrufen</a>
                         </div>
 
                     </div>
@@ -83,7 +90,7 @@
         <!-- End Main Slides Area -->
 
          <!-- Start Features Area -->
-        <section class="features-area pb-70">
+        <section class="features-area pb-70 d-none d-xxl-block">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-4 col-md-6">
@@ -172,7 +179,7 @@
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-lg-7">
-                        <div class="section-title-warp">
+                        <div class="section-title-warp pt-5 pt-xxl-0">
                             <span class="sub-title">
                                 <i class="bi bi-hash fs-4 text-primary"></i>
                                 <!--Our Best Dental Services-->
@@ -193,7 +200,7 @@
 
                 <div class="row">
 
-                    <div class="col-lg-4 col-md-6">
+                    <div class="col-xl-4 col-md-6">
                         <div class="single-services">
                             <div class="services-image">
                                 <a href="/services"><img src="/template-assets/images/services/services-3.jpg" alt="image"></a>
@@ -212,7 +219,7 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-4 col-md-6">
+                    <div class="col-xl-4 col-md-6">
                         <div class="single-services">
                             <div class="services-image">
                                 <a href="/services"><img src="/template-assets/images/services/services-6.jpg" alt="image"></a>
@@ -230,7 +237,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6">
+                    <div class="col-xl-4 col-md-6">
                         <div class="single-services">
                             <div class="services-image">
                                 <a href="/services"><img src="/template-assets/images/services/services-4.jpg" alt="image"></a>
@@ -249,7 +256,7 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-3 col-md-6">
+                    <div class="col-xxl-3 col-md-6">
                         <div class="single-services">
                             <div class="services-image">
                                 <a href="/services"><img src="/template-assets/images/services/services-1.jpg" alt="image"></a>
@@ -268,7 +275,7 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-3 col-md-6">
+                    <div class="col-xxl-3 col-md-6">
                         <div class="single-services">
                             <div class="services-image">
                                 <a href="/services"><img src="/template-assets/images/services/services-5.jpg" alt="image"></a>
@@ -293,7 +300,7 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-3 col-md-6">
+                    <div class="col-xxl-3 col-md-6">
                         <div class="single-services">
                             <div class="services-image">
                                 <a href="/services"><img src="/template-assets/images/services/services-2.jpg" alt="image"></a>
@@ -312,7 +319,7 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-3 col-md-6">
+                    <div class="col-xxl-3 col-md-6">
                         <div class="single-services">
                             <div class="services-image">
                                 <a href="/services"><img src="/template-assets/images/services/services-9.jpg" alt="image"></a>
@@ -344,7 +351,7 @@
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-lg-6">
-                        <div class="overview-content">
+                        <div class="overview-content mt-1 mt-xl-0 text-center text-lg-start">
                             <span class="sub-title">
                                 <i class="bi bi-hash fs-4 text-primary"></i>
                                 Zahnbehandlung
@@ -371,6 +378,11 @@
         <section class="appointment-overview-area pb-100">
             <div class="container">
                 <div class="row">
+                    <div class="col-12 py-5 my-4">
+
+                    </div>
+                </div>
+                <div class="row">
                     <div class="col-lg-4 col-md-12">
                         <div class="appointment-overview-contact">
                             <img src="/template-assets/images/appointment/appointment-1.jpg" alt="image">
@@ -392,7 +404,7 @@
                     <div class="col-lg-8">
                         <div class="appointment-overview-box">
                             <div class="row">
-                                <div class="col-lg-6">
+                                <div class="col-xl-6">
                                     <div class="content">
                                         <h4>Ihre erste biologische Zahnarztpraxis</h4>
                                         
@@ -405,9 +417,11 @@
                                         </div>
                                     </div>
                                 </div>
+                                <div class="col-xl-6 d-block d-xl-none" style="min-height: 400px;">
+                                </div>
 
-                                <div class="col-lg-6">
-                                    <div class="make-appointment-content">
+                                <div class="col-xl-6">
+                                    <div class="make-appointment-content d-none d-xl-block">
                                         <h4 class="text-center"><i class="flaticon-calendar"></i> Terminabsprache <br>Rückruf anfragen</h4>
 
                                         <form>
@@ -442,7 +456,7 @@
             <div class="container">
                 <div class="row align-items-center" style="background: rgb(238,238,238);">
                     <div class="col-lg-7">
-                        <div class="about-content">
+                        <div class="about-content text-center text-lg-start">
                             <span class="sub-title mt-5">
                                 <i class="bi bi-hash fs-4 text-primary"></i>
                                 Zahnarztpraxis
@@ -614,7 +628,7 @@
                 </div>
 
                 <div class="row">
-                    <div class="col-lg-4 col-md-6">
+                    <div class="col-xl-4 col-md-6">
                         <div class="single-doctor">
                             <a href="/doc/second"><img src="/template-assets/images/doctor/dent-doctor-1.jpg" alt="image"></a>
 
@@ -627,10 +641,10 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-8 col-md-6">
+                    <div class="col-xl-8 col-md-6">
                         <div class="single-doctor text-end">
                             <div class="row">
-                                <div class="col-lg-6 col-md-6 text-start ps-5 pt-5">
+                                <div class="col-lg-6 col-md-6 text-start ps-5 pt-5 d-none d-xl-block">
                                     <ul class="mt-2" style="list-style: none;">
                                         <li class="py-2 fs-5 fw-bold text-primary">
                                             <i class="bi bi-check-circle-fill"></i>&nbsp;
@@ -648,12 +662,12 @@
                                             <i class="bi bi-check-circle-fill"></i>&nbsp;
                                             Chelattherapie
                                         </li>
-                                        <li class="py-2 fs-5 text-dark">
+                                        <li class="py-2 fs-6 text-dark">
                                             <i>Leiter der FirstBioDent-Praxis Düsseldorf</i>
                                         </li>
                                     </ul>
                                 </div>
-                                <div class="col-6">
+                                <div class="col-xl-6">
                                     <a href="/doc/main">
                                         <img src="/template-assets/images/doctor/dent-doctor-2.jpg" alt="image">
                                     </a>
@@ -661,10 +675,19 @@
                             </div>
 
                             <div class="doctor-content">
-                                <h3>
+                                <h3 class="d-none d-xl-block">
                                     <a href="/doc/main">Dr. med. dent. Hansjörg Lammers</a>
                                 </h3>
-                                <span>Zahnarzt und Inhaber von FirstBioDent</span>
+                                <h3 class="d-none d-md-block d-xl-none">
+                                    <a href="/doc/main">Dr. med. Lammers</a>
+                                </h3>
+                                <h3 class="d-block d-md-none">
+                                    <a href="/doc/main">Dr. med. Hansjörg Lammers</a>
+                                </h3>
+                                <span class="d-none d-md-block d-xl-none">
+                                    Zahnarzt & Inhaber
+                                </span>
+                                <span class="d-block d-md-none d-xl-block">Zahnarzt und Inhaber von FirstBioDent</span>
                                 <!--
 
                                 <div class="share-link">
