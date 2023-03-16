@@ -357,7 +357,8 @@
                                 <i class="bi bi-hash fs-4 text-primary"></i>
                                 Zahnbehandlung
                             </span>
-                            <h3 class="text-info">Für Ihre ganzheitliche Zahngesundheit</h3>
+                            <h3 class="text-info d-none d-xl-block">Für Ihre ganzheitliche Zahngesundheit</h3>
+                            <h3 class="fs-5 text-info d-block d-xl-none">Für Ihre ganzheitliche Zahngesundheit</h3>
                             <p>
                                 Jetzt Termin vereinbaren 
                                 <a class="text-nowrap" href="tel:02119849880">+49 211 984 988 0</a>
