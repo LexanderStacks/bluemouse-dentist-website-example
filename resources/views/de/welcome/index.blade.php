@@ -185,7 +185,8 @@
                                 <!--Our Best Dental Services-->
                                 Leistungen
                             </span>
-                            <h2 class="text-info">Behandlungsspektrum</h2>
+                            <h2 class="text-info d-none d-xl-block">Behandlungsspektrum</h2>
+                            <h2 class="fs-5 text-info d-block d-xl-none">Behandlungsspektrum</h2>
                         </div>
                     </div>
 
