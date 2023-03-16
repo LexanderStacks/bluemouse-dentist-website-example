@@ -835,7 +835,8 @@
                                 <i class="bi bi-hash fs-4 text-primary"></i>
                                 Blog
                             </span>
-                            <h2 class="text-info">In unserem Blog erfahren Sie mehr...</h2>
+                            <h2 class="text-info d-none d-xl-block">In unserem Blog erfahren Sie mehr...</h2>
+                            <h2 class="fs-5 text-info d-block d-xl-none">In unserem Blog erfahren Sie mehr...</h2>
                         </div>
                     </div>
 
