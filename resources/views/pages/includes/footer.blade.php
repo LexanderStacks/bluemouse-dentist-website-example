@@ -248,7 +248,7 @@ li.hover-no-underline:hover{
             <p class="d-block d-lg-none pb-3 pb-xl-1" style="padding-top: 45px;">
                 © 2022
                 &nbsp;
-                <a class="mt-5 mt-sm-none" href="#">
+                <a class="mt-3 mt-sm-none" href="#">
                     FirstBioDent
                 </a>
                 &nbsp;
