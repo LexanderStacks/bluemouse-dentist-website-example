@@ -258,8 +258,7 @@ li.hover-no-underline:hover{
                     info@firstbiodent.de
                 </a>
             </p>
-            <div class="my-5 py-5 py-sm-none my-sm-none">
-                <div></div>
+            <div class="d-block d-sm-none" style="min-height: 55px; background: black;">
             </div>
 
         </div>
