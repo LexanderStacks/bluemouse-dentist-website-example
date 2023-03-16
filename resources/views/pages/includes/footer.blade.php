@@ -258,6 +258,8 @@ li.hover-no-underline:hover{
                     info@firstbiodent.de
                 </a>
             </p>
+            <div class="my-5 my-sm-none">
+            </div>
 
         </div>
         <!--Content ends-->
