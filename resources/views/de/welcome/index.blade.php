@@ -543,7 +543,8 @@
                                 <i class="bi bi-hash fs-4 text-primary"></i>
                                 Besonderheiten
                             </span>
-                            <h2 class="text-info">Besonderheiten der Praxis</h2>
+                            <h2 class="text-info d-none d-xl-block">Besonderheiten der Praxis</h2>
+                            <h2 class="fs-5 text-info d-block d-xl-none">Besonderheiten der Praxis</h2>
                         </div>
                     </div>
                     <!--
