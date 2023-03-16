@@ -209,9 +209,9 @@ li.hover-no-underline:hover{
 </style>
 
         <!-- Start Copy Right Area -->
-        <div class="copyright-area d-none d-xl-block"  style="height: 60px;">
+        <div class="copyright-area d-none d-lg-block"  style="height: 60px;">
             <!--Waves Container-->
-            <div class="d-none d-xl-block" style="background: rgb(70,70,70);">
+            <div class="d-none d-lg-block" style="background: rgb(70,70,70);">
             	<svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
             	viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
             	<defs>
@@ -231,11 +231,12 @@ li.hover-no-underline:hover{
 
         <!--Content starts-->
         <div class="content flex">
-            <p class="pb-3 pb-xl-1" style="padding-top: 65px;">
+
+            <p class="d-none d-lg-block pb-3 pb-xl-1" style="padding-top: 25px;">
                 © 2022
                 &nbsp;
                 <a href="#">
-                    FirstBiodent
+                    FirstBioDent
                 </a>
                 &nbsp;
                 Schadowstraße 11B · 240212 Düsseldorf
@@ -244,6 +245,20 @@ li.hover-no-underline:hover{
                     info@firstbiodent.de
                 </a>
             </p>
+            <p class="d-block d-lg-none pb-3 pb-xl-1" style="padding-top: 45px;">
+                © 2022
+                &nbsp;
+                <a class="mt-5 mt-sm-none" href="#">
+                    FirstBioDent
+                </a>
+                &nbsp;
+                Schadowstraße 11B · 240212 Düsseldorf
+                &nbsp;
+                <a href="mailto:info@firstbiodent.de">
+                    info@firstbiodent.de
+                </a>
+            </p>
+
         </div>
         <!--Content ends-->
 
