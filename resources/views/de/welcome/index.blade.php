@@ -738,7 +738,8 @@
                                 <i class="bi bi-hash fs-4 text-primary"></i>
                                 Empfehlungen
                             </span>
-                            <h2 class="text-info">Rückmeldungen unserer Patienten</h2>
+                            <h2 class="text-info d-none d-xl-block">Rückmeldungen unserer Patienten</h2>
+                            <h2 class="fs-5 text-info d-block d-xl-none">Rückmeldungen unserer Patienten</h2>
                         </div>
                     </div>
                     <!--
