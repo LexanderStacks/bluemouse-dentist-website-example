@@ -3,9 +3,9 @@
         <div class="col-12">
             @foreach($posts as $post)
             <img src="{{$post->image}}">
-            <h1 class="fw-bold text-primary">
+            <h2 class="fw-bold text-primary">
                 {!! $post->title !!}
-            </h1>
+            </h2>
             <p>
                 {!! $post->content !!}
             </p>
