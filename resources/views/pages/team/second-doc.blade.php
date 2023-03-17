@@ -72,7 +72,7 @@
                 </div>
 
                 <div class="dentist-details-overview-content">
-                	<h3 class="ms-3">Tätigkeitsschwerpunkte:</h3>
+                	<h3 class="ms-5">Tätigkeitsschwerpunkte:</h3>
                     <ul style="list-style: none;">
                         <li>
                         Metallfreie Implantologie
