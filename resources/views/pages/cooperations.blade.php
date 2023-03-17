@@ -1,7 +1,7 @@
 <!-- Cooperations -->
 @foreach($posts as $post)
     @if($loop->index%2 == 0)
-        <div class="container-fluid">
+        <div class="container-fluid g-0 mx-0 px-0">
             <div class="row py-5 text-start">
                 <div class="col-1"></div>
                 <div id="cooperation-post-{{$loop->index}}-{{$post->slug}}" class="col-7">
@@ -24,7 +24,7 @@
         </div>
     @endif
     @if($loop->index%2 == 1)
-        <div class="container-fluid">
+        <div class="container-fluid g-0 mx-0 px-0">
             <div class="row py-5 text-start">
                 <div class="col-4"></div>
                 <div id="cooperation-post-{{$loop->index}}-{{$post->slug}}" class="col-7">
