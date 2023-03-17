@@ -23,8 +23,10 @@
                 <div class="col-4"></div>
                 <div id="cooperation-post-{{$loop->index}}-{{$post->slug}}" class="col-7  bg-white shadow p-3 rounded rounded-3">
                     <div class="position-relative">
-                        <img src="{{$post->image}}">
-                        <div class="position-absolute bg-white" style="margin-top: -110px; margin-left: 80px;">
+                        <div class="text-end">
+                            <img src="{{$post->image}}">
+                        </div>
+                        <div class="position-absolute bg-primary text-white" style="margin-top: -110px; margin-right: 80px;">
                             <h2 class="fw-bold text-primary fs-1">
                                 {!! $post->title !!}
                             </h2>
