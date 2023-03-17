@@ -17,10 +17,12 @@ class PageController extends Controller
     }
     public function cooperations()
     {
+        $posts = \App\Models\Post::published()->type('post')->get();
         return view('layouts.app', [
             'page' => "pages.index",
             'title' => "Kooperationen",
-            'uri' => "cooperations"
+            'uri' => "cooperations",
+            'posts' => $posts,
         ]);
     }
     public function mainDoc()
