@@ -26,13 +26,13 @@
                         <div class="text-end" style="margin-right: 30px;">
                             <img src="{{$post->image}}">
                         </div>
-                        <div class="position-absolute bg-light rounded rounded-3 p-3 shadow" style="margin-top: -110px; margin-left: -12px;">
+                        <div class="position-absolute bg-light rounded rounded-3 p-3 shadow" style="margin-top: -110px; margin-left: -16px;">
                             <h2 class="fw-bold text-primary fs-1">
                                 {!! $post->title !!}
                             </h2>
                         </div>
                     </div>
-                    <div class="bg-white shadow p-3 rounded rounded-3 mt-4">
+                    <div class="bg-white shadow p-3 rounded rounded-3 mt-2">
                         {!! $post->content !!}
                     </span>
                 </div>
