@@ -26,7 +26,7 @@
                         <div class="text-end">
                             <img src="{{$post->image}}">
                         </div>
-                        <div class="position-absolute bg-white rounded rounded-3 p-3" style="margin-top: -110px; margin-left: 0px;">
+                        <div class="position-absolute bg-light rounded rounded-3 p-3 me-3" style="margin-top: -110px; margin-left: 0px;">
                             <h2 class="fw-bold text-primary fs-1">
                                 {!! $post->title !!}
                             </h2>
