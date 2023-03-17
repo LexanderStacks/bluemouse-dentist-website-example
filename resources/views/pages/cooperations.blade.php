@@ -24,7 +24,7 @@
                 <div id="cooperation-post-{{$loop->index}}-{{$post->slug}}" class="col-7  bg-primary shadow p-3 rounded rounded-3">
                     <div class="position-relative">
                         <img src="{{$post->image}}" class="shadow">
-                        <div class="position-absolute" style="margin-top: -200px; margin-left: 80px;">
+                        <div class="position-absolute" style="margin-top: -110px; margin-left: 80px;">
                             <h2 class="fw-bold text-primary fs-1">
                                 {!! $post->title !!}
                             </h2>
