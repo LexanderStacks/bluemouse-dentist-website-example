@@ -7,6 +7,21 @@
                         <div class="dentist-details-image">
                             <img src="/template-assets/images/doctor/dent-doctor-1.jpg" alt="image">
                         </div>
+                        <div class="overview-text">
+                            <h3 class="mt-5">Fortbildungen </h3>
+
+                            <p><span>05/ 2015 – 11/ 2016</span><br>DGI Curriculum Implantologie</p>
+
+                            <p><span>06/ 2015</span><br>Zertifizierungskurs Inman Aligner</p>
+
+                            <p><span>04/ 2017</span><br>Erwerb der DVT- Fachkunde</p>
+
+                            <p><span>2016 – 2019</span><br>Begleitung und live – OP im Rahmen diverser DGI und EAO Kurse an der UNI Düsseldorf</p>
+
+                            <p><span>05/ 2022</span><br>Aktualisierung der Fachkunde im Strahlenschutz</p>
+
+                            <p><span>01/ 2021 – 02/ 2022</span><br>Fit For Leadership (Camlog)</p>
+                        </div>
                     </div>
 
                     <div class="col-lg-7 col-md-6">
@@ -51,21 +66,6 @@
 
 
                                 <p><span>07/ 2021 – heute</span><br>Oralchirurg bei FirstBioDent in Düsseldorf</p>
-                            </div>
-                            <div class="overview-text">
-                                <h3 class="mt-5">Fortbildungen </h3>
-
-                                <p><span>05/ 2015 – 11/ 2016</span><br>DGI Curriculum Implantologie</p>
-
-                                <p><span>06/ 2015</span><br>Zertifizierungskurs Inman Aligner</p>
-
-                                <p><span>04/ 2017</span><br>Erwerb der DVT- Fachkunde</p>
-
-                                <p><span>2016 – 2019</span><br>Begleitung und live – OP im Rahmen diverser DGI und EAO Kurse an der UNI Düsseldorf</p>
-
-                                <p><span>05/ 2022</span><br>Aktualisierung der Fachkunde im Strahlenschutz</p>
-
-                                <p><span>01/ 2021 – 02/ 2022</span><br>Fit For Leadership (Camlog)</p>
                             </div>
                         </div>
                     </div>
