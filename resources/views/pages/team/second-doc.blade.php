@@ -53,7 +53,7 @@
                                 <p><span>07/ 2021 – heute</span><br>Oralchirurg bei FirstBioDent in Düsseldorf</p>
                             </div>
                             <div class="overview-text">
-                                <h3 class="mt-3">Weitere Fortbildungen </h3>
+                                <h3 class="mt-3">Fortbildungen </h3>
 
                                 <p><span>05/ 2015 – 11/ 2016</span><br>DGI Curriculum Implantologie</p>
 
@@ -72,7 +72,7 @@
                 </div>
 
                 <div class="dentist-details-overview-content">
-                	<h3>Tätigkeitsschwerpunkte:</h3>
+                	<h3 class="ms-3">Tätigkeitsschwerpunkte:</h3>
                     <ul style="list-style: none;">
                         <li>
                         Metallfreie Implantologie

@@ -84,7 +84,7 @@
 
                     </div>
                     <div class="overview-text">
-						<h3 class="mt-4">Weitere Fortbildungen </h3>
+						<h3 class="mt-4">Fortbildungen </h3>
                         <p><span>Seit 1995</span><br>Zweimal jährlich in USA auf den Gebieten Präventiv-, Umwelt- und Vitamin-Medizin</p>
 
                         <p><span>1995</span><br>Weiterbildungsaufenthalt in der Umweltklinik von Prof. William Rea, Dallas/Texas (Environmental Health Center Dallas)</p>
