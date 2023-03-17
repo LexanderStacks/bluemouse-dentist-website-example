@@ -103,7 +103,7 @@
                 <div class="dentist-details-overview-content">
                     <h3 class="ms-3">Weitere Fortbildungen</h3>
                     <div class="py-2 ps-4">
-                        <img src="/images/trainings.jpg">
+                        <img class="ms-1 mb-2" src="/images/trainings.jpg">
                     </div>
                     <ul>
                         <li>
