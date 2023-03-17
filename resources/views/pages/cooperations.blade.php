@@ -1,6 +1,5 @@
     <!-- Cooperations -->
     <div class="container" style="background: orange;">
-                <div id="cooperation-post-{{$loop->index}}-{{$post->slug}}">
                     <div class="row py-5 text-start" style="background: black;">
         @foreach($posts as $post)
                 @if($loop->index%2 == 0)
