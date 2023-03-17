@@ -92,8 +92,8 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-12 text-end py-2">
-                        <a href="/doc/second" class="btn btn-primary">
+                    <div class="col-12 text-center py-2">
+                        <a href="/doc/second" class="btn btn-primary btn-xl">
                             Zum leitenden Praxisdoktor
                         </a>                 
                     </div>
