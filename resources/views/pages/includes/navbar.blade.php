@@ -152,9 +152,6 @@
                                             <a href="/cooperations" class="nav-link">Kooperationen</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a href="/trainings" class="nav-link">Fortbildungen</a>
-                                        </li>
-                                        <li class="nav-item">
                                             <a href="/hygiene" class="nav-link">Hygienemaßnahmen</a>
                                         </li>
                                         <li class="nav-item">

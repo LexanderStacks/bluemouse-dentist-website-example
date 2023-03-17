@@ -29,9 +29,6 @@ Route::get('/en/',
 Route::get('/publications', 
     [App\Http\Controllers\PageController::class, 'publications']
 );
-Route::get('/trainings', 
-    [App\Http\Controllers\PageController::class, 'trainings']
-);
 Route::get('/cooperations', 
     [App\Http\Controllers\PageController::class, 'cooperations']
 );

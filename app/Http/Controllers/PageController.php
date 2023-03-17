@@ -15,14 +15,6 @@ class PageController extends Controller
             'uri' => "publications"
         ]);
     }
-    public function trainings()
-    {
-        return view('layouts.app', [
-            'page' => "pages.index",
-            'title' => "Fortbildungen",
-            'uri' => "team.main-doc"
-        ]);
-    }
     public function cooperations()
     {
         return view('layouts.app', [
