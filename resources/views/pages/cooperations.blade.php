@@ -17,7 +17,7 @@
                 </div>
                 @else
                 <div id="cooperation-post-{{$loop->index}}-{{$post->slug}}">
-                    <div class="row py-5 text-start" style="background: blue;">
+                    <div class="row py-5 text-start" style="background: black;">
                         <div class="col-12" style="background: silver;">
                             <img src="{{$post->image}}">
                             <h2 class="fw-bold text-primary fs-1">
