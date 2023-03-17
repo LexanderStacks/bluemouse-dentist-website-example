@@ -100,6 +100,32 @@
                         <p><span>2008</span><br>Referent für AB in Heiligendamm/Germany 2009 für die A4M/USA jährlich z.B. in Shanghai , Orlando (2010), Las Vegas (2012) u.v.m</p>
                     </div>
                 </div>
+                <div class="dentist-details-overview-content">
+                    <h3 class="ms-3">Weitere Fortbildungen</h3>
+                    <ul>
+                        <li>
+                        Basisausbildung Präventions-Apotheker/In
+                        </li>
+                        <li>
+                        Department für klinische Medizin und Umwelt
+                        </li>
+                        <li>
+                        Gesundheitspolitische Situation Pro und Kontra Amalgam
+                        </li>
+                        <li>
+                        Gesunder Blutdruck-Kongress …ohne Druck zu Deiner Gesundheit!
+                        </li>
+                        <li>
+                        Presseinformation der Donau Universität Krems<br>
+                        Neuer Master-Lehrgang „Angewandte Nutritive Medizin“ an der Donau-Universität Krems bietet wissenschaftliche und praxisnahe Ausbildung.
+                        </li>
+                        <li>
+                        Vital- und Mikronährstoffmedizin<br>
+                        Universitätskurs „Vital- und Mikronährstoffmedizin für ApothekerInnen“.
+                        </li>
+                    </ul>
+                </div>
+
                 <div class="row">
                     <div class="col-12 text-end py-2">
                         <a href="/doc/second" class="btn btn-primary">
