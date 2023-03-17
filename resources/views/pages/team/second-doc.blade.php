@@ -2,7 +2,7 @@
         <!-- Start Dentist Details Area -->
         <section class="dentist-details-area ptb-100">
             <div class="container">
-                <div class="row align-items-center">
+                <div class="row align-items-top">
                     <div class="col-lg-5 col-md-6">
                         <div class="dentist-details-image">
                             <img src="/template-assets/images/doctor/dent-doctor-1.jpg" alt="image">
@@ -21,7 +21,7 @@
                             </div>
 
                            <div class="overview-text">
-                                <h3>Werdegang</h3>
+                                <h3 class="mt-3">Werdegang</h3>
 
                                 <p><span>04/ 2006 – 11/ 2012</span><br>
                                     Zahnmedizin in Marburg
@@ -53,7 +53,7 @@
                                 <p><span>07/ 2021 – heute</span><br>Oralchirurg bei FirstBioDent in Düsseldorf</p>
                             </div>
                             <div class="overview-text">
-                                <h3 class="mt-3">Fortbildungen </h3>
+                                <h3 class="mt-5">Fortbildungen </h3>
 
                                 <p><span>05/ 2015 – 11/ 2016</span><br>DGI Curriculum Implantologie</p>
 
