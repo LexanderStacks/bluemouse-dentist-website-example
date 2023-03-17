@@ -2,6 +2,7 @@
     <div class="row py-5 text-start">
         <div class="col-12">
             @foreach($posts as $post)
+            <img src="{{$post->image}}">
             <h1 class="fw-bold">
                 {!! $post->title !!}
             </h1>
