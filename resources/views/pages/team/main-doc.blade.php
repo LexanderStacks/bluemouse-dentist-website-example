@@ -101,9 +101,9 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-12">
+                    <div class="col-12 text-end py-2">
                         <a href="/doc/second" class="btn btn-primary">
-                            Weiterer Praxisdoktor
+                            Weiteren Praxisdoktor ansehen
                         </a>                 
                     </div>
                 </div>
