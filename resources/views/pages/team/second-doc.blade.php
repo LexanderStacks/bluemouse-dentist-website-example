@@ -69,29 +69,35 @@
                             </div>
                         </div>
 
-                <div class="dentist-details-overview-content">
-                    <h3 class="ms-4">Tätigkeitsschwerpunkte:</h3>
-                    <ul style="list-style: none;">
-                        <li>
-                        Metallfreie Implantologie
-                        </li>
-                        <li>
-                        Piezochirurgische Operationen
-                        </li>
-                        <li>
-                        Anwendung von Dental-Ozon
-                        </li>
-                        <li>
-                        NICO-OPs
-                        </li>
-                        <li>
-                        Störfeldsanierung
-                        </li>
-                    </ul>
-                </div>
+                        <div class="dentist-details-overview-content">
+                            <h3 class="ms-4">Tätigkeitsschwerpunkte:</h3>
+                            <ul style="list-style: none;">
+                                <li>
+                                Metallfreie Implantologie
+                                </li>
+                                <li>
+                                Piezochirurgische Operationen
+                                </li>
+                                <li>
+                                Anwendung von Dental-Ozon
+                                </li>
+                                <li>
+                                NICO-OPs
+                                </li>
+                                <li>
+                                Störfeldsanierung
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
-
+                <div class="row">
+                    <div class="col-12 text-end py-2">
+                        <a href="/doc/second" class="btn btn-primary">
+                            Zum leitenden Praxisdoktor
+                        </a>                 
+                    </div>
+                </div>
             </div>
         </section>
         <!-- End Dentist Details Area -->
