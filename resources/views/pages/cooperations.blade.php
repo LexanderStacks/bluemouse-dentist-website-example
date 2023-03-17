@@ -2,11 +2,11 @@
 @foreach($posts as $post)
     @if($loop->index%2 == 0)
         <div class="container-fluid g-0 mx-0 px-0">
-            <div class="row py-5 text-start">
+            <div class="row py-5 text-center text-xl-start">
                 <div class="col-xl-1"></div>
                 <div id="cooperation-post-{{$loop->index}}-{{$post->slug}}" class="col-xl-7">
                     <div class="position-relative p-3">
-                        <div class="text-start" style="margin-left: 30px;">
+                        <div class="text-xl-start text-center" style="margin-left: 30px;">
                             <img src="{{$post->image}}">
                         </div>
                         <div class="position-absolute bg-light rounded rounded-3 p-3 shadow text-end" style="margin-top: -110px; right: 0;">
@@ -25,11 +25,11 @@
     @endif
     @if($loop->index%2 == 1)
         <div class="container-fluid g-0 mx-0 px-0">
-            <div class="row py-5 text-start">
+            <div class="row py-5 text-center text-xl-start">
                 <div class="col-xl-4"></div>
                 <div id="cooperation-post-{{$loop->index}}-{{$post->slug}}" class="col-xl-7">
                     <div class="position-relative p-3">
-                        <div class="text-end" style="margin-right: 30px;">
+                        <div class="text-xl-end text-center" style="margin-right: 30px;">
                             <img src="{{$post->image}}">
                         </div>
                         <div class="position-absolute bg-light rounded rounded-3 p-3 shadow" style="margin-top: -110px; margin-left: -16px;">
