@@ -132,7 +132,7 @@
                 <div class="row">
                     <div class="col-12 text-end py-2">
                         <a href="/doc/second" class="btn btn-primary mt-3">
-                            Weiteren Praxisdoktor ansehen
+                            Weiteren Praxisarzt ansehen
                         </a>                 
                     </div>
                 </div>

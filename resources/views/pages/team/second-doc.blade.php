@@ -94,7 +94,7 @@
                 <div class="row">
                     <div class="col-12 text-end py-2">
                         <a href="/doc/main" class="btn btn-primary mt-3">
-                            Zum leitenden Praxisdoktor
+                            Zum leitenden Praxisarzt
                         </a>                 
                     </div>
                 </div>
