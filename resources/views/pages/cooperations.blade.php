@@ -9,7 +9,7 @@
                             <h2 class="fw-bold text-primary fs-1">
                                 {!! $post->title !!}
                             </h2>
-                            <div style="margin-left: -40px; bakckground: magenta; width: calc(100% + 40px);" >
+                            <div style="margin-left: -40px; bakckground: magenta;">
                                 {!! $post->content !!}
                             </div>
                         </div>
