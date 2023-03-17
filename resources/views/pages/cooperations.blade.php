@@ -9,8 +9,8 @@
                         <div class="text-start" style="margin-left: 30px;">
                             <img src="{{$post->image}}">
                         </div>
-                        <div class="position-absolute bg-light rounded rounded-3 p-3 shadow" style="margin-top: -110px; margin-right: 16px;">
-                            <h2 class="fw-bold text-primary fs-1 text-end">
+                        <div class="position-absolute bg-light rounded rounded-3 p-3 shadow text-end" style="margin-top: -110px; margin-right: 16px;">
+                            <h2 class="fw-bold text-primary fs-1">
                                 {!! $post->title !!}
                             </h2>
                         </div>
