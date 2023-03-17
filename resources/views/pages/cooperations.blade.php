@@ -18,7 +18,7 @@
                             </div>
                         </div>
 
-                        <div class="d-block d-xl-none">
+                        <div class="d-block d-xl-none text-center">
                             <div class="text-center">
                                 <img src="{{$post->image}}">
                             </div>
@@ -30,7 +30,7 @@
                         </div>
 
                     </div>
-                    <div class="bg-white shadow p-3 rounded rounded-3 mt-2 text-black" style="color: black;">
+                    <div class="bg-white shadow p-3 rounded rounded-3 mt-2 text-black text-start" style="color: black;">
                         {!! $post->content !!}
                     </span>
                 </div>
@@ -56,7 +56,7 @@
                             </div>
                         </div>
 
-                        <div class="d-block d-xl-none">
+                        <div class="d-block d-xl-none text-center">
                             <div class="text-center">
                                 <img src="{{$post->image}}">
                             </div>
@@ -68,7 +68,7 @@
                         </div>
 
                     </div>
-                    <div class="bg-white shadow p-3 rounded rounded-3 mt-2" style="color: black;">
+                    <div class="bg-white shadow p-3 rounded rounded-3 mt-2 text-start" style="color: black;">
                         {!! $post->content !!}
                     </span>
                 </div>
