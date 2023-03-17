@@ -93,7 +93,7 @@
                 </div>
                 <div class="row">
                     <div class="col-12 text-center py-2">
-                        <a href="/doc/second" class="btn btn-primary btn-xl">
+                        <a href="/doc/main" class="btn btn-primary btn-xl">
                             Zum leitenden Praxisdoktor
                         </a>                 
                     </div>
