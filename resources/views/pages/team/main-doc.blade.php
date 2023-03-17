@@ -102,7 +102,7 @@
                 </div>
                 <div class="dentist-details-overview-content">
                     <h3 class="ms-3">Weitere Fortbildungen</h3>
-                    <img src="/images/trainings.jpg">
+                    <img class="py-2" src="/images/trainings.jpg">
                     <ul>
                         <li>
                         Basisausbildung Präventions-Apotheker/In
