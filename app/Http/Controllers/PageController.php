@@ -17,7 +17,7 @@ class PageController extends Controller
     }
     public function cooperations()
     {
-        $posts = \App\Models\Post::published()->type('reference')->slug($slug)->with('attachment')->firstOrFail();
+        $posts = \App\Models\Post::published()->type('reference')->with('attachment')->get();
         return view('layouts.app', [
             'page' => "pages.index",
             'title' => "Kooperationen",
