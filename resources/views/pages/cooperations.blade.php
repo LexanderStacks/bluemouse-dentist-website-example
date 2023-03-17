@@ -22,11 +22,13 @@
             <div class="row py-5 text-start">
                 <div class="col-4"></div>
                 <div id="cooperation-post-{{$loop->index}}-{{$post->slug}}" class="col-7">
-                    <div class="position-relative">
+                    <div class="position-relative bg-primary shadow p-3 rounded rounded-3">
                         <img src="{{$post->image}}">
-                        <h2 class="fw-bold text-primary fs-1 position-absolute" style="margin-top: -200px; background: white; margin-left: 80px;">
-                            {!! $post->title !!}
-                        </h2>
+                        <span class="position-absolute p-2 bg-white" style="margin-top: -200px; margin-left: 80px;">
+                            <h2 class="fw-bold text-primary fs-1">
+                                {!! $post->title !!}
+                            </h2>
+                        </span>
                     </div>
                     <div class="bg-white shadow p-3 rounded rounded-3">
                         {!! $post->content !!}
