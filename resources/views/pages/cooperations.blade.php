@@ -2,8 +2,8 @@
 @foreach($posts as $post)
     @if($loop->index%2 == 0)
         <div class="container-fluid g-0 mx-0 px-0">
-            <div class="row py-5 text-start">
-                <div id="cooperation-post-{{$loop->index}}-{{$post->slug}}" class="col-7 ms-1 me-4">
+            <div class="row py-5 text-start ms-1 me-4">
+                <div id="cooperation-post-{{$loop->index}}-{{$post->slug}}" class="col-7">
                     <div class="position-relative p-3">
                         <div class="text-start" style="margin-left: 30px;">
                             <img src="{{$post->image}}">
@@ -23,8 +23,8 @@
     @endif
     @if($loop->index%2 == 1)
         <div class="container-fluid g-0 mx-0 px-0">
-            <div class="row py-5 text-start">
-                <div id="cooperation-post-{{$loop->index}}-{{$post->slug}}" class="col-7 ms-4 me-1">
+            <div class="row py-5 text-start ms-4 me-1">
+                <div id="cooperation-post-{{$loop->index}}-{{$post->slug}}" class="col-7">
                     <div class="position-relative p-3">
                         <div class="text-end" style="margin-right: 30px;">
                             <img src="{{$post->image}}">
