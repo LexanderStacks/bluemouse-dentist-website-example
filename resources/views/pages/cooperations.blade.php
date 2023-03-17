@@ -9,7 +9,7 @@
                             <h2 class="fw-bold text-primary fs-1">
                                 {!! $post->title !!}
                             </h2>
-                            <div style="bakckground: magenta;">
+                            <div style="background: magenta;">
                                 {!! $post->content !!}
                             </div>
                         </div>
@@ -23,7 +23,7 @@
                             <h2 class="fw-bold text-primary fs-1">
                                 {!! $post->title !!}
                             </h2>
-                            <div style="bakckground: magenta;">
+                            <div style="background: magenta;">
                                 {!! $post->content !!}
                             </div>
                         </div>
