@@ -1,5 +1,5 @@
     <!-- Cooperations -->
-    <div class="container-fluid" style="background: orange;">
+    <div class="container" style="background: orange;">
         @foreach($posts as $post)
                 @if($loop->index%2 == 0)
                 <div id="cooperation-post-{{$loop->index}}-{{$post->slug}}">
