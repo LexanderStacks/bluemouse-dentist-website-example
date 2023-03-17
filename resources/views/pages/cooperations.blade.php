@@ -20,7 +20,7 @@
                         <h2 class="fw-bold text-primary fs-1">
                             {!! $post->title !!}
                         </h2>
-                        <div style="margin-left: -40px; bakckground: magenta; width: calc(100% + 40px);">
+                        <div style="padding-left: -40px; bakckground: magenta; width: calc(100% + 40px);">
                             {!! $post->content !!}
                         </div>
                     </div>
