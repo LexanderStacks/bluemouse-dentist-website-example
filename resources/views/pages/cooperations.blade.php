@@ -15,7 +15,7 @@
                 </div>
                 @else
                 <div class="row py-5 text-start" style="background: blue;">
-                    <div class="col-7 me-auto" style="background: green;">
+                    <div class="col-7 me-auto" style="background: silver;">
                         <img src="{{$post->image}}">
                         <h2 class="fw-bold text-primary fs-1">
                             {!! $post->title !!}
