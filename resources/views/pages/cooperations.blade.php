@@ -15,7 +15,7 @@
                             </h2>
                         </div>
                     </div>
-                    <div class="bg-white shadow p-3 rounded rounded-3 mt-2">
+                    <div class="bg-white shadow p-3 rounded rounded-3 mt-2 text-black">
                         {!! $post->content !!}
                     </span>
                 </div>
@@ -38,7 +38,7 @@
                             </h2>
                         </div>
                     </div>
-                    <div class="bg-white shadow p-3 rounded rounded-3 mt-2">
+                    <div class="bg-white shadow p-3 rounded rounded-3 mt-2 text-black">
                         {!! $post->content !!}
                     </span>
                 </div>
