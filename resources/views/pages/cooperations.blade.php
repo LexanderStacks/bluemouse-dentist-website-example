@@ -57,10 +57,10 @@
                         </div>
 
                         <div class="d-block d-xl-none">
-                            <div class="text-center" style="margin-right: 30px;">
+                            <div class="text-center">
                                 <img src="{{$post->image}}">
                             </div>
-                            <div class="position-absolute bg-light rounded rounded-3 p-3 shadow text-start" style="margin-top: -110px; margin-left: -16px;">
+                            <div class="position-absolute bg-light rounded rounded-3 p-3 shadow text-start" style="margin-top: -110px;">
                                 <h2 class="fw-bold text-primary fs-1">
                                     {!! $post->title !!}
                                 </h2>
