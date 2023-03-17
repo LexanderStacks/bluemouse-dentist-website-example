@@ -9,7 +9,7 @@
                         <div class="text-start" style="margin-left: 30px;">
                             <img src="{{$post->image}}">
                         </div>
-                        <div class="position-absolute bg-light rounded rounded-3 p-3 shadow text-end" style="margin-top: -110px; margin-right: 16px;">
+                        <div class="position-absolute bg-light rounded rounded-3 p-3 shadow text-end" style="margin-top: -110px; right: 0;">
                             <h2 class="fw-bold text-primary fs-1">
                                 {!! $post->title !!}
                             </h2>
