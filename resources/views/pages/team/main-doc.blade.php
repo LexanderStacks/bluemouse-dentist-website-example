@@ -131,7 +131,7 @@
 
                 <div class="row">
                     <div class="col-12 text-end py-2">
-                        <a href="/doc/second" class="btn btn-primary">
+                        <a href="/doc/second" class="btn btn-primary mt-3">
                             Weiteren Praxisdoktor ansehen
                         </a>                 
                     </div>
