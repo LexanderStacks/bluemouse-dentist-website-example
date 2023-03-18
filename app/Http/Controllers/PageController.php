@@ -100,10 +100,10 @@ class PageController extends Controller
     }
     public function covidTherapy()
     {
-        $page = \App\Models\Post::published()->taxonomy('category', 'long-covid-therapy')->with('attachment')->orderBy('menu_order')->get();
+        $page = \App\Models\Post::published()->taxonomy('category', 'long-covid-therapy')->with('attachment')->get();
         return view('layouts.app', [
             'page' => "pages.index",
-            'title' => "Long-Term-Covid",
+            'title' => "Long Term Covid",
             'uri' => "covid-therapy",
             'page' => $page,
         ]);
