@@ -100,13 +100,12 @@ class PageController extends Controller
     }
     public function covidTherapy()
     {
-        $page = \App\Models\Post::taxonomy('category', 'long-covid-therapy')->published()->with('attachment')->get();
-        dd($page);
+        $post = \App\Models\Post::taxonomy('category', 'long-covid-therapy')->published()->with('attachment')->get();
         return view('layouts.app', [
             'page' => "pages.index",
             'title' => "Long Term Covid",
             'uri' => "covid-therapy",
-            'page' => $page,
+            'post' => $post,
         ]);
     }
     public function backup()
