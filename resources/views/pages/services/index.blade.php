@@ -14,7 +14,7 @@
 
                 <div class="row py-5">
 
-                    <div class="col-lg-4 col-md-6">
+                    <div class="col-xl-4 col-md-6">
                         <div class="single-services">
                             <div class="services-image">
                                 <a href="/services"><img src="/template-assets/images/services/services-3.jpg" alt="image"></a>
@@ -33,7 +33,7 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-4 col-md-6">
+                    <div class="col-xl-4 col-md-6">
                         <div class="single-services">
                             <div class="services-image">
                                 <a href="/services"><img src="/template-assets/images/services/services-6.jpg" alt="image"></a>
@@ -51,7 +51,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6">
+                    <div class="col-xl-4 col-md-6">
                         <div class="single-services">
                             <div class="services-image">
                                 <a href="/services"><img src="/template-assets/images/services/services-4.jpg" alt="image"></a>
@@ -70,7 +70,7 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-3 col-md-6">
+                    <div class="col-xxl-3 col-md-6">
                         <div class="single-services">
                             <div class="services-image">
                                 <a href="/services"><img src="/template-assets/images/services/services-1.jpg" alt="image"></a>
@@ -89,7 +89,7 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-3 col-md-6">
+                    <div class="col-xxl-3 col-md-6">
                         <div class="single-services">
                             <div class="services-image">
                                 <a href="/services"><img src="/template-assets/images/services/services-5.jpg" alt="image"></a>
@@ -114,7 +114,7 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-3 col-md-6">
+                    <div class="col-xxl-3 col-md-6">
                         <div class="single-services">
                             <div class="services-image">
                                 <a href="/services"><img src="/template-assets/images/services/services-2.jpg" alt="image"></a>
@@ -133,7 +133,7 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-3 col-md-6">
+                    <div class="col-xxl-3 col-md-6">
                         <div class="single-services">
                             <div class="services-image">
                                 <a href="/services"><img src="/template-assets/images/services/services-9.jpg" alt="image"></a>
