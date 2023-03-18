@@ -11,13 +11,15 @@
 			</div>
     	</div>
     </div>
-    @if($btnUri && $btnTitle)
-    <div class="row px-3 px-xl-5">
-        <div class="col-12 text-end py-2">
-            <a href="{{$btnUri}}" class="btn btn-primary mt-3">
-                {{$btnTitle}}
-            </a>                 
-        </div>
-    </div>
+    @if(!is_null($btnUri))
+    	@if(!is_null($btnTitle))
+	    <div class="row px-3 px-xl-5">
+	        <div class="col-12 text-end py-2">
+	            <a href="{{$btnUri}}" class="btn btn-primary mt-3">
+	                {{$btnTitle}}
+	            </a>                 
+	        </div>
+	    </div>
+	    @endif
     @endif
 </div>
