@@ -179,7 +179,7 @@ class PageController extends Controller
         $post = \App\Models\Post::taxonomy('category', 'privacy')->published()->with('attachment')->firstOrFail();
         return view('layouts.app', [
             'page' => "pages.index",
-            'title' => "Privatsphäre Richtlinien",
+            'title' => "Datenschutzerklärung",
             'view' => "page",
             'post' => $post,
         ]);
