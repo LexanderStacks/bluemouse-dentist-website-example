@@ -22,7 +22,7 @@ class PageController extends Controller
             'page' => "pages.index",
             'title' => "Kooperationen",
             'uri' => "article-image-collage",
-            'uriTitle' => "cooperations",
+            'imageType' => "round",
             'posts' => $posts,
         ]);
     }
@@ -129,7 +129,7 @@ class PageController extends Controller
             'page' => "pages.index",
             'title' => "Materialien",
             'uri' => "article-image-collage",
-            'uriTitle' => "materials",
+            'imageType' => "small",
             'posts' => $posts,
         ]);
     }
