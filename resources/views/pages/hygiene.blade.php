@@ -10,7 +10,7 @@
                 {{ $post->title }}
               </button>
             </h2>
-            <div id="flush-collapseOne-{{$loop->index}}" class="accordion-collapse collapse" aria-labelledby="flush-headingOne-{{$loop->index}}" data-bs-parent="#accordionFlushExample">
+            <div id="flush-collapseOne-{{$loop->index}}" class="accordion-collapse collapse @if($loop->index == 1) show @endif" aria-labelledby="flush-headingOne-{{$loop->index}}" data-bs-parent="#accordionFlushExample">
               <div class="accordion-body">
                 {!! $post->content !!}
               </div>
