@@ -123,10 +123,12 @@ class PageController extends Controller
     }
     public function materials()
     {
+        $posts = \App\Models\Post::published()->type('material')->with('attachment')->get();
         return view('layouts.app', [
             'page' => "pages.index",
             'title' => "Materialien",
-            'uri' => "materials"
+            'uri' => "materials",
+            'posts' => $posts,
         ]);
     }
     public function hygiene()
