@@ -209,102 +209,102 @@ class PageController extends Controller
     }
     public function amalgamDetox()
     {
-        $posts = \App\Models\Post::published()->type('post')->get();
+        $post = \App\Models\Post::type('page')->slug('amalgam-detox')->published()->with('attachment')->firstOrFail();
         return view('layouts.app', [
-            'page' => "pages.blog-page",
-            'title' => "FAQ",
-            'view' => "faq",
-            'posts' => $posts,
+            'page' => "pages.index",
+            'title' => "Amalgamsanierung",
+            'view' => "page",
+            'post' => $post,
         ]);
     }
     public function holisticImplants()
     {
-        $posts = \App\Models\Post::published()->type('post')->get();
+        $post = \App\Models\Post::type('page')->slug('holistic-implants')->published()->with('attachment')->firstOrFail();
         return view('layouts.app', [
-            'page' => "pages.blog-page",
-            'title' => "FAQ",
-            'view' => "faq",
-            'posts' => $posts,
+            'page' => "pages.index",
+            'title' => "Ganzheitliche Implantate",
+            'view' => "page",
+            'post' => $post,
         ]);
     }
     public function detox()
     {
-        $posts = \App\Models\Post::published()->type('post')->get();
+        $post = \App\Models\Post::type('page')->slug('detox')->published()->with('attachment')->firstOrFail();
         return view('layouts.app', [
-            'page' => "pages.blog-page",
-            'title' => "FAQ",
-            'view' => "faq",
-            'posts' => $posts,
+            'page' => "pages.index",
+            'title' => "Detox",
+            'view' => "page",
+            'post' => $post,
         ]);
     }
     public function integrativeDentistry()
     {
-        $posts = \App\Models\Post::published()->type('post')->get();
+        $post = \App\Models\Post::type('page')->slug('integrative-dentistry')->published()->with('attachment')->firstOrFail();
         return view('layouts.app', [
-            'page' => "pages.blog-page",
-            'title' => "FAQ",
-            'view' => "faq",
-            'posts' => $posts,
+            'page' => "pages.index",
+            'title' => "Integrative Zahnmedizin",
+            'view' => "page",
+            'post' => $post,
         ]);
     }
     public function jawInflammation()
     {
-        $posts = \App\Models\Post::published()->type('post')->get();
+        $post = \App\Models\Post::type('page')->slug('jaw-inflammation')->published()->with('attachment')->firstOrFail();
         return view('layouts.app', [
-            'page' => "pages.blog-page",
-            'title' => "FAQ",
-            'view' => "faq",
-            'posts' => $posts,
+            'page' => "pages.index",
+            'title' => "Kieferknochen-Entzündung",
+            'view' => "page",
+            'post' => $post,
         ]);
     }
     public function interferenceFieldRemediation()
     {
-        $posts = \App\Models\Post::published()->type('post')->get();
+        $post = \App\Models\Post::type('page')->slug('interference-field-remediation')->published()->with('attachment')->firstOrFail();
         return view('layouts.app', [
-            'page' => "pages.blog-page",
-            'title' => "FAQ",
-            'view' => "faq",
-            'posts' => $posts,
+            'page' => "pages.index",
+            'title' => "Störfeldsanierung",
+            'view' => "page",
+            'post' => $post,
         ]);
     }
     public function paradontalTherapy()
     {
-        $posts = \App\Models\Post::published()->type('post')->get();
+        $post = \App\Models\Post::type('page')->slug('paradontal-therapy')->published()->with('attachment')->firstOrFail();
         return view('layouts.app', [
-            'page' => "pages.blog-page",
-            'title' => "FAQ",
-            'view' => "faq",
-            'posts' => $posts,
+            'page' => "pages.index",
+            'title' => "Paradontitisbehandlung",
+            'view' => "page",
+            'post' => $post,
         ]);
     }
     public function environmentalDentistry()
     {
-        $posts = \App\Models\Post::published()->type('post')->get();
+        $post = \App\Models\Post::type('page')->slug('environmental-dentistry')->published()->with('attachment')->firstOrFail();
         return view('layouts.app', [
-            'page' => "pages.blog-page",
-            'title' => "FAQ",
-            'view' => "faq",
-            'posts' => $posts,
+            'page' => "pages.index",
+            'title' => "Umweltzahnmedizin",
+            'view' => "page",
+            'post' => $post,
         ]);
     }
     public function halitosis()
     {
-        $posts = \App\Models\Post::published()->type('post')->get();
+        $post = \App\Models\Post::type('page')->slug('halitosis')->published()->with('attachment')->firstOrFail();
         return view('layouts.app', [
-            'page' => "pages.blog-page",
-            'title' => "FAQ",
-            'view' => "faq",
-            'posts' => $posts,
+            'page' => "pages.index",
+            'title' => "Mundgeruch",
+            'view' => "page",
+            'post' => $post,
         ]);
     }
     public function metalDetox()
     {
-        $posts = \App\Models\Post::published()->type('post')->get();
+        $post = \App\Models\Post::type('page')->slug('metal-detox')->published()->with('attachment')->firstOrFail();
         return view('layouts.app', [
-            'page' => "pages.blog-page",
-            'title' => "FAQ",
-            'view' => "faq",
-            'posts' => $posts,
+            'page' => "pages.index",
+            'title' => "Metallsanierung",
+            'view' => "page",
+            'post' => $post,
         ]);
     }
 
