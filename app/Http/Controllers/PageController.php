@@ -116,10 +116,13 @@ class PageController extends Controller
     }
     public function references()
     {
+        $posts = \App\Models\Post::published()->type('reference')->with('attachment')->orderBy('menu_order')->get();
         return view('layouts.app', [
             'page' => "pages.index",
             'title' => "Referenzen",
-            'uri' => "references"
+            'uri' => "article-image-collage",
+            'imageType' => "small",
+            'posts' => $posts,
         ]);
     }
     public function materials()
@@ -135,7 +138,7 @@ class PageController extends Controller
     }
     public function hygiene()
     {
-        $posts = \App\Models\Post::published()->type('hygiene')->with('attachment')->orderBy('menu_order')->get();
+        $posts = \App\Models\Post::published()->type('hygiene')->with('attachment')->get();
         return view('layouts.app', [
             'page' => "pages.index",
             'title' => "Hygienemaßnahmen",
