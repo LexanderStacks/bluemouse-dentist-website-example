@@ -4,8 +4,7 @@
             <div class="container">
                 <div class="section-title">
                     <span class="sub-title">
-                        
-<i class="bi bi-hash fs-4 text-primary"></i>
+                        <i class="bi bi-hash fs-4 text-primary"></i>
                         Termin vereinbaren
                     </span>
                     <h2>Reservien Sie bequem Ihren Termin</h2>

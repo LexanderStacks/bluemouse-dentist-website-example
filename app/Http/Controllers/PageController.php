@@ -184,10 +184,12 @@ class PageController extends Controller
     }
     public function imprint()
     {
+        $post = \App\Models\Post::taxonomy('category', 'imprint')->published()->with('attachment')->firstOrFail();
         return view('layouts.app', [
             'page' => "pages.index",
             'title' => "Impressum",
-            'view' => "imprint"
+            'view' => "page",
+            'post' => $post,
         ]);
     }
 
