@@ -174,40 +174,37 @@
 
                                     <ul class="dropdown-menu">
                                         <li class="nav-item">
-                                            <a href="#" class="nav-link">Ganzheitliche Zahnmedizin</a>
+                                            <a href="/holistic-dentistry" class="nav-link">Ganzheitliche Zahnmedizin</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a href="#" class="nav-link">Amalgam Sanierung</a>
+                                            <a href="/amalgam-detox" class="nav-link">Amalgam Sanierung</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a href="#" class="nav-link">Ganzheitliche Zahnimplantate</a>
+                                            <a href="/holistic-implants" class="nav-link">Ganzheitliche Zahnimplantate</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a href="#" class="nav-link">Entgiftung</a>
+                                            <a href="/detox" class="nav-link">Detox</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a href="#" class="nav-link">Integrative Zahnmedizin</a>
+                                            <a href="/integrative-dentistry" class="nav-link">Integrative Zahnmedizin</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a href="#" class="nav-link">Kiefernentzündung</a>
+                                            <a href="/jaw-inflammation" class="nav-link">Kiefernentzündung</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a href="#" class="nav-link">Störfeldsanierung</a>
+                                            <a href="/interference-field-remediation" class="nav-link">Störfeldsanierung</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a href="#" class="nav-link">Paradontaltherapie</a>
+                                            <a href="/paradontal-therapy" class="nav-link">Paradontaltherapie</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a href="#" class="nav-link">Umweltzahnmedizin</a>
+                                            <a href="/environmental-dentistry" class="nav-link">Umweltzahnmedizin</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a href="#" class="nav-link">Mundgeruch</a>
+                                            <a href="/halitosis" class="nav-link">Mundgeruch</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a href="#" class="nav-link">Umweltzahnmedizin</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a href="#" class="nav-link">Metallssanierungen</a>
+                                            <a href="/metal-detox" class="nav-link">Metallssanierungen</a>
                                         </li>
                                     </ul>
                                 </li>
@@ -244,7 +241,7 @@
                                 </li>
 
                                 <li class="nav-item">
-                                    <a href="/medical-detox" class="nav-link text-nowrap">
+                                    <a href="/medical-detox-spa" class="nav-link text-nowrap">
                                         Medical Detox SPA 
                                     </a>
                                 </li>

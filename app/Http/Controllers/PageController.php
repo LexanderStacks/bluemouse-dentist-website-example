@@ -66,12 +66,12 @@ class PageController extends Controller
             'view' => "services.index"
         ]);
     }
-    public function medicalDetox()
+    public function medicalDetoxSpa()
     {
         return view('layouts.app', [
             'page' => "pages.index",
             'title' => "MedicalDetox SPA",
-            'view' => "medical-detox"
+            'view' => "medical-detox-spa"
         ]);
     }
     public function contact()
@@ -159,12 +159,12 @@ class PageController extends Controller
             'view' => "about"
         ]);
     }
-    public function ecoDentist()
+    public function ecoDentistry()
     {
         return view('layouts.app', [
             'page' => "pages.index",
             'title' => "Bio-Zahnmedizin",
-            'view' => "eco-dentist"
+            'view' => "page"
         ]);
     }
     public function faq()
@@ -197,5 +197,116 @@ class PageController extends Controller
             'post' => $post,
         ]);
     }
+    public function holisticDentistry()
+    {
+        $post = \App\Models\Post::type('page')->slug('holistic-dentistry')->published()->with('attachment')->firstOrFail();
+        return view('layouts.app', [
+            'page' => "pages.index",
+            'title' => "Ganzheitliche Zahnmedizin",
+            'view' => "page",
+            'post' => $post,
+        ]);
+    }
+    public function amalgamDetox()
+    {
+        $posts = \App\Models\Post::published()->type('post')->get();
+        return view('layouts.app', [
+            'page' => "pages.blog-page",
+            'title' => "FAQ",
+            'view' => "faq",
+            'posts' => $posts,
+        ]);
+    }
+    public function holisticImplants()
+    {
+        $posts = \App\Models\Post::published()->type('post')->get();
+        return view('layouts.app', [
+            'page' => "pages.blog-page",
+            'title' => "FAQ",
+            'view' => "faq",
+            'posts' => $posts,
+        ]);
+    }
+    public function detox()
+    {
+        $posts = \App\Models\Post::published()->type('post')->get();
+        return view('layouts.app', [
+            'page' => "pages.blog-page",
+            'title' => "FAQ",
+            'view' => "faq",
+            'posts' => $posts,
+        ]);
+    }
+    public function integrativeDentistry()
+    {
+        $posts = \App\Models\Post::published()->type('post')->get();
+        return view('layouts.app', [
+            'page' => "pages.blog-page",
+            'title' => "FAQ",
+            'view' => "faq",
+            'posts' => $posts,
+        ]);
+    }
+    public function jawInflammation()
+    {
+        $posts = \App\Models\Post::published()->type('post')->get();
+        return view('layouts.app', [
+            'page' => "pages.blog-page",
+            'title' => "FAQ",
+            'view' => "faq",
+            'posts' => $posts,
+        ]);
+    }
+    public function interferenceFieldRemediation()
+    {
+        $posts = \App\Models\Post::published()->type('post')->get();
+        return view('layouts.app', [
+            'page' => "pages.blog-page",
+            'title' => "FAQ",
+            'view' => "faq",
+            'posts' => $posts,
+        ]);
+    }
+    public function paradontalTherapy()
+    {
+        $posts = \App\Models\Post::published()->type('post')->get();
+        return view('layouts.app', [
+            'page' => "pages.blog-page",
+            'title' => "FAQ",
+            'view' => "faq",
+            'posts' => $posts,
+        ]);
+    }
+    public function environmentalDentistry()
+    {
+        $posts = \App\Models\Post::published()->type('post')->get();
+        return view('layouts.app', [
+            'page' => "pages.blog-page",
+            'title' => "FAQ",
+            'view' => "faq",
+            'posts' => $posts,
+        ]);
+    }
+    public function halitosis()
+    {
+        $posts = \App\Models\Post::published()->type('post')->get();
+        return view('layouts.app', [
+            'page' => "pages.blog-page",
+            'title' => "FAQ",
+            'view' => "faq",
+            'posts' => $posts,
+        ]);
+    }
+    public function metalDetox()
+    {
+        $posts = \App\Models\Post::published()->type('post')->get();
+        return view('layouts.app', [
+            'page' => "pages.blog-page",
+            'title' => "FAQ",
+            'view' => "faq",
+            'posts' => $posts,
+        ]);
+    }
 
-}
+
+);

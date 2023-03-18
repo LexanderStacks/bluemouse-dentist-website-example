@@ -47,8 +47,8 @@ Route::get('/blog/detail',
 Route::get('/services', 
     [App\Http\Controllers\PageController::class, 'services']
 );
-Route::get('/medical-detox', 
-    [App\Http\Controllers\PageController::class, 'medicalDetox']
+Route::get('/medical-detox-spa', 
+    [App\Http\Controllers\PageController::class, 'medicalDetoxSpa']
 );
 Route::get('/contact', 
     [App\Http\Controllers\PageController::class, 'contact']
@@ -77,8 +77,8 @@ Route::get('/hygiene',
 Route::get('/about', 
     [App\Http\Controllers\PageController::class, 'about']
 );
-Route::get('/eco-dentist', 
-    [App\Http\Controllers\PageController::class, 'ecoDentist']
+Route::get('/eco-dentistry', 
+    [App\Http\Controllers\PageController::class, 'ecoDentistry']
 );
 Route::get('/faq', 
     [App\Http\Controllers\PageController::class, 'faq']
@@ -88,6 +88,39 @@ Route::get('/privacy',
 );
 Route::get('/imprint', 
     [App\Http\Controllers\PageController::class, 'imprint']
+);
+Route::get('/holistic-dentistry', 
+    [App\Http\Controllers\PageController::class, 'holisticDentistry']
+);
+Route::get('/amalgam-detox', 
+    [App\Http\Controllers\PageController::class, 'amalgamDetox']
+);
+Route::get('/holistic-implants', 
+    [App\Http\Controllers\PageController::class, 'holisticImplants']
+);
+Route::get('/detox', 
+    [App\Http\Controllers\PageController::class, 'detox']
+);
+Route::get('/integrative-dentistry', 
+    [App\Http\Controllers\PageController::class, 'integrativeDentistry']
+);
+Route::get('/jaw-inflammation', 
+    [App\Http\Controllers\PageController::class, 'jawInflammation']
+);
+Route::get('/interference-field-remediation', 
+    [App\Http\Controllers\PageController::class, 'interferenceFieldRemediation']
+);
+Route::get('/paradontal-therapy', 
+    [App\Http\Controllers\PageController::class, 'paradontalTherapy']
+);
+Route::get('/environmental-dentistry', 
+    [App\Http\Controllers\PageController::class, 'environmentalDentistry']
+);
+Route::get('/halitosis', 
+    [App\Http\Controllers\PageController::class, 'halitosis']
+);
+Route::get('/metal-detox', 
+    [App\Http\Controllers\PageController::class, 'metalDetox']
 );
 /* --- ./ PAGES --- */
 
