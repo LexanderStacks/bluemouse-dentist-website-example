@@ -8,7 +8,7 @@
 
                         <div class="d-none d-xl-block">
                             <div class="text-start" style="margin-left: 30px;">
-                                <img class="rounded rounded-3 @if() shadow" src="{{$post->image}}">
+                                <img class="rounded rounded-3 @if($uriTitle == 'materials') shadow @endif" src="{{$post->image}}">
                             </div>
                             <div class="position-absolute bg-light rounded rounded-3 p-3 @if($uriTitle == 'materials') shadow @endif text-end" style="margin-top: -110px; right: 0;">
                                 <h2 class="fw-bold text-primary fs-1">
