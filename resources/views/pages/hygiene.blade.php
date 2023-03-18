@@ -6,7 +6,7 @@
         @foreach($posts as $post)
           <div class="accordion-item">
             <h2 class="accordion-header" id="flush-headingOne-{{$loop->index}}">
-              <button class="accordion-button collapsed fs-3 text-primary" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne-{{$loop->index}}" aria-expanded="@if($loop->first()) true @else false @endif" aria-controls="flush-collapseOne-{{$loop->index}}">
+              <button class="accordion-button collapsed fs-3 text-primary" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne-{{$loop->index}}" aria-expanded="@if($loop->index == 0) true @else false @endif" aria-controls="flush-collapseOne-{{$loop->index}}">
                 {{ $post->title }}
               </button>
             </h2>
