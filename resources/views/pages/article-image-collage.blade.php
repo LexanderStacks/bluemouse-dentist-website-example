@@ -3,7 +3,7 @@
         <div class="container-fluid g-0 mx-0 px-0">
             <div class="row py-5 text-center text-xl-start">
                 <div class="col-xl-1"></div>
-                <div id="article-image-collage-post-{{$loop->index}}-{{$post->slug}}" class="col-xl-7">
+                <div id="article-image-collage-post-{{$loop->index}}-{{$post->slug}}" class="col-xl-7 @if($loop->index == 0) mt-3 @endif">
                     <div class="position-relative p-3">
 
                         <div class="d-none d-xl-block">
@@ -19,7 +19,7 @@
 
                         <div class="d-block d-xl-none text-center">
                             <div class="text-center">
-                                <img class="rounded rounded-3 @if($imageType == 'small') shadow  border border-white border-5 @endif" src="{{$post->image}}">
+                                <img class="rounded rounded-3 @if($imageType == 'small') shadow  border border-white border-5 mt-2 @endif" src="{{$post->image}}">
                             </div>
                             <div class="@if($imageType != 'normal') position-absolute @endif bg-light rounded rounded-3 p-3 shadow text-center" style="@if($imageType == 'small') margin-top: -200px; width:  calc(100% - 2rem); @elseif($imageType == 'normal') margin-top: 20px; width:  calc(100%); @else margin-top: -110px; margin-right: 1rem; @endif">
                                 <h2 class="fw-bold text-primary fs-1">
@@ -57,7 +57,7 @@
 
                         <div class="d-block d-xl-none text-center">
                             <div class="text-center">
-                                <img class="rounded rounded-3 @if($imageType == 'small') shadow  border border-white border-5 @endif" src="{{$post->image}}">
+                                <img class="rounded rounded-3 @if($imageType == 'small') shadow  border border-white border-5 mt-2 @endif" src="{{$post->image}}">
                             </div>
                             <div class="@if($imageType != 'normal') position-absolute @endif bg-light rounded rounded-3 p-3 shadow text-center" style="@if($imageType == 'small') margin-top: -200px;  width:  calc(100% - 2rem); @elseif($imageType == 'normal') margin-top: 20px; width:  calc(100%); @else margin-top: -110px; margin-right: 1rem; @endif">
                                 <h2 class="fw-bold text-primary fs-1">
