@@ -22,14 +22,14 @@
                                 <img class="rounded rounded-3 @if($imageType == 'small') shadow @endif" src="{{$post->image}}">
                             </div>
                             <div class="position-absolute bg-light rounded rounded-3 p-3 shadow text-center" style="@if($imageType == 'small') margin-top: -200px; width:  calc(100% - 2rem); @elseif($imageType == 'normal') margin-top: -20px; width:  calc(100% - 2rem); @else margin-top: -110px; margin-right: 1rem; @endif">
-                                <h2 class="fw-bold text-primary fs-1 @if($imageType == 'normal') mt-5 pt-5 @endif">
+                                <h2 class="fw-bold text-primary fs-1">
                                     {!! $post->title !!}
                                 </h2>
                             </div>
                         </div>
 
                     </div>
-                    <div class="bg-white shadow p-3 rounded rounded-3 mt-2 text-black text-start" style="color: black;">
+                    <div class="bg-white shadow @if($imageType == 'normal') mt-5 pt-5 px-3 pb-3 @else p-3 mt-2 @endif rounded rounded-3 text-black text-start" style="color: black;">
                         {!! $post->content !!}
                     </span>
                 </div>
@@ -67,7 +67,7 @@
                         </div>
 
                     </div>
-                    <div class="bg-white shadow p-3 rounded rounded-3 mt-2 text-start" style="color: black;">
+                    <div class="bg-white shadow @if($imageType == 'normal') mt-5 pt-5 px-3 pb-3 @else p-3 mt-2 @endif rounded rounded-3 text-start" style="color: black;">
                         {!! $post->content !!}
                     </span>
                 </div>

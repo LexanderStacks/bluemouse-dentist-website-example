@@ -17,7 +17,7 @@ class PageController extends Controller
     }
     public function cooperations()
     {
-        $posts = \App\Models\Post::published()->type('cooperation')->with('attachment')->get();
+        $posts = \App\Models\Post::published()->type('cooperation')->with('attachment')->orderBy('menu_order')->get();
         return view('layouts.app', [
             'page' => "pages.index",
             'title' => "Kooperationen",
@@ -127,7 +127,7 @@ class PageController extends Controller
     }
     public function materials()
     {
-        $posts = \App\Models\Post::published()->type('material')->with('attachment')->get();
+        $posts = \App\Models\Post::published()->type('material')->with('attachment')->orderBy('menu_order')->get();
         return view('layouts.app', [
             'page' => "pages.index",
             'title' => "Materialien",
@@ -138,7 +138,7 @@ class PageController extends Controller
     }
     public function hygiene()
     {
-        $posts = \App\Models\Post::published()->type('hygiene')->with('attachment')->get();
+        $posts = \App\Models\Post::published()->type('hygiene')->with('attachment')->orderBy('menu_order')->get();
         return view('layouts.app', [
             'page' => "pages.index",
             'title' => "Hygienemaßnahmen",
