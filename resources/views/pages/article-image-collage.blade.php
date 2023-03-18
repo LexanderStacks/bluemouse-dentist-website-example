@@ -29,7 +29,7 @@
                         </div>
 
                     </div>
-                    <div class="bg-white shadow p-3 mt-1 mt-xl-2  mx-3 rounded rounded-3 text-black text-start" style="color: black;">
+                    <div class="bg-white shadow p-3 mt-1 mt-xl-2 mx-3 mx-md-0 rounded rounded-3 text-black text-start" style="color: black;">
                         {!! $post->content !!}
                     </span>
                 </div>
@@ -67,7 +67,7 @@
                         </div>
 
                     </div>
-                    <div class="bg-white shadow p-3 mt-1 mt-xl-2 rounded rounded-3 text-start mx-3" style="color: black;">
+                    <div class="bg-white shadow p-3 mt-1 mt-xl-2 rounded rounded-3 text-start mx-3 mx-md-0" style="color: black;">
                         {!! $post->content !!}
                     </span>
                 </div>
