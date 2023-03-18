@@ -252,7 +252,7 @@ li.hover-no-underline:hover{
                     FirstBioDent
                 </a>
                 &nbsp;
-                Schadowstraße 11B · 240212 Düsseldorf
+                Schadowstraße 11B · 240212 Düsseldorfs
                 &nbsp;
                 <a href="mailto:info@firstbiodent.de">
                     info@firstbiodent.de
