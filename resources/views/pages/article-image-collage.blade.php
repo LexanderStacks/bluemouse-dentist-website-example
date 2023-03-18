@@ -21,7 +21,7 @@
                             <div class="text-center">
                                 <img class="rounded rounded-3 @if($imageType == 'small') shadow @endif" src="{{$post->image}}">
                             </div>
-                            <div class="position-absolute bg-light rounded rounded-3 p-3 shadow text-center" style="@if($imageType == 'small') margin-top: -200px; width:  calc(100% - 2rem); @elseif($imageType == 'normal') margin-top: 20px; width:  calc(100%); @else margin-top: -110px; margin-right: 1rem; @endif">
+                            <div class="@if($imageType != 'normal') position-absolute @endif bg-light rounded rounded-3 p-3 shadow text-center" style="@if($imageType == 'small') margin-top: -200px; width:  calc(100% - 2rem); @elseif($imageType == 'normal') margin-top: 20px; width:  calc(100%); @else margin-top: -110px; margin-right: 1rem; @endif">
                                 <h2 class="fw-bold text-primary fs-1">
                                     {!! $post->title !!}
                                 </h2>
