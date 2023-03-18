@@ -13,8 +13,8 @@
     </div>
     @if(!is_null($btnUri))
     	@if(!is_null($btnTitle))
-	    <div class="row px-3 px-xl-5">
-	        <div class="col-12 text-end py-2">
+	    <div class="row px-3 px-xl-5 pb-3">
+	        <div class="col-12 text-end pt-2 pb-5">
 	            <a href="{{$btnUri}}" class="btn btn-primary mt-3">
 	                {{$btnTitle}}
 	            </a>                 
