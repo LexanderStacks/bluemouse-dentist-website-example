@@ -12,7 +12,7 @@ class PageController extends Controller
         return view('layouts.app', [
             'page' => "pages.index",
             'title' => "Publikationen",
-            'uri' => "publications"
+            'view' => "publications"
         ]);
     }
     public function cooperations()
@@ -21,7 +21,7 @@ class PageController extends Controller
         return view('layouts.app', [
             'page' => "pages.index",
             'title' => "Kooperationen",
-            'uri' => "article-image-collage",
+            'view' => "article-image-collage",
             'imageType' => "round",
             'posts' => $posts,
         ]);
@@ -31,7 +31,7 @@ class PageController extends Controller
         return view('layouts.app', [
             'page' => "pages.index",
             'title' => "Dr. med. dent. Hansjörg Lammers",
-            'uri' => "team.main-doc"
+            'view' => "team.main-doc"
         ]);
     }
     public function secondDoc()
@@ -39,7 +39,7 @@ class PageController extends Controller
         return view('layouts.app', [
             'page' => "pages.index",
             'title' => "Dr. Jan Chalupa",
-            'uri' => "team.second-doc"
+            'view' => "team.second-doc"
         ]);
     }
     public function blogHome()
@@ -47,7 +47,7 @@ class PageController extends Controller
         return view('layouts.app', [
             'page' => "pages.index",
             'title' => "Blog",
-            'uri' => "blog.index"
+            'view' => "blog.index"
         ]);
     }
     public function blogDetail()
@@ -55,7 +55,7 @@ class PageController extends Controller
         return view('layouts.app', [
             'page' => "pages.index",
             'title' => "Blogbeitrag",
-            'uri' => "blog.detail"
+            'view' => "blog.detail"
         ]);
     }
     public function services()
@@ -63,7 +63,7 @@ class PageController extends Controller
         return view('layouts.app', [
             'page' => "pages.index",
             'title' => "Leistungen",
-            'uri' => "services.index"
+            'view' => "services.index"
         ]);
     }
     public function medicalDetox()
@@ -71,7 +71,7 @@ class PageController extends Controller
         return view('layouts.app', [
             'page' => "pages.index",
             'title' => "MedicalDetox SPA",
-            'uri' => "medical-detox"
+            'view' => "medical-detox"
         ]);
     }
     public function contact()
@@ -79,7 +79,7 @@ class PageController extends Controller
         return view('layouts.app', [
             'page' => "pages.index",
             'title' => "Kontakt",
-            'uri' => "contact"
+            'view' => "contact"
         ]);
     }
     public function contactOnline()
@@ -87,7 +87,7 @@ class PageController extends Controller
         return view('layouts.app', [
             'page' => "pages.index",
             'title' => "Online Termin",
-            'uri' => "contact-online"
+            'view' => "contact-online"
         ]);
     }
     public function aboutCovid()
@@ -95,7 +95,7 @@ class PageController extends Controller
         return view('layouts.app', [
             'page' => "pages.index",
             'title' => "Interessantes zu Covid-19",
-            'uri' => "about-covid"
+            'view' => "about-covid"
         ]);
     }
     public function covidTherapy()
@@ -104,7 +104,7 @@ class PageController extends Controller
         return view('layouts.app', [
             'page' => "pages.index",
             'title' => "Long Term Covid",
-            'uri' => "covid-therapy",
+            'view' => "page",
             'post' => $post,
         ]);
     }
@@ -113,7 +113,7 @@ class PageController extends Controller
         return view('layouts.app', [
             'page' => "pages.index",
             'title' => "Rückentraining",
-            'uri' => "backup"
+            'view' => "backup"
         ]);
     }
     public function references()
@@ -122,7 +122,7 @@ class PageController extends Controller
         return view('layouts.app', [
             'page' => "pages.index",
             'title' => "Referenzen",
-            'uri' => "article-image-collage",
+            'view' => "article-image-collage",
             'imageType' => "normal",
             'posts' => $posts,
         ]);
@@ -133,7 +133,7 @@ class PageController extends Controller
         return view('layouts.app', [
             'page' => "pages.index",
             'title' => "Materialien",
-            'uri' => "article-image-collage",
+            'view' => "article-image-collage",
             'imageType' => "small",
             'posts' => $posts,
         ]);
@@ -144,7 +144,7 @@ class PageController extends Controller
         return view('layouts.app', [
             'page' => "pages.index",
             'title' => "Hygienemaßnahmen",
-            'uri' => "hygiene",
+            'view' => "hygiene",
             'posts' => $posts,
         ]);
     }
@@ -153,7 +153,7 @@ class PageController extends Controller
         return view('layouts.app', [
             'page' => "pages.index",
             'title' => "Über Uns",
-            'uri' => "about"
+            'view' => "about"
         ]);
     }
     public function ecoDentist()
@@ -161,7 +161,7 @@ class PageController extends Controller
         return view('layouts.app', [
             'page' => "pages.index",
             'title' => "Bio-Zahnmedizin",
-            'uri' => "eco-dentist"
+            'view' => "eco-dentist"
         ]);
     }
     public function faq()
@@ -170,7 +170,7 @@ class PageController extends Controller
         return view('layouts.app', [
             'page' => "pages.blog-page",
             'title' => "FAQ",
-            'uri' => "faq",
+            'view' => "faq",
             'posts' => $posts,
         ]);
     }
@@ -179,7 +179,7 @@ class PageController extends Controller
         return view('layouts.app', [
             'page' => "pages.index",
             'title' => "Privatsphäre Richtlinien",
-            'uri' => "privacy"
+            'view' => "privacy"
         ]);
     }
     public function imprint()
@@ -187,7 +187,7 @@ class PageController extends Controller
         return view('layouts.app', [
             'page' => "pages.index",
             'title' => "Impressum",
-            'uri' => "imprint"
+            'view' => "imprint"
         ]);
     }
 
