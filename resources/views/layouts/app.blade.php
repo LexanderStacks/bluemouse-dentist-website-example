@@ -54,7 +54,7 @@
         <link rel="stylesheet" href="/template-assets/css/responsive.css">
         -->
         
-        <title>Grin - Medical Health & Dental Clinic HTML Template</title>
+        <title>FirstBioDent</title>
 
         <link rel="icon" type="image/png" href="/template-assets/images/favicon.png">
         <!-- --- --- --- ./ TEMPLAGE --- --- --- -->
