@@ -244,8 +244,7 @@ li.hover-no-underline:hover{
                 <a href="mailto:info@firstbiodent.de">
                     info@firstbiodent.de
                 </a>
-                &nbsp;
-                WebsApps
+                &nbsp; Web: <span class="text-black">WebsApps</span>
             </p>
             <p class="d-block d-lg-none pb-3 pb-xl-1" style="padding-top: 45px;">
                 © 2022
@@ -259,8 +258,7 @@ li.hover-no-underline:hover{
                 <a href="mailto:info@firstbiodent.de">
                     info@firstbiodent.de
                 </a>
-                &nbsp;
-                WebsApps
+                &nbsp; Web: <span class="text-black">WebsApps</span>
             </p>
 
         </div>
