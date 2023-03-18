@@ -21,7 +21,7 @@
                             <div class="text-center">
                                 <img class="rounded rounded-3 @if($uriTitle == 'materials') shadow @endif" src="{{$post->image}}">
                             </div>
-                            <div class="position-absolute bg-light rounded rounded-3 p-3 shadow text-center" style="@if($uriTitle == 'materials') margin-top: -180px; @else margin-top: -110px; @endif">
+                            <div class="position-absolute bg-light rounded rounded-3 p-3 shadow text-center" style="@if($uriTitle == 'materials') margin-top: -200px; width:  100%; @else margin-top: -110px; @endif">
                                 <h2 class="fw-bold text-primary fs-1">
                                     {!! $post->title !!}
                                 </h2>
@@ -59,7 +59,7 @@
                             <div class="text-center">
                                 <img class="rounded rounded-3 @if($uriTitle == 'materials') shadow @endif" src="{{$post->image}}">
                             </div>
-                            <div class="position-absolute bg-light rounded rounded-3 p-3 shadow text-start" style="@if($uriTitle == 'materials') margin-top: -180px; @else margin-top: -110px; @endif">
+                            <div class="position-absolute bg-light rounded rounded-3 p-3 shadow text-start" style="@if($uriTitle == 'materials') margin-top: -200px;  width:  100%; @else margin-top: -110px; @endif">
                                 <h2 class="fw-bold text-primary fs-1">
                                     {!! $post->title !!}
                                 </h2>
