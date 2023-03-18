@@ -13,4 +13,3 @@
 </div>
 <!-- End Page Banner -->
 @include('pages.'.$view, array('title'=>$title))
-@include('pages.includes.footer')
