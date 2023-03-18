@@ -180,10 +180,10 @@
                                             <a href="/amalgam-detox" class="nav-link">Amalgam Sanierung</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a href="/holistic-implants" class="nav-link">Ganzheitliche Zahnimplantate</a>
+                                            <a href="/holistic-implants" class="nav-link" disabled>Ganzheitliche Zahnimplantate</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a href="/detox" class="nav-link">Detox</a>
+                                            <a href="/detox" class="nav-link" disabled>Detox</a>
                                         </li>
                                         <li class="nav-item">
                                             <a href="/integrative-dentistry" class="nav-link">Integrative Zahnmedizin</a>
