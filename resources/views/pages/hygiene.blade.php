@@ -1,5 +1,5 @@
 <div class="container-fluid">
-  <div class="row">
+  <div class="row p-5">
     <div class="col-12">
 
       <div class="accordion accordion-flush" id="accordionFlushExample">
@@ -18,7 +18,7 @@
           </div>
           @endforeach
       </div>
-      
-      <div class="col-12">
+
     </div>
+  </div>
 </div>
