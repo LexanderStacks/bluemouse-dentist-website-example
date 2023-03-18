@@ -19,7 +19,7 @@
 
                         <div class="d-block d-xl-none text-center">
                             <div class="text-center">
-                                <img src="{{$post->image}}">
+                                <img class="rounded rounded-3 @if($uriTitle == 'materials') shadow @endif" src="{{$post->image}}">
                             </div>
                             <div class="position-absolute bg-light rounded rounded-3 p-3 shadow text-center" style="margin-top: -110px;">
                                 <h2 class="fw-bold text-primary fs-1">
@@ -46,9 +46,9 @@
 
                         <div class="d-none d-xl-block">
                             <div class="text-end" style="margin-right: 30px;">
-                                <img class="rounded rounded-3 shadow" src="{{$post->image}}">
+                                <img class="rounded rounded-3 @if($uriTitle == 'materials') shadow @endif" src="{{$post->image}}">
                             </div>
-                            <div class="position-absolute bg-light rounded rounded-3 p-3 @if($uriTitle == 'materials') shadow @endif text-start" style="margin-top: -110px; margin-left: -16px;">
+                            <div class="position-absolute bg-light rounded rounded-3 p-3 shadow text-start" style="margin-top: -110px; margin-left: -16px;">
                                 <h2 class="fw-bold text-primary fs-1">
                                     {!! $post->title !!}
                                 </h2>
@@ -57,7 +57,7 @@
 
                         <div class="d-block d-xl-none text-center">
                             <div class="text-center">
-                                <img src="{{$post->image}}">
+                                <img class="rounded rounded-3 @if($uriTitle == 'materials') shadow @endif" src="{{$post->image}}">
                             </div>
                             <div class="position-absolute bg-light rounded rounded-3 p-3 shadow text-start" style="margin-top: -110px;">
                                 <h2 class="fw-bold text-primary fs-1">
