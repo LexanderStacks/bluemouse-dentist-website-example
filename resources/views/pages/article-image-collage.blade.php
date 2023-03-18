@@ -11,7 +11,7 @@
                                 <img class="rounded rounded-3 @if($imageType == 'small') shadow @endif" src="{{$post->image}}">
                             </div>
                             <div class="position-absolute bg-light rounded rounded-3 p-3 shadow text-end" style="margin-top: -110px; right: 0;">
-                                <h2 class="fw-bold text-primary @if($imageType == 'normal') fs-2 @else fs-1 @endif">
+                                <h2 class="fw-bold text-primary @if($imageType == 'normal') fs-1 @else fs-1 @endif">
                                     {!! $post->title !!}
                                 </h2>
                             </div>
@@ -49,7 +49,7 @@
                                 <img class="rounded rounded-3 @if($imageType == 'small') shadow @endif" src="{{$post->image}}">
                             </div>
                             <div class="position-absolute bg-light rounded rounded-3 p-3 shadow text-start" style="margin-top: -110px; margin-left: -16px;">
-                                <h2 class="fw-bold text-primary @if($imageType == 'normal') fs-2 @else fs-1 @endif">
+                                <h2 class="fw-bold text-primary @if($imageType == 'normal') fs-1 @else fs-1 @endif">
                                     {!! $post->title !!}
                                 </h2>
                             </div>
