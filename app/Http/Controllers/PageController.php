@@ -121,7 +121,7 @@ class PageController extends Controller
             'page' => "pages.index",
             'title' => "Referenzen",
             'uri' => "article-image-collage",
-            'imageType' => "small",
+            'imageType' => "normal",
             'posts' => $posts,
         ]);
     }
