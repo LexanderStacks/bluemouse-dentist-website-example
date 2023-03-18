@@ -23,4 +23,8 @@
 	    </div>
 	    @endif
     @endif
+    <div class="row my-3">
+    	<div class="col-12">
+    	</div>
+	</div>
 </div>
