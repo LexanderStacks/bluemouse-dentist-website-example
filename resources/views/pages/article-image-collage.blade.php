@@ -29,7 +29,7 @@
                         </div>
 
                     </div>
-                    <div class="bg-white shadow @if($imageType == 'normal') mt-5 pt-5 px-3 pb-3 @else p-3 mt-2 @endif rounded rounded-3 text-black text-start" style="color: black;">
+                    <div class="bg-white shadow p-3 mt-2  rounded rounded-3 text-black text-start" style="color: black; @if($imageType == 'normal') margin-top: 100px; @endif">
                         {!! $post->content !!}
                     </span>
                 </div>
@@ -67,7 +67,7 @@
                         </div>
 
                     </div>
-                    <div class="bg-white shadow @if($imageType == 'normal') mt-5 pt-5 px-3 pb-3 @else p-3 mt-2 @endif rounded rounded-3 text-start" style="color: black;">
+                    <div class="bg-white shadow p-3 mt-2 rounded rounded-3 text-start" style="color: black; @if($imageType == 'normal') margin-top: 100px; @endif">
                         {!! $post->content !!}
                     </span>
                 </div>
