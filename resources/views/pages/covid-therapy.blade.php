@@ -5,7 +5,7 @@
 				{{ $post->title }}
 			</h2>
     	</div>
-    	<div class="col-12">
+    	<div class="col-12 mt-3">
 			<div>
 				{!! $post->content !!}
 			</div>
