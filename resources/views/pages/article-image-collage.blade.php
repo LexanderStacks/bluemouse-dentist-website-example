@@ -8,7 +8,7 @@
 
                         <div class="d-none d-xl-block">
                             <div class="text-start" style="margin-left: 30px;">
-                                <img class="rounded rounded-3 @if($imageType == 'small') shadow  border border-primary border-5 @endif" src="{{$post->image}}">
+                                <img class="rounded rounded-3 @if($imageType == 'small') shadow  border border-white border-5 @endif" src="{{$post->image}}">
                             </div>
                             <div class="position-absolute bg-light rounded rounded-3 p-3 shadow text-end" style="margin-top: -110px; right: 0;">
                                 <h2 class="fw-bold text-primary @if($imageType == 'normal') fs-1 @else fs-1 @endif">
@@ -19,7 +19,7 @@
 
                         <div class="d-block d-xl-none text-center">
                             <div class="text-center">
-                                <img class="rounded rounded-3 @if($imageType == 'small') shadow  border border-primary border-5 @endif" src="{{$post->image}}">
+                                <img class="rounded rounded-3 @if($imageType == 'small') shadow  border border-white border-5 @endif" src="{{$post->image}}">
                             </div>
                             <div class="@if($imageType != 'normal') position-absolute @endif bg-light rounded rounded-3 p-3 shadow text-center" style="@if($imageType == 'small') margin-top: -200px; width:  calc(100% - 2rem); @elseif($imageType == 'normal') margin-top: 20px; width:  calc(100%); @else margin-top: -110px; margin-right: 1rem; @endif">
                                 <h2 class="fw-bold text-primary fs-1">
@@ -46,7 +46,7 @@
 
                         <div class="d-none d-xl-block">
                             <div class="text-end" style="margin-right: 30px;">
-                                <img class="rounded rounded-3 @if($imageType == 'small') shadow border border-primary border-5 @endif" src="{{$post->image}}">
+                                <img class="rounded rounded-3 @if($imageType == 'small') shadow border border-white border-5 @endif" src="{{$post->image}}">
                             </div>
                             <div class="position-absolute bg-light rounded rounded-3 p-3 shadow text-start" style="margin-top: -110px; margin-left: -16px;">
                                 <h2 class="fw-bold text-primary @if($imageType == 'normal') fs-1 @else fs-1 @endif">
@@ -57,7 +57,7 @@
 
                         <div class="d-block d-xl-none text-center">
                             <div class="text-center">
-                                <img class="rounded rounded-3 @if($imageType == 'small') shadow  border border-primary border-5 @endif" src="{{$post->image}}">
+                                <img class="rounded rounded-3 @if($imageType == 'small') shadow  border border-white border-5 @endif" src="{{$post->image}}">
                             </div>
                             <div class="@if($imageType != 'normal') position-absolute @endif bg-light rounded rounded-3 p-3 shadow text-center" style="@if($imageType == 'small') margin-top: -200px;  width:  calc(100% - 2rem); @elseif($imageType == 'normal') margin-top: 20px; width:  calc(100%); @else margin-top: -110px; margin-right: 1rem; @endif">
                                 <h2 class="fw-bold text-primary fs-1">
