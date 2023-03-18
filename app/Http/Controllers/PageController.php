@@ -106,6 +106,9 @@ class PageController extends Controller
             'title' => "Long Term Covid",
             'view' => "page",
             'post' => $post,
+            'btnTite' => 'Interessantes zu Covid-19',
+            'btnUri' => '/about-covid'
+
         ]);
     }
     public function backup()
