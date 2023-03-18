@@ -176,10 +176,12 @@ class PageController extends Controller
     }
     public function privacy()
     {
+        $post = \App\Models\Post::taxonomy('category', 'privacy')->published()->with('attachment')->firstOrFail();
         return view('layouts.app', [
             'page' => "pages.index",
             'title' => "Privatsphäre Richtlinien",
-            'view' => "privacy"
+            'view' => "page",
+            'post' => $post,
         ]);
     }
     public function imprint()
