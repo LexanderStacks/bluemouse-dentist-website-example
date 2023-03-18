@@ -77,4 +77,10 @@
         </div>
     @endif
 @endforeach 
+<div class="container-fluid g-0 mx-0 px-0 py-5">
+    <div class="row">
+        <div class="col-12 my-4">
+        </div>
+    </div>
+</div>
 <!-- ./ Materials -->
