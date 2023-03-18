@@ -135,10 +135,12 @@ class PageController extends Controller
     }
     public function hygiene()
     {
+        $posts = \App\Models\Post::published()->type('hygiene')->with('attachment')->get();
         return view('layouts.app', [
             'page' => "pages.index",
             'title' => "Hygienemaßnahmen",
-            'uri' => "hygiene"
+            'uri' => "hygiene",
+            'posts' => $posts,
         ]);
     }
     public function about()
