@@ -21,7 +21,8 @@ class PageController extends Controller
         return view('layouts.app', [
             'page' => "pages.index",
             'title' => "Kooperationen",
-            'uri' => "cooperations",
+            'uri' => "article-image-collage",
+            'uriTitle' => "cooperations",
             'posts' => $posts,
         ]);
     }
@@ -127,7 +128,8 @@ class PageController extends Controller
         return view('layouts.app', [
             'page' => "pages.index",
             'title' => "Materialien",
-            'uri' => "materials",
+            'uri' => "article-image-collage",
+            'uriTitle' => "materials",
             'posts' => $posts,
         ]);
     }
