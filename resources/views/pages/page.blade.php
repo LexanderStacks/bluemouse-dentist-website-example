@@ -11,6 +11,7 @@
 			</div>
     	</div>
     </div>
+    @php if(!isset($btnUri) && !isset($btnTitle)) {$btnUri = null; $btnTitle = null;} @endphp
     @if(!is_null($btnUri))
     	@if(!is_null($btnTitle))
 	    <div class="row px-3 px-xl-5 pb-3">
