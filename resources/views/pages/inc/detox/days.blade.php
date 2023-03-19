@@ -22,7 +22,7 @@
       </div>
     </div>
     <div class="col-12">
-      <p class="text-black">
+      <p class="text-black fs-5 pt-2">
         Der obige Wochenplan veranschaulicht beispielhaft eine Therapiewoche. Natürlich wird in der Realität alles den Patientenbedürfnissen angepasst.
       </p>
     </div>
