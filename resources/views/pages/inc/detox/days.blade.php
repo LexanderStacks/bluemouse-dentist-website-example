@@ -15,7 +15,6 @@
               <p class="card-text">{!! $element->content !!}</p>
             </div>
             <div class="card-footer">
-              <small class="text-muted"></small>
             </div>
           </div>
         </div>
