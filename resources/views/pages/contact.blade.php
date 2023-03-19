@@ -28,8 +28,8 @@
                 <div class="col-md-6 form-group mt-3 mt-md-0">
                     <input data-error="Dies ist ein Pflichtfeld" type="tel" class="form-control bg-white shadow" name="phone" id="phone" placeholder="Telefonnummer" required>
                 </div>
-                <div class="col-md-6 form-group mt-3 mt-md-0">
-                  <select class="form-select bg-white shadow" id="subject" name="subject" required>
+                <div class="col-md-6 mt-3 mt-md-0">
+                  <select class="form-select bg-white shadow" id="subject" name="subject" required style="max-height: 380px; overflow-y: scroll;">
                     <option value="Anliegen nicht geschildert">Anliegen</option>
                     <option value="3-D-Röntgen (DVT)">3-D-Röntgen (DVT)</option>
                     <option value="abgebrochener Zahn">abgebrochener Zahn</option>
