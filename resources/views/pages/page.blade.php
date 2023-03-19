@@ -32,6 +32,8 @@
     <!-- manual special sections -->
     @if($post->slug == 'detox')
     	@include('pages.inc.detox.comparison')
+    	@include('pages.inc.detox.days')
+    	@include('pages.inc.second-post', ['secondPost' => $secondPost])
 	@endif
     <!-- ./ manual special sections -->
 

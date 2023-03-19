@@ -233,11 +233,13 @@ class PageController extends Controller
     public function detox()
     {
         $post = \App\Models\Post::type('page')->slug('detox')->published()->with('attachment')->firstOrFail();
+        $secondPost = \App\Models\Post::type('page')->slug('detox-2')->published()->with('attachment')->firstOrFail();
         return view('layouts.app', [
             'page' => "pages.index",
             'title' => "Detox",
             'view' => "page",
             'post' => $post,
+            'secondPost' => $secondPost,
         ]);
     }
     public function integrativeDentistry()
