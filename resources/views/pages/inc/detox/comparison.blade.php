@@ -37,7 +37,7 @@
               <div class="card-body">
                 <h5 class="card-title text-danger">Toter Zahn</h5>
                 <p class="card-text">
-                  Die Entgiftungswoche ist ein einzigartiges, speziell auf die Patienten der FirstBioDent-Tagesclinic von Dr. Lammers & Kollegen zugeschnittenes erprobtes Therapiekonzept seit fast 30 Jahren. Das Behandlungsschema orientiert sich an der Vorgehensweise der Umweltmedizin und der amerikanischen Funktionellen Medizin, die Spezialisten, wie Prof. William Rea/Dallas und Prof. Jeffrey Bland/Gig Harbour Herrn Dr. Lammers vor über 25 Jahren beigebracht haben.
+                  Die Entgiftungswoche ist ein speziell auf die Patienten von FirstBioDent (Dr. Lammers & Kollegen) zugeschnittenes Therapiekonzept, das seit fast 30 Jahren besteht. Das Behandlungsschema orientiert sich an der Vorgehensweise der Umweltmedizin und der amerikanischen Funktionellen Medizin, die Spezialisten, wie Prof. William Rea/Dallas und Prof. Jeffrey Bland/Gig Harbour Herrn Dr. Lammers vor über 25 Jahren beigebracht haben.
                 </p>
                 <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
               </div>
