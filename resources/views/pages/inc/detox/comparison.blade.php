@@ -23,7 +23,7 @@
         </div>
       </div>
       <div>
-        <div class="card mb-3" style="max-width: 540px; border: none;">
+        <div class="card mb-3 shadow" style="max-width: 540px; border: none;">
           <div class="row g-0">
             <div class="col-md-4">
               <img src="/images/toter-zahn.png" class="img-fluid rounded-start" alt="...">
