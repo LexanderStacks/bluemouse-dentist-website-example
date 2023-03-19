@@ -226,6 +226,7 @@ class PageController extends Controller
             'view' => "page",
             'post' => $post,
             'imgAttachment' => true,
+            'imgType' => 'normal',
             'pdfAttachmentTitle' => 'zertifikat_zeramex',
         ]);
     }
