@@ -1,9 +1,11 @@
 <style>
 .maxwidth {
   max-width:100% !important;
+  width:100% !important;
 }
 
 .maxwidth > option {
+  width:100% !important;
   max-width:100% !important;
   background: #fff;
   color: #000;
