@@ -14,8 +14,6 @@
                <h3 class="card-title fs-2 text-primary">{{$element->title}}</h3>
               <p class="card-text">{!! $element->content !!}</p>
             </div>
-            <div class="card-footer">
-            </div>
           </div>
         </div>
         @endforeach
