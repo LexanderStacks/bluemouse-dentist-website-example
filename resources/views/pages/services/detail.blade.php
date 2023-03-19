@@ -7,7 +7,7 @@
         </div>
         <div class="col-6 position-relative text-end h-100">
             <div class="row h-100 bg-white px-3 py-2 shadow align-items-center" style="display: inline-block;">
-                <h2 class="fs-1 text-primary">{{ $post->title }}</h2>
+                <h2 class="text-primary" style="font-size: 2.8em;">{{ $post->title }}</h2>
             </div>
         </div>
         <div class="col-12 mt-3">
