@@ -76,7 +76,7 @@ class PageController extends Controller
             'view' => "article-image-collage",
             'imageType' => "round",
             'posts' => $posts,
-            'secondPosts' => $secondPost,
+            'secondPost' => $secondPost,
         ]);
     }
     public function contact()
