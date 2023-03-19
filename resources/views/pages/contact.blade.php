@@ -18,18 +18,18 @@
             @csrf
             <div class="row">
                 <div class="col-md-6 form-group">
-                    <input data-error="Dies ist ein Pflichtfeld" type="text" name="name" class="form-control bg-white" id="name" placeholder="Ihr voller Name" value="" required>
+                    <input data-error="Dies ist ein Pflichtfeld" type="text" name="name" class="form-control bg-white shadow" id="name" placeholder="Ihr voller Name" value="" required>
                 </div>
                 <div class="col-md-6 form-group mt-3 mt-md-0">
-                    <input data-error="Dies ist ein Pflichtfeld" type="email" class="form-control bg-white" name="email" id="email" placeholder="Ihre Email" required>
+                    <input data-error="Dies ist ein Pflichtfeld" type="email" class="form-control bg-white shadow" name="email" id="email" placeholder="Ihre Email" required>
                 </div>
             </div>
             <div class="row mt-3">
                 <div class="col-md-6 form-group mt-3 mt-md-0">
-                    <input data-error="Dies ist ein Pflichtfeld" type="tel" class="form-control bg-white" name="phone" id="phone" placeholder="Telefonnummer" required>
+                    <input data-error="Dies ist ein Pflichtfeld" type="tel" class="form-control bg-white shadow" name="phone" id="phone" placeholder="Telefonnummer" required>
                 </div>
                 <div class="col-md-6 form-group mt-3 mt-md-0">
-                  <select class="form-select bg-white" id="subject" name="subject" required>
+                  <select class="form-select bg-white shadow" id="subject" name="subject" required>
                     <option value="Anliegen nicht geschildert">Anliegen</option>
                     <option value="3-D-Röntgen (DVT)">3-D-Röntgen (DVT)</option>
                     <option value="abgebrochener Zahn">abgebrochener Zahn</option>
@@ -54,7 +54,7 @@
                 </div>
             </div>
             <div class="form-group mt-3">
-                <textarea class="form-control bg-white" name="message" rows="5" placeholder="Mitteilung" required></textarea>
+                <textarea class="form-control bg-white shadow" name="message" rows="5" placeholder="Mitteilung" required></textarea>
             </div>
             <div class="text-center mt-3">
                 <input id="submit-request-btn" class="btn btn-lg btn-primary" type="submit" value="Abschicken">
