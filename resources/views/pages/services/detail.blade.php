@@ -7,7 +7,12 @@
         </div>
         <div class="col-xl-6 position-relative text-center text-xl-end h-100">
             <div class="row h-100 align-items-center">
-                <h2 class="text-primary bg-white px-3 py-2 shadow" style="font-size: 2.8em;">{{ $post->title }}</h2>
+                <div class="d-none d-xl-block">
+                    <h2 class="text-primary bg-white px-3 py-2 shadow" style="font-size: 2.8em;">{{ $post->title }}</h2>
+                </div>
+                <div class="d-none d-xl-block">
+                    <h2 class="text-primary bg-white px-3 py-2 shadow" style="font-size: 1.4em;">{{ $post->title }}</h2>
+                </div>
             </div>
         </div>
         <div class="col-12 mt-3">
