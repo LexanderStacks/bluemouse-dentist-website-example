@@ -29,6 +29,10 @@
     @endif
     <!-- ./ attached image -->
 
+    <!-- service contact -->
+    @include('pages.inc.service-contact')
+    <!-- ./ service contact -->
+
     <!-- attached btn -->
     @php if(!isset($btnUri) && !isset($btnTitle)) {$btnUri = null; $btnTitle = null;} @endphp
     @if(!is_null($btnUri))
