@@ -17,7 +17,7 @@ class PageController extends Controller
     }
     public function cooperations()
     {
-        $posts = \App\Models\Post::published()->type('cooperation')->with('attachment')->orderBy('menu_order')->get();
+        $posts = \App\Models\Post::published()->type('spa-elements')->with('attachment')->orderBy('menu_order')->get();
         return view('layouts.app', [
             'page' => "pages.index",
             'title' => "Kooperationen",
