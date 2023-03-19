@@ -84,7 +84,9 @@ class PageController extends Controller
         return view('layouts.app', [
             'page' => "pages.index",
             'title' => "Kontakt",
-            'view' => "contact"
+            'view' => "contact",
+            'alertTitle' => null,
+            'alertMessage' => null,
         ]);
     }
     public function contactOnline()
