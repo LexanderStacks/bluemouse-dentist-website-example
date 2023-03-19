@@ -323,7 +323,7 @@ class PageController extends Controller
         return view('layouts.app', [
             'page' => "pages.index",
             'title' => $title,
-            'view' => "services.index",
+            'view' => "services.detail",
             'post' => $post,
         ]);
     }
