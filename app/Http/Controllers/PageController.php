@@ -319,7 +319,6 @@ class PageController extends Controller
         $post = \App\Models\Post::type('page')->slug($slot)->published()->with('attachment')->firstOrFail();
 
         $title = $this->shortTitle($post->title);
-        dd($title);
 
         return view('layouts.app', [
             'page' => "pages.index",
@@ -336,6 +335,7 @@ class PageController extends Controller
         else{
             $title = $longTitle;
         }
+        return $title;
     }
 
 
