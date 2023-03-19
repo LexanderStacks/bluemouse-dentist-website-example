@@ -18,7 +18,7 @@
             @csrf
             <div class="row">
                 <div class="col-md-6 form-group">
-                    <input data-error="Dies ist ein Pflichtfeld" type="text" name="name" class="form-control bg-white" id="name" placeholder="Ihr Name" value="" required>
+                    <input data-error="Dies ist ein Pflichtfeld" type="text" name="name" class="form-control bg-white" id="name" placeholder="Ihr voller Name" value="" required>
                 </div>
                 <div class="col-md-6 form-group mt-3 mt-md-0">
                     <input data-error="Dies ist ein Pflichtfeld" type="email" class="form-control bg-white" name="email" id="email" placeholder="Ihre Email" required>
@@ -29,7 +29,7 @@
                     <input data-error="Dies ist ein Pflichtfeld" type="tel" class="form-control bg-white" name="phone" id="phone" placeholder="Ihre Telefonnummer" required>
                 </div>
                 <div class="col-md-6 form-group mt-3 mt-md-0">
-                    <input data-error="Dies ist ein Pflichtfeld" type="text" class="form-control bg-white" name="subject" id="subject" placeholder="Subject..." required>
+                    <input data-error="Dies ist ein Pflichtfeld" type="text" class="form-control bg-white" name="subject" id="subject" placeholder="Anliegen" required>
                 </div>
             </div>
             <div class="form-group mt-3">
