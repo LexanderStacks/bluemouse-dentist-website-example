@@ -35,8 +35,8 @@
             <div class="form-group mt-3">
                 <textarea class="form-control" name="message" rows="5" placeholder="Mitteilung" required></textarea>
             </div>
-            <div class="text-center">
-                <input id="submit-request-btn" class="btn btn-primary" type="submit" value="Abschicken">
+            <div class="text-center mt-3">
+                <input id="submit-request-btn" class="btn btn-xl btn-primary" type="submit" value="Abschicken">
             </div>
         </form>
 
