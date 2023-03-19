@@ -17,7 +17,7 @@ class PageController extends Controller
     }
     public function cooperations()
     {
-        $posts = \App\Models\Post::published()->type('cooperation')->with('attachment')->orderBy('menu_order')->get();
+        $posts = \App\Models\Post::type('cooperation')->with('attachment')->orderBy('menu_order')->get();
         return view('layouts.app', [
             'page' => "pages.index",
             'title' => "Kooperationen",
@@ -68,7 +68,7 @@ class PageController extends Controller
     }
     public function medicalDetoxSpa()
     {
-        $posts = \App\Models\Post::published()->type('spa_elements')->with('attachment')->orderBy('menu_order')->get();
+        $posts = \App\Models\Post::type('spa_elements')->with('attachment')->orderBy('menu_order')->get();
         $secondPost = \App\Models\Post::type('page')->slug('spa-description')->with('attachment')->firstOrFail();
         return view('layouts.app', [
             'page' => "pages.index",
@@ -130,7 +130,7 @@ class PageController extends Controller
     }
     public function references()
     {
-        $posts = \App\Models\Post::published()->type('reference')->with('attachment')->orderBy('menu_order')->get();
+        $posts = \App\Models\Post::type('reference')->with('attachment')->orderBy('menu_order')->get();
         return view('layouts.app', [
             'page' => "pages.index",
             'title' => "Referenzen",
@@ -141,7 +141,7 @@ class PageController extends Controller
     }
     public function materials()
     {
-        $posts = \App\Models\Post::published()->type('material')->with('attachment')->orderBy('menu_order')->get();
+        $posts = \App\Models\Post::type('material')->with('attachment')->orderBy('menu_order')->get();
         return view('layouts.app', [
             'page' => "pages.index",
             'title' => "Materialien",
@@ -152,7 +152,7 @@ class PageController extends Controller
     }
     public function hygiene()
     {
-        $posts = \App\Models\Post::published()->type('hygiene')->with('attachment')->orderBy('menu_order')->get();
+        $posts = \App\Models\Post::type('hygiene')->with('attachment')->orderBy('menu_order')->get();
         return view('layouts.app', [
             'page' => "pages.index",
             'title' => "Hygienemaßnahmen",
@@ -180,7 +180,7 @@ class PageController extends Controller
     }
     public function faq()
     {
-        $posts = \App\Models\Post::published()->type('post')->get();
+        $posts = \App\Models\Post::type('post')->get();
         return view('layouts.app', [
             'page' => "pages.blog-page",
             'title' => "FAQ",
@@ -245,7 +245,7 @@ class PageController extends Controller
     {
         $post = \App\Models\Post::type('page')->slug('detox')->with('attachment')->firstOrFail();
         $secondPost = \App\Models\Post::type('page')->slug('detox-2')->with('attachment')->firstOrFail();
-        $elements = \App\Models\Post::published()->type('detox-day')->with('attachment')->orderBy('menu_order')->get();
+        $elements = \App\Models\Post::type('detox-day')->with('attachment')->orderBy('menu_order')->get();
         return view('layouts.app', [
             'page' => "pages.index",
             'title' => "Detox",

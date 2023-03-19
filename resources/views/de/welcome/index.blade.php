@@ -919,8 +919,9 @@
                         <div class="single-blog">
                             <div class="blog-image">
                                 <a href="/blog"><img src="/template-assets/images/blog/blog-2.jpg" alt="image"></a>
-
+                                <!--
                                 <div class="tag">11 Jun</div>
+                                -->
                                 <div class="tag-two"><a href="/blog">Zahnzusatzversicherung</a></div>
                             </div>
                             <div class="blog-content">
