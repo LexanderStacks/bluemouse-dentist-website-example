@@ -125,7 +125,7 @@ Route::get('/metal-detox',
 /* --- ./ PAGES --- */
 
 /* -- OBJECTORIENTATEST PAGE -- */
-Route::get('/service/{$slug}', 
+Route::get('/service/{slot?}', 
     [App\Http\Controllers\PageController::class, 'wpPage']
 );
 /* -- OBJECTORIENTATEST PAGE -- */
