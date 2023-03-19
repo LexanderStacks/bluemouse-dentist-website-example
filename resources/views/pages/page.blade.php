@@ -29,6 +29,12 @@
     @endif
     <!-- ./ attached image -->
 
+    <!-- manual special sections -->
+    @if($post->slug == 'detox')
+    	@include('pages.inc.detox.comparison')
+	@endif
+    <!-- ./ manual special sections -->
+
     <!-- service contact -->
     @include('pages.inc.service-contact')
     <!-- ./ service contact -->
