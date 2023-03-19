@@ -163,11 +163,10 @@ class PageController extends Controller
     public function about()
     {
         $post = \App\Models\Post::type('page')->slug('about')->with('attachment')->firstOrFail();
-        dd($post);
         return view('layouts.app', [
             'page' => "pages.index",
             'title' => "Über Uns",
-            'view' => "about",
+            'view' => "page",
             'post' => $post,
         ]);
     }
