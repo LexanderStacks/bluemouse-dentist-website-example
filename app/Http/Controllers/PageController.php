@@ -314,14 +314,14 @@ class PageController extends Controller
             'post' => $post,
         ]);
     }
-    public function wpPage($slot)
+    public function servicePage($slot)
     {
         $post = \App\Models\Post::type('page')->slug($slot)->published()->with('attachment')->firstOrFail();
 
         $title = $this->shortTitle($post->title);
 
         return view('layouts.app', [
-            'page' => "pages.index",
+            'page' => "services.index",
             'title' => $title,
             'view' => "page",
             'post' => $post,

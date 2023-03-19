@@ -217,25 +217,25 @@
 
                                     <ul class="dropdown-menu">
                                         <li class="nav-item">
-                                            <a href="/teeth-cleaning" class="nav-link">Zahnreinigung</a>
+                                            <a href="/service/teeth-cleaning" class="nav-link">Zahnreinigung</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a href="/cmd" class="nav-link">CMD</a>
+                                            <a href="/service/cmd" class="nav-link">CMD</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a href="/veneers" class="nav-link">Veneers</a>
+                                            <a href="/service/veneers" class="nav-link">Veneers</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a href="/unvisible-braces" class="nav-link">Unsichtbare Zahnspange</a>
+                                            <a href="/service/unvisible-braces" class="nav-link">Unsichtbare Zahnspange</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a href="/red-white-aestatics" class="nav-link">Rot-Weiß-Ästhetik</a>
+                                            <a href="/service/red-white-aestatics" class="nav-link">Rot-Weiß-Ästhetik</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a href="/snoring-splint" class="nav-link">Schnarchschiene</a>
+                                            <a href="/service/snoring-splint" class="nav-link">Schnarchschiene</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a href="/dentures" class="nav-link">Zahnersatz</a>
+                                            <a href="/service/dentures" class="nav-link">Zahnersatz</a>
                                         </li>
                                     </ul>
                                 </li>
