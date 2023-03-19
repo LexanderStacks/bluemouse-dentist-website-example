@@ -22,7 +22,7 @@
 	    <div class="row px-3 px-xl-5 pb-3">
 	        <div class="col-12 text-center text-xl-start">
 	        	<a @if(is_null($pdfAttachmentTitle)) style="pointer-events: none;" @endif href="/pdf/{{$pdfAttachmentTitle}}.pdf" download="{{$pdfAttachmentTitle}}">
-	            	<img src="{{$post->image}}" @if($imgType == 'normal') style="max-width: 380px; height: auto;" @endif class="mt-2">
+	            	<img src="{{$post->image}}" @if($imgType == 'normal') style="max-width: 320px; height: auto;" @endif>
 	            </a>             
 	        </div>
 	    </div>
