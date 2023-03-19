@@ -850,18 +850,53 @@
                     <div class="col-lg-4 col-md-6">
                         <div class="single-blog">
                             <div class="blog-image">
-                                <a href="/blog/"><img src="/template-assets/images/blog/blog-1.jpg" alt="image"></a>
-
+                                <a href="/holistic-dentistry"><img src="/template-assets/images/blog/blog-1.jpg" alt="image"></a>
+                                <!--
                                 <div class="tag">10 Jun</div>
+                                -->
                                 <div class="tag-two"><a href="/blog">Ganzheitliche Zahnmedizin</a></div>
                             </div>
                             <div class="blog-content">
                                 <h3>
-                                    <a href="/blog">Ganzheitliche Zahnmedizin in Düsseldorf</a>
+                                    <a href="/holistic-dentistry">Ganzheitliche Zahnmedizin in Düsseldorf</a>
                                 </h3>
                                 <p>Ganzheitliche Zahnmedizin betrachtet Zähne, Mundhöhle und Kiefer nicht isoliert vom restlichen Organismus.</p>
                                 <div class="text-end">
-                                    <a href="/blog" class="blog-btn">Mehr Lesen</a>
+                                    <a href="/holistic-dentistry" class="blog-btn">Mehr Lesen</a>
+                                </div>
+
+                                <ul class="entry-meta">
+                                    <li>
+                                        <i class='bx bxs-user'></i>
+                                        <span>Von <a href="/doc/main">Dr. Med. Hansjörg Lammers</a></span>
+                                    </li>
+                                    <!--
+                                    <li>
+                                        <i class='bx bxs-comment'></i>
+                                        2 Comments
+                                    </li>
+                                    -->
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 offset-lg-0 offset-md-3">
+                        <div class="single-blog">
+                            <div class="blog-image">
+                                <a href="/detox"><img src="/template-assets/images/blog/blog-3.jpg" alt="image"></a>
+                                <!--
+                                <div class="tag">12 Jun</div>
+                                -->
+                                <div class="tag-two"><a href="/detox">Detox</a></div>
+                            </div>
+                            <div class="blog-content">
+                                <h3>
+                                    <a href="/detox">DETOX in Düsseldorf – Körper und Mundraum entgiften</a>
+                                </h3>
+                                <p>Schwermetalle, wie Palladium, aus Zahngoldlegierungen, Quecksilber in Amalgamfüllungen, Arsen im Reis...</p>
+                                <div class="text-end">
+                                    <a href="/detox" class="blog-btn">Mehr Lesen</a>
                                 </div>
 
                                 <ul class="entry-meta">
@@ -913,45 +948,10 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-4 col-md-6 offset-lg-0 offset-md-3">
-                        <div class="single-blog">
-                            <div class="blog-image">
-                                <a href="/blog"><img src="/template-assets/images/blog/blog-3.jpg" alt="image"></a>
-
-                                <div class="tag">12 Jun</div>
-                                <div class="tag-two"><a href="/blog">Detox</a></div>
-                            </div>
-                            <div class="blog-content">
-                                <h3>
-                                    <a href="/blog">DETOX in Düsseldorf – Körper und Mundraum entgiften</a>
-                                </h3>
-                                <p>Schwermetalle, wie Palladium, aus Zahngoldlegierungen, Quecksilber in Amalgamfüllungen, Arsen im Reis...</p>
-                                <div class="text-end">
-                                    <a href="/blog" class="blog-btn">Mehr Lesen</a>
-                                </div>
-
-                                <ul class="entry-meta">
-                                    <li>
-                                        <i class='bx bxs-user'></i>
-                                        <span>Von <a href="/doc/main">Dr. Med. Hansjörg Lammers</a></span>
-                                    </li>
-                                    <!--
-                                    <li>
-                                        <i class='bx bxs-comment'></i>
-                                        2 Comments
-                                    </li>
-                                    -->
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
                 </div>
             </div>
         </section>
         <!-- End Blog Area -->
-
-
-
 
 
 @include('pages.includes.footer')
