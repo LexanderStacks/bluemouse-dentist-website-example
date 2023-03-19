@@ -4,11 +4,11 @@
     <div class="col-12">
       <h3 class="text-primary fs-3">
         Durch effektive, ursachenorientierte Therapien zu neuer Gesundheit und Lebenskraft
-      </h2>
+      </h3>
     </div>
 
 
-      <div class="col-xl-6 mt-3">
+      <div class="col-xl-6 mt-4">
 
         <div class="card mb-3 border-none no-border shadow w-100" style="border: none;">
           <div class="row g-0 align-items-center">
