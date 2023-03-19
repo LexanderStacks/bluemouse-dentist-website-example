@@ -167,7 +167,7 @@
                                 </li>
 
                                 <li class="nav-item">
-                                    <a href="#" class="nav-link text-nowrap">
+                                    <a href="/holistic-dentistry" class="nav-link text-nowrap">
                                         Biologische Zahnmedizin 
                                         <i class='bx bx-caret-down'></i>
                                     </a>
@@ -210,7 +210,7 @@
                                 </li>
 
                                 <li class="nav-item text-nowrap">
-                                    <a href="#" class="nav-link">
+                                    <a href="/services" class="nav-link">
                                         Leistungen 
                                         <i class='bx bx-caret-down'></i>
                                     </a>
