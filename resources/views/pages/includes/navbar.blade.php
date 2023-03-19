@@ -271,9 +271,11 @@
                                         <li class="nav-item">
                                             <a href="contact-online" class="nav-link">Online Termin</a>
                                         </li>
+                                        <!--
                                         <li class="nav-item">
                                             <a href="/contact#map" class="nav-link">Anfahrt</a>
                                         </li>
+                                        -->
                                     </ul>
                                 </li>
                             </ul>
