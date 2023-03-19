@@ -30,26 +30,30 @@
                 </div>
                 <div class="col-md-6 mt-3 mt-md-0">
                   <select class="bg-white shadow" id="subject" name="subject" required style="max-height: 380px; overflow-y: scroll; width: 100%;">
-                    <option value="Anliegen nicht geschildert">Anliegen</option>
-                    <option value="3-D-Röntgen (DVT)">3-D-Röntgen (DVT)</option>
-                    <option value="abgebrochener Zahn">abgebrochener Zahn</option>
-                    <option value="Amalgamsanierung">Amalgamsanierung</option>
-                    <option value="empfindliche Zähne">empfindliche Zähne</option>
-                    <option value="Entfernung von Wurzelfüllungen">Entfernung von Wurzelfüllungen</option>
-                    <option value="Entgiftungstherapie (Detox)">Entgiftungstherapie (Detox)</option>
-                    <option value="ganzheitliches Problem">ganzheitliches Problem</option>
-                    <option value="Implantatsprechstunde (Zirkon)">Implantatsprechstunde (Zirkon)</option>
-                    <option value="Kariesbehandlung">Kariesbehandlung</option><option value="Kieferherdverdacht (Ostitis, NICO)">Kieferherdverdacht (Ostitis, NICO)</option><option value="Kiefergelenkknacken (CMD)">Kiefergelenkknacken (CMD)</option>
-                    <option value="Metallsanierung">Metallsanierung</option><option value="Prophylaxe">Prophylaxe</option>
-                    <option value="Schnarcherschiene">Schnarcherschiene</option><option value="Umweltzahnmedizin">Umweltzahnmedizin</option>
+                    <option class="w-100" value="Anliegen nicht geschildert">Anliegen</option>
+                    <option class="w-100" value="3-D-Röntgen (DVT)">3-D-Röntgen (DVT)</option>
+                    <option class="w-100" value="abgebrochener Zahn">abgebrochener Zahn</option>
+                    <option class="w-100" value="Amalgamsanierung">Amalgamsanierung</option>
+                    <option class="w-100" value="empfindliche Zähne">empfindliche Zähne</option>
+                    <option class="w-100" value="Entfernung von Wurzelfüllungen">Entfernung von Wurzelfüllungen</option>
+                    <option class="w-100" value="Entgiftungstherapie (Detox)">Entgiftungstherapie (Detox)</option>
+                    <option class="w-100" value="ganzheitliches Problem">ganzheitliches Problem</option>
+                    <option class="w-100" value="Implantatsprechstunde (Zirkon)">Implantatsprechstunde (Zirkon)</option>
+                    <option class="w-100" value="Kariesbehandlung">Kariesbehandlung</option>
+                    <option class="w-100" value="Kieferherdverdacht (Ostitis, NICO)">Kieferherdverdacht (Ostitis, NICO)</option>
+                    <option class="w-100" value="Kiefergelenkknacken (CMD)">Kiefergelenkknacken (CMD)</option>
+                    <option class="w-100" value="Metallsanierung">Metallsanierung</option>
+                    <option class="w-100" value="Prophylaxe">Prophylaxe</option>
+                    <option class="w-100" value="Schnarcherschiene">Schnarcherschiene</option>
+                    <option class="w-100" value="Umweltzahnmedizin">Umweltzahnmedizin</option>
                     <option value="Weisheitszähne">Weisheitszähne</option>
                     <option value="weiße Füllungen">weiße Füllungen</option>
                     <option value="Zahnersatz">Zahnersatz</option>
                     <option value="Zahnfleischbluten">Zahnfleischbluten</option>
-                    <option value="Zähneknirschen">Zähneknirschen</option>
-                    <option value="Zahnkontrolle">Zahnkontrolle</option>
-                    <option value="Zweitmeinung">Zweitmeinung</option>
-                    <option value="Ich habe ein anderes Anliegen">Ich habe ein anderes Anliegen</option>
+                    <option class="w-100" value="Zähneknirschen">Zähneknirschen</option>
+                    <option class="w-100" value="Zahnkontrolle">Zahnkontrolle</option>
+                    <option class="w-100" value="Zweitmeinung">Zweitmeinung</option>
+                    <option class="w-100" value="Ich habe ein anderes Anliegen">Ich habe ein anderes Anliegen</option>
                   </select>
                 </div>
             </div>
