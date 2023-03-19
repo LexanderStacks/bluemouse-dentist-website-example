@@ -17,7 +17,7 @@ class PageController extends Controller
     }
     public function cooperations()
     {
-        $posts = \App\Models\Post::published()->type('spa-elements')->with('attachment')->orderBy('menu_order')->get();
+        $posts = \App\Models\Post::published()->type('cooperation')->with('attachment')->orderBy('menu_order')->get();
         return view('layouts.app', [
             'page' => "pages.index",
             'title' => "Kooperationen",
@@ -68,7 +68,7 @@ class PageController extends Controller
     }
     public function medicalDetoxSpa()
     {
-        $posts = \App\Models\Post::published()->type('spa_element')->with('attachment')->orderBy('menu_order')->get();
+        $posts = \App\Models\Post::published()->type('spa_elements')->with('attachment')->orderBy('menu_order')->get();
         dd($posts);
         return view('layouts.app', [
             'page' => "pages.index",
