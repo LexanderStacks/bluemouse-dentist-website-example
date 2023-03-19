@@ -915,22 +915,25 @@
                         </div>
                     </div>
 
+                    @foreach($posts as $post)
                     <div class="col-lg-4 col-md-6">
                         <div class="single-blog">
                             <div class="blog-image">
-                                <a href="/blog"><img src="/template-assets/images/blog/blog-2.jpg" alt="image"></a>
+                                <a href="/blog/{{$post->slug}}"><img src="{{$post->image}}" alt="image"></a>
                                 <!--
                                 <div class="tag">11 Jun</div>
                                 -->
-                                <div class="tag-two"><a href="/blog">Zahnzusatzversicherung</a></div>
+                                <div class="tag-two"><a href="/blog/{{$post->slug}}">{{$post->title}}</a></div>
                             </div>
                             <div class="blog-content">
                                 <h3>
-                                    <a href="/blog">Zahnzusatz-Versicherung in Düsseldorf </a>
+                                    <a href="/blog/{{$post->slug}}">{{$post->title}}</a>
                                 </h3>
-                                <p>Worauf Sie achten müssen, um nicht leer auszugehen. Durch die ständig steigenden Eigenanteilskosten bei...</p>
+                                <p>
+                                    {{ substr($post->content, 0, 72) . "..."; }}
+                                </p>
                                 <div class="text-end">
-                                    <a href="/blog" class="blog-btn">Mehr Lesen</a>
+                                    <a href="/blog/{{$post->slug}}" class="blog-btn">Mehr Lesen</a>
                                 </div>
 
                                 <ul class="entry-meta">
@@ -948,6 +951,7 @@
                             </div>
                         </div>
                     </div>
+                    @endforeach
 
                 </div>
             </div>
