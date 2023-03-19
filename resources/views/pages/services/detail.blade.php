@@ -2,13 +2,13 @@
 
     <!-- wp content -->
     <div class="row py-5 px-3 px-xl-5">
-        <div class="col-8">
-            <h2 class="text-primary fs-1">
-                {{ $post->title }}
-            </h2>
-        </div>
-        <div class="col-4">
-            <img src="{{$post->image}}" class="img-fluid">
+        <div class="col-12">
+            <div class="position-relative">
+                <img src="{{$post->image}}" class="img-fluid">
+                <div class="position-absolute bg-white px-3 py-2 shadow" style="display: inline-block; margin-top: 150px; margin-left: 80px;">
+                    <h2 class="fs-1 text-primary">{{ $post->title }}</h2>
+                </div>
+            </div>
         </div>
         <div class="col-12 mt-3">
             <div>
