@@ -1,16 +1,16 @@
 <style>
 .maxwidth {
-  max-width:100%;
+  max-width:100% !important;
 }
 
 .maxwidth > option {
-  max-width:100%;
+  max-width:100% !important;
   background: #fff;
   color: #000;
 }
 
 .maxwidth > option:hover {
-  background:red;
+  overflow-y: scroll !important;
 }
 </style>
 
@@ -47,7 +47,7 @@
                 <div class="col-md-6 mt-3 mt-md-0">
                     <div>
 
-                      <select class="bg-white shadow maxWidth" id="subject" name="subject" required>
+                      <select class="bg-white shadow maxwidth" id="subject" name="subject" required>
                         <option class="w-100" value="Anliegen nicht geschildert">Anliegen</option>
                         <option class="w-100" value="3-D-Röntgen (DVT)">3-D-Röntgen (DVT)</option>
                         <option class="w-100" value="abgebrochener Zahn">abgebrochener Zahn</option>
