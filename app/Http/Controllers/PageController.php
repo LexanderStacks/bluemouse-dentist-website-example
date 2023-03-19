@@ -162,10 +162,12 @@ class PageController extends Controller
     }
     public function about()
     {
+        $post = \App\Models\Post::type('page')->slug('about')->with('attachment')->firstOrFail();
         return view('layouts.app', [
             'page' => "pages.index",
             'title' => "Über Uns",
-            'view' => "about"
+            'view' => "about",
+            'post' => $post,
         ]);
     }
     public function ecoDentistry()

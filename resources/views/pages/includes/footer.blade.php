@@ -40,11 +40,9 @@ li.hover-no-underline:hover{
                             <h3 class="text-white">Informationen</h3>
 
                             <ul class="quick-links">
-                                <!--
                                 <li>
                                     <a href="/about">Über uns</a>
                                 </li>
-                                -->
                                 <li>
                                     <a href="/holistic-dentistry">Biologische Zahnmedizin</a>
                                 </li>
