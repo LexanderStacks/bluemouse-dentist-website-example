@@ -5,7 +5,7 @@
         <div class="col-12">
             <div class="position-relative">
                 <img style="max-height: 340px; width: auto;" src="{{$post->image}}" class="img-fluid rounded rounded-3 border border-5 border-white shadow text-center">
-                <div class="position-absolute bg-white px-3 py-2 shadow text-center" style="display: inline-block; margin-top: 220px;">
+                <div class="position-absolute bg-white px-3 py-2 shadow text-start" style="display: inline-block; margin-top: 220px; margin-left: 120px;">
                     <h2 class="fs-1 text-primary">{{ $post->title }}</h2>
                 </div>
             </div>
