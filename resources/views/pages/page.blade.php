@@ -14,7 +14,6 @@
     @php if(!isset($imgAttachment)) {$imgAttachment = null;} @endphp
 	@php if(!isset($pdfAttachmentTitle)) {$pdfAttachmentTitle = null;} @endphp
     @if(!is_null($imgAttachment))
-    <img src="{{$post->image}}" title="test">
 	    <div class="row px-3 px-xl-5 pb-3">
 	        <div class="col-12 text-center text-xl-start pt-2">
 	        	<a @if(is_null($pdfAttachmentTitle)) style="pointer-events: none;" @endif href="/pdf/{{$pdfAttachmentTitle}}.pdf" download="{{$pdfAttachmentTitle}}">
