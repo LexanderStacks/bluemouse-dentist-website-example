@@ -60,7 +60,7 @@
             <div class="form-group mt-3">
                 <textarea style="border: none;" class="form-control bg-white shadow no-border" name="message" rows="5" placeholder="Mitteilung" required></textarea>
             </div>
-            <div class="row mt-3 px-2">
+            <div class="row mt-3 px-3">
                 <div class="form-check">
                     <input data-error="Dies ist ein Pflichtfeld" type="checkbox" class="form-check-input" id="terms-privacy" name="terms-privacy" required>
                     <label class="form-check-label" for="same-address">
