@@ -7,7 +7,7 @@
     </div>
     <div class="col-12 mt-3">
       <div>
-        <div class="card mb-3 border-none no-border" style="max-width: 540px;">
+        <div class="card mb-3 border-none no-border shadow" style="max-width: 540px;">
           <div class="row g-0">
             <div class="col-md-4">
               <img src="/images/gesunder-zahn.png" class="img-fluid rounded-start" alt="...">
@@ -23,7 +23,7 @@
         </div>
       </div>
       <div>
-        <div class="card mb-3" style="max-width: 540px;">
+        <div class="card mb-3" style="max-width: 540px; border: none;">
           <div class="row g-0">
             <div class="col-md-4">
               <img src="/images/toter-zahn.png" class="img-fluid rounded-start" alt="...">
