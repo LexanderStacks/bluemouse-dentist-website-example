@@ -1,12 +1,3 @@
-
-<!-- manual special sections -->
-@php if(!isset($secondPost)) {$secondPost = null;} @endphp
-
-@if( !is_null($secondPost) )
-    @include('pages.inc.second-post', array('secondPost' => $secondPost))
-@endif
-<!-- ./ manual special sections -->
-
 @foreach($posts as $post)
     @if($loop->index%2 == 0)
         <div class="container-fluid g-0 mx-0 px-0">
