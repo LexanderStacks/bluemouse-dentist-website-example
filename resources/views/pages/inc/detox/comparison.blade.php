@@ -1,5 +1,5 @@
 
-  <div class="row py-5 px-3 px-xl-5">
+  <div class="row pb-5 px-3 px-xl-5">
     <div class="col-12">
       <h3 class="text-primary fs-3">
         Durch effektive, ursachenorientierte Therapien zu neuer Gesundheit und Lebenskraft
