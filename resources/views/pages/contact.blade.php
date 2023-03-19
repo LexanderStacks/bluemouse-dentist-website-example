@@ -38,7 +38,7 @@
                 </div>
                 <div class="col-md-4 mt-3 mt-md-3">
 
-                    <input style="border: none; min-height: 40px; padding-top: 12px; padding-bottom: 12px; cursor: pointer;" data-error="Dies ist ein Pflichtfeld" type="date" class="bg-white shadow no-border" name="wishDate" id="wishDate" placeholder="Ihr Wunschdatum">
+                    <input style="border: none; min-height: 40px; padding-top: 12px; padding-bottom: 12px; cursor: pointer;" data-error="Dies ist ein Pflichtfeld" type="date" class="bg-white shadow no-border py-3" name="wishDate" id="wishDate" placeholder="Ihr Wunschdatum">
 
                 </div>
                 <div class="col-md-4 mt-3 mt-md-0">
