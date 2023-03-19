@@ -16,6 +16,7 @@ class EmailController extends Controller
             'name' => $request->name,
             'email' => $request->email,
             'subject' => $request->subject,
+            'subject' => $request->phone,
             'message' => $request->message
         ]);
         // --- ./ Html Template for the email --- //
@@ -55,28 +56,35 @@ class EmailController extends Controller
     <td align='center' bgcolor='#ffffff' style='padding: 40px 0 30px 0;'>
      <img src='https://firstbiodentspa.de/images/firstbiodent-logo.svg' alt='FirstBioDent-Logo' width='300' height='auto' style='display: block;' />
     </td>
-    <td align='center' bgcolor='#ffffff' style='padding: 40px 0 30px 0;'>
-     <h1>Terminanfrage</h1>
-    </td>
   </tr>
   <tr>
-  <td bgcolor='#ffffff' style='padding: 40px 0 30px 0;'>
-   <b>Name: ".$request->name."</b>
+  <td align='center' bgcolor='#ffffff' style='padding: 20px 0 20px 0;'>
+   Terminanfrage
+  </td>
+ </tr>
+  <tr>
+  <td bgcolor='#ffffff' style='padding: 20px 0 20px 0; font-size: 24px;'>
+   Name: ".$request->name."
   </td>
  </tr>
  <tr>
-  <td bgcolor='#ffffff' style='padding: 40px 0 30px 0;'>
-   <b>Email: ".$request->email."</b>
+  <td bgcolor='#ffffff' style='padding: 20px 0 20px 0; font-size: 24px;'>
+   Betreff: ".$request->subject."
   </td>
 </tr>
  <tr>
-  <td bgcolor='#ffffff' style='padding: 40px 0 30px 0;'>
-   <b>Betreff: ".$request->subject."</b>
+  <td bgcolor='#ffffff' style='padding: 20px 0 20px 0; font-size: 24px;'>
+   Email: ".$request->email."
   </td>
 </tr>
  <tr>
-  <td bgcolor='#ffffff' style='padding: 40px 0 30px 0;'>
-   <b>Mitteilung: ".$request->message."</b>
+  <td bgcolor='#ffffff' style='padding: 20px 0 20px 0; font-size: 24px;'>
+   Telefon: ".$request->phone."
+  </td>
+</tr>
+ <tr>
+  <td bgcolor='#ffffff' style='padding: 20px 0 20px 0; font-size: 24px;'>
+   Mitteilung: ".$request->message."
   </td>
 </tr>
  </table>

@@ -18,6 +18,9 @@
         <div class="col-md-6 form-group mt-3 mt-md-0">
             <input type="email" class="form-control" name="email" id="email" placeholder="Ihre Email" required>
         </div>
+        <div class="col-md-6 form-group mt-3 mt-md-0">
+            <input type="tel" class="form-control" name="phone" id="phone" placeholder="Ihre Telefonnummer" required>
+        </div>
     </div>
     <div class="form-group mt-3">
         <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject..." required>
