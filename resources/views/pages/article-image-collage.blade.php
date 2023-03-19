@@ -3,7 +3,9 @@
 @php if(!isset($secondPost)) {$secondPost = null;} @endphp
 
 @if( !is_null($secondPost) )
-    @include('pages.inc.second-post', array('secondPost' => $secondPost))
+    <div class="container-fluid g-0 mx-0 px-0">
+        @include('pages.inc.second-post', array('secondPost' => $secondPost))
+    </div>
 @endif
 <!-- ./ manual special sections -->
 
