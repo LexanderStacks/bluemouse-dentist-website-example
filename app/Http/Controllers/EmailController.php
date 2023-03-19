@@ -38,7 +38,7 @@ class EmailController extends Controller
                     "name" => 'User Name'
                 ]
             ],
-            "htmlContent" => $html,
+            "htmlContent" => "<html><head></head>" . "<p>Name: ".$name.", Email: ".$email.", Betreff: ".$subject.", Mitteilung: ".$message."</p>" . "</html>",
         ];
 
         $fields = json_encode($fields);
