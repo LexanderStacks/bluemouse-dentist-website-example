@@ -5,20 +5,21 @@
       </h2>
     </div>
     <div class="col-12 mt-3">
-      <div>
-        <div class="d-none d-xl-block card-group">
-          @foreach($elements as $element)
-          <div id="element-{{$loop->index}}-{{$element->slug}}" class="card">
+      <div class="row row-cols-1 row-cols-md-3 row-cols-xl-5 g-4">
+        @foreach($elements as $element)
+        <div id="element-{{$loop->index}}-{{$element->slug}}" class="col">
+          <div class="card h-100">
             <img src="{{$element->image}}" class="card-img-top" alt="...">
             <div class="card-body">
-              <h3 class="card-title fs-2 text-primary">{{$element->title}}</h3>
-              <p class="card-text">
-                {!! $element->content !!}
-              </p>
+               <h3 class="card-title fs-2 text-primary">{{$element->title}}</h3>
+              <p class="card-text">{!! $element->content !!}</p>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted"></small>
             </div>
           </div>
-          @endforeach
         </div>
+        @endforeach
       </div>
     </div>
     <div class="col-12">
