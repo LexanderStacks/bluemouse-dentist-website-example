@@ -58,6 +58,13 @@
 
         <link rel="icon" type="image/png" href="/template-assets/images/favicon.png">
         <!-- --- --- --- ./ TEMPLAGE --- --- --- -->
+
+
+        <!-- FLATPICKR CSS -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css"> 
+        <!-- FLATPICKR JS -->
+        <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+
 </head>
 <body class="font-sans antialiased">
     <div id="app">

@@ -43,10 +43,13 @@
                 </div>
             </div>
             <div class="row mt-3">
-                <div class="col-md-6 form-group mt-3 mt-md-0">
+                <div class="col-md-4 form-group mt-3 mt-md-0">
                     <input style="border: none; min-height: 40px;" data-error="Dies ist ein Pflichtfeld" type="tel" class="form-control bg-white shadow no-border" name="phone" id="phone" placeholder="Telefonnummer" required>
                 </div>
-                <div class="col-md-6 mt-3 mt-md-0">
+                <div class="col-md-4 form-group mt-3 mt-md-0">
+                    <input style="border: none; min-height: 40px;" data-error="Dies ist ein Pflichtfeld" type="date" class="form-control bg-white shadow no-border" name="wishDate" id="wishDate" placeholder="Wunschdatum">
+                </div>
+                <div class="col-md-4 mt-3 mt-md-0">
                     <div>
 
                       <select class="bg-white shadow maxwidth" id="subject" name="subject" required>
@@ -112,3 +115,17 @@
         </div>
     </div>
 </section>
+
+
+<script>
+    document.addEventListener("DOMContentLoaded", () => {
+        flatpickr("#wishDate", {
+            enableTime: false,
+            dateFormat: "Y-m-d",
+            weekNumbers: true,
+            altInput: true,
+            altFormat: "j. F Y",  
+            locale: "de",
+        });
+    });
+</script>
