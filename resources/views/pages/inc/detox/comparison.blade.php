@@ -26,7 +26,7 @@
         </div>
 
       </div>
-      <div class="col-xl-6 mt-3">
+      <div class="col-xl-6 mt-4">
 
         <div class="card mb-3 shadow w-100" style="border: none;">
           <div class="row g-0 align-items-center">
