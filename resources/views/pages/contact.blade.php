@@ -14,6 +14,7 @@
             <p>Wir setzen uns mit Ihnen in Verbindung sofern Ihr Wunschtermin nicht verfügbar ist.</p>
         </div>
 
+
         <div class="contact-form">
             <form action="/sendRequest" method="Post" id="contactForm">
                 @csrf
@@ -52,14 +53,9 @@
                             <div class="help-block with-errors"></div>
                         </div>
                     </div>
-
-                    <div class="col-lg-12 col-md-12">
-                        <input type="submit" class="default-btn">Terminanfrage senden</input>
-                        <!--
-                        <div id="msgSubmit" class="h3 text-center hidden"></div>
-                        <div class="clearfix"></div>
-                        -->
-                    </div>
+                </div>
+                <div class="text-center">
+                    <input id="submit-request-btn" class="request-submit-btn" type="submit" value="Abschicken">
                 </div>
             </form>
         </div>
