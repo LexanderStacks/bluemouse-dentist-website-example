@@ -1,9 +1,18 @@
+
+<!-- manual special sections -->
+@php if(!isset($secondPost)) {$secondPost = null;} @endphp
+
+@if( !is_null($secondPost) )
+    @include('pages.inc.second-post', array('secondPost' => $secondPost))
+@endif
+<!-- ./ manual special sections -->
+
 @foreach($posts as $post)
     @if($loop->index%2 == 0)
         <div class="container-fluid g-0 mx-0 px-0">
             <div class="row py-5 text-center text-xl-start">
                 <div class="col-xl-1"></div>
-                <div id="article-image-collage-post-{{$loop->index}}-{{$post->slug}}" class="col-xl-7 @if($loop->index == 0) mt-3 @endif">
+                <div id="article-image-collage-post-{{$loop->index}}-{{$post->slug}}" class="col-xl-7 @if($loop->index == 0) mt-3">
                     <div class="position-relative p-3">
 
                         <div class="d-none d-xl-block">

@@ -69,12 +69,14 @@ class PageController extends Controller
     public function medicalDetoxSpa()
     {
         $posts = \App\Models\Post::published()->type('spa_elements')->with('attachment')->orderBy('menu_order')->get();
+        $secondPost = \App\Models\Post::type('page')->slug('spa-description')->published()->with('attachment')->firstOrFail();
         return view('layouts.app', [
             'page' => "pages.index",
             'title' => "Medical Detox SPA",
             'view' => "article-image-collage",
             'imageType' => "round",
             'posts' => $posts,
+            'secondPosts' => $secondPost,
         ]);
     }
     public function contact()
