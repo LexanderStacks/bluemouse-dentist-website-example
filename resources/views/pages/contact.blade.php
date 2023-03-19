@@ -18,22 +18,22 @@
             @csrf
             <div class="row">
                 <div class="col-md-6 form-group">
-                    <input data-error="Dies ist ein Pflichtfeld" type="text" name="name" class="form-control" id="name" placeholder="Ihr Name" value="" required>
+                    <input data-error="Dies ist ein Pflichtfeld" type="text" name="name" class="form-control bg-white" id="name" placeholder="Ihr Name" value="" required>
                 </div>
                 <div class="col-md-6 form-group mt-3 mt-md-0">
-                    <input data-error="Dies ist ein Pflichtfeld" type="email" class="form-control" name="email" id="email" placeholder="Ihre Email" required>
+                    <input data-error="Dies ist ein Pflichtfeld" type="email" class="form-control bg-white" name="email" id="email" placeholder="Ihre Email" required>
                 </div>
             </div>
             <div class="row mt-3">
                 <div class="col-md-6 form-group mt-3 mt-md-0">
-                    <input data-error="Dies ist ein Pflichtfeld" type="tel" class="form-control" name="phone" id="phone" placeholder="Ihre Telefonnummer" required>
+                    <input data-error="Dies ist ein Pflichtfeld" type="tel" class="form-control bg-white" name="phone" id="phone" placeholder="Ihre Telefonnummer" required>
                 </div>
                 <div class="col-md-6 form-group mt-3 mt-md-0">
-                    <input data-error="Dies ist ein Pflichtfeld" type="text" class="form-control" name="subject" id="subject" placeholder="Subject..." required>
+                    <input data-error="Dies ist ein Pflichtfeld" type="text" class="form-control bg-white" name="subject" id="subject" placeholder="Subject..." required>
                 </div>
             </div>
             <div class="form-group mt-3">
-                <textarea class="form-control" name="message" rows="5" placeholder="Mitteilung" required></textarea>
+                <textarea class="form-control bg-white" name="message" rows="5" placeholder="Mitteilung" required></textarea>
             </div>
             <div class="text-center mt-3">
                 <input id="submit-request-btn" class="btn btn-xl btn-primary" type="submit" value="Abschicken">
