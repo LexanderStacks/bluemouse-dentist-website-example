@@ -40,17 +40,19 @@ li.hover-no-underline:hover{
                             <h3 class="text-white">Informationen</h3>
 
                             <ul class="quick-links">
+                                <!--
                                 <li>
                                     <a href="/about">Über uns</a>
                                 </li>
+                                -->
                                 <li>
-                                    <a href="/eco-dentist">Biologische Zahnmedizin</a>
+                                    <a href="/holistic-dentistry">Biologische Zahnmedizin</a>
                                 </li>
                                 <li>
                                     <a href="/services">Behandlungsspektrum</a>
                                 </li>
                                 <li>
-                                    <a href="/medical-detox">Medical Detox Spa</a>
+                                    <a href="/medical-detox-spa">Medical Detox Spa</a>
                                 </li>
                                 <li>
                                     <a href="/blog">Blog</a>

@@ -69,7 +69,7 @@ class PageController extends Controller
     public function medicalDetoxSpa()
     {
         $posts = \App\Models\Post::published()->type('spa_elements')->with('attachment')->orderBy('menu_order')->get();
-        $secondPost = \App\Models\Post::type('page')->slug('spa-description')->published()->with('attachment')->firstOrFail();
+        $secondPost = \App\Models\Post::type('page')->slug('spa-description')->with('attachment')->firstOrFail();
         return view('layouts.app', [
             'page' => "pages.index",
             'title' => "Medical Detox SPA",
@@ -109,7 +109,7 @@ class PageController extends Controller
     }
     public function covidTherapy()
     {
-        $post = \App\Models\Post::taxonomy('category', 'long-covid-therapy')->published()->with('attachment')->firstOrFail();
+        $post = \App\Models\Post::taxonomy('category', 'long-covid-therapy')->with('attachment')->firstOrFail();
         return view('layouts.app', [
             'page' => "pages.index",
             'title' => "Long Term Covid",
@@ -188,7 +188,7 @@ class PageController extends Controller
     }
     public function privacy()
     {
-        $post = \App\Models\Post::taxonomy('category', 'privacy')->published()->with('attachment')->firstOrFail();
+        $post = \App\Models\Post::taxonomy('category', 'privacy')->with('attachment')->firstOrFail();
         return view('layouts.app', [
             'page' => "pages.index",
             'title' => "Datenschutzerklärung",
@@ -198,7 +198,7 @@ class PageController extends Controller
     }
     public function imprint()
     {
-        $post = \App\Models\Post::taxonomy('category', 'imprint')->published()->with('attachment')->firstOrFail();
+        $post = \App\Models\Post::taxonomy('category', 'imprint')->with('attachment')->firstOrFail();
         return view('layouts.app', [
             'page' => "pages.index",
             'title' => "Impressum",
@@ -208,7 +208,7 @@ class PageController extends Controller
     }
     public function holisticDentistry()
     {
-        $post = \App\Models\Post::type('page')->slug('holistic-dentistry')->published()->with('attachment')->firstOrFail();
+        $post = \App\Models\Post::type('page')->slug('holistic-dentistry')->with('attachment')->firstOrFail();
         return view('layouts.app', [
             'page' => "pages.index",
             'title' => "Ganzheitliche Zahnmedizin",
@@ -218,7 +218,7 @@ class PageController extends Controller
     }
     public function amalgamDetox()
     {
-        $post = \App\Models\Post::type('page')->slug('amalgam-detox')->published()->with('attachment')->firstOrFail();
+        $post = \App\Models\Post::type('page')->slug('amalgam-detox')->with('attachment')->firstOrFail();
         return view('layouts.app', [
             'page' => "pages.index",
             'title' => "Amalgamsanierung",
@@ -228,7 +228,7 @@ class PageController extends Controller
     }
     public function holisticImplants()
     {
-        $post = \App\Models\Post::type('page')->slug('holistic-implants')->published()->with('attachment')->firstOrFail();
+        $post = \App\Models\Post::type('page')->slug('holistic-implants')->with('attachment')->firstOrFail();
         return view('layouts.app', [
             'page' => "pages.index",
             'title' => "Ganzheitliche Implantate",
@@ -241,8 +241,8 @@ class PageController extends Controller
     }
     public function detox()
     {
-        $post = \App\Models\Post::type('page')->slug('detox')->published()->with('attachment')->firstOrFail();
-        $secondPost = \App\Models\Post::type('page')->slug('detox-2')->published()->with('attachment')->firstOrFail();
+        $post = \App\Models\Post::type('page')->slug('detox')->with('attachment')->firstOrFail();
+        $secondPost = \App\Models\Post::type('page')->slug('detox-2')->with('attachment')->firstOrFail();
         $elements = \App\Models\Post::published()->type('detox-day')->with('attachment')->orderBy('menu_order')->get();
         return view('layouts.app', [
             'page' => "pages.index",
@@ -255,7 +255,7 @@ class PageController extends Controller
     }
     public function integrativeDentistry()
     {
-        $post = \App\Models\Post::type('page')->slug('integrative-dentistry')->published()->with('attachment')->firstOrFail();
+        $post = \App\Models\Post::type('page')->slug('integrative-dentistry')->with('attachment')->firstOrFail();
         return view('layouts.app', [
             'page' => "pages.index",
             'title' => "Integrative Zahnmedizin",
@@ -265,7 +265,7 @@ class PageController extends Controller
     }
     public function jawInflammation()
     {
-        $post = \App\Models\Post::type('page')->slug('jaw-inflammation')->published()->with('attachment')->firstOrFail();
+        $post = \App\Models\Post::type('page')->slug('jaw-inflammation')->with('attachment')->firstOrFail();
         return view('layouts.app', [
             'page' => "pages.index",
             'title' => "Kieferknochen-Entzündung",
@@ -275,7 +275,7 @@ class PageController extends Controller
     }
     public function interferenceFieldRemediation()
     {
-        $post = \App\Models\Post::type('page')->slug('interference-field-remediation')->published()->with('attachment')->firstOrFail();
+        $post = \App\Models\Post::type('page')->slug('interference-field-remediation')->with('attachment')->firstOrFail();
         return view('layouts.app', [
             'page' => "pages.index",
             'title' => "Störfeldsanierung",
@@ -285,7 +285,7 @@ class PageController extends Controller
     }
     public function paradontalTherapy()
     {
-        $post = \App\Models\Post::type('page')->slug('paradontal-therapy')->published()->with('attachment')->firstOrFail();
+        $post = \App\Models\Post::type('page')->slug('paradontal-therapy')->with('attachment')->firstOrFail();
         return view('layouts.app', [
             'page' => "pages.index",
             'title' => "Paradontitisbehandlung",
@@ -295,7 +295,7 @@ class PageController extends Controller
     }
     public function environmentalDentistry()
     {
-        $post = \App\Models\Post::type('page')->slug('environmental-dentistry')->published()->with('attachment')->firstOrFail();
+        $post = \App\Models\Post::type('page')->slug('environmental-dentistry')->with('attachment')->firstOrFail();
         return view('layouts.app', [
             'page' => "pages.index",
             'title' => "Umweltzahnmedizin",
@@ -305,7 +305,7 @@ class PageController extends Controller
     }
     public function halitosis()
     {
-        $post = \App\Models\Post::type('page')->slug('halitosis')->published()->with('attachment')->firstOrFail();
+        $post = \App\Models\Post::type('page')->slug('halitosis')->with('attachment')->firstOrFail();
         return view('layouts.app', [
             'page' => "pages.index",
             'title' => "Mundgeruch",
@@ -315,7 +315,7 @@ class PageController extends Controller
     }
     public function metalDetox()
     {
-        $post = \App\Models\Post::type('page')->slug('metal-detox')->published()->with('attachment')->firstOrFail();
+        $post = \App\Models\Post::type('page')->slug('metal-detox')->with('attachment')->firstOrFail();
         return view('layouts.app', [
             'page' => "pages.index",
             'title' => "Metallsanierung",
@@ -325,7 +325,7 @@ class PageController extends Controller
     }
     public function servicePage($slot)
     {
-        $post = \App\Models\Post::type('page')->slug($slot)->published()->with('attachment')->firstOrFail();
+        $post = \App\Models\Post::type('page')->slug($slot)->with('attachment')->firstOrFail();
 
         $title = $this->shortTitle($post->title);
 

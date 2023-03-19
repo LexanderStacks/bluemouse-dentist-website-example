@@ -9,7 +9,6 @@
         
      @include('pages.includes.navbar')
 
-
         <!-- Start Main Slides Area -->
         <div class="home-slides owl-carousel owl-theme">
             <div class="main-slides-item">
@@ -95,7 +94,7 @@
                 <div class="row">
                     <div class="col-lg-4 col-md-6">
                         <div class="single-features bg-secondary pointer" style="margin-top: -70px; min-height: 190px;">
-                            <a href="/medical-detox">
+                            <a href="/medical-detox-spa">
                             <div class="content pt-0">
                                 <div class="icon">
                                     <i class="flaticon-doctor"></i>
@@ -128,7 +127,7 @@
                     <div class="col-lg-4 col-md-6 offset-lg-0 offset-md-3">
                         <div class="single-features pointer" style="margin-top: -70px; min-height: 190px;">
                             <div class="content pt-0">
-                                <a href="/eco-dentist">
+                                <a href="/holistic-dentistry">
                                 <div class="icon">
                                     <i class="flaticon-healthcare"></i>
                                 </div>
