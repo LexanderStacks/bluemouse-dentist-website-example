@@ -8,14 +8,14 @@ class EmailController extends Controller
 {
     //
 
-     public function store(Request $request)
+     public function send(Request $request)
      {
         // --- Send Email --- //
         // --- Html Template for the email --- //
         $html = view('emails.receive-message', [
             'name' => $request->name,
             'email' => $request->email,
-            'company' => $request->email,
+            'subject' => $request->subject,
             'message' => $request->message
         ]);
         // --- ./ Html Template for the email --- //

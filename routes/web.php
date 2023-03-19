@@ -50,8 +50,11 @@ Route::get('/services',
 Route::get('/medical-detox-spa', 
     [App\Http\Controllers\PageController::class, 'medicalDetoxSpa']
 );
-Route::post('/contact', 
+Route::get('/contact', 
     [App\Http\Controllers\PageController::class, 'contact']
+);
+Route::post('/sendRequest', 
+    [App\Http\Controllers\EmailController::class, 'send']
 );
 Route::get('/contact-online', 
     [App\Http\Controllers\PageController::class, 'contactOnline']

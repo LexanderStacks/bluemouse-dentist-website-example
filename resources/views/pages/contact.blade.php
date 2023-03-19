@@ -9,6 +9,39 @@
             <p>Wir setzen uns mit Ihnen in Verbindung sofern Ihr Wunschtermin nicht verfügbar ist.</p>
         </div>
 
+<form action="/sendRequest" method="Post" class="php-email-form">
+    @csrf
+    <div class="row">
+        <div class="col-md-6 form-group">
+            <input type="text" name="name" class="form-control" id="name" placeholder="Ihr Name" value="" required>
+        </div>
+        <div class="col-md-6 form-group mt-3 mt-md-0">
+            <input type="email" class="form-control" name="email" id="email" placeholder="Ihre Email" required>
+        </div>
+    </div>
+    <div class="form-group mt-3">
+        <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject..." required>
+    </div>
+    <div class="form-group mt-3">
+        <textarea class="form-control" name="message" rows="5" placeholder="Mitteilung" required></textarea>
+    </div>
+    <div class="my-3">
+        <div class="loading">
+            Mitteilung wird versand...
+        </div>
+        <div class="error-message">
+            <!-- ... -->
+        </div>
+        <div class="sent-message">
+            Ihre Mitteilung wurde abgeschickt. Vielen Dank!
+        </div>
+    </div>
+    <div class="text-center">
+        <input id="submit-request-btn" class="request-submit-btn" type="submit" value="Abschicken">
+    </div>
+</form>
+
+
         <div class="contact-form">
             <form id="contactForm">
                 <div class="row">
