@@ -317,9 +317,18 @@ class PageController extends Controller
     public function wpPage($slot)
     {
         $post = \App\Models\Post::type('page')->slug($slot)->published()->with('attachment')->firstOrFail();
+
+        if ( str_contains($post->title, 'in Düsseldorf') ) {
+            $title = str_replace('in Düsseldorf', '', $post->title);
+        }
+        else{
+            $title = $post->title;
+        }
+        dd($title);
+
         return view('layouts.app', [
             'page' => "pages.index",
-            'title' => $post->title,
+            'title' => $title,
             'view' => "page",
             'post' => $post,
         ]);

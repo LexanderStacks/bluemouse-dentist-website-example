@@ -4,14 +4,7 @@
     <div class="row py-5 px-3 px-xl-5">
     	<div class="col-12">
     		<h2 class="text-primary fs-1">
-				@if ( str_contains($post->title, 'in Düsseldorf')) {
-				    $title = str_replace('in Düsseldorf', '', $post->title);
-				}
-				@else 
-					$title = $post->title;
-				@endif
-
-				{{ $title }}
+				{{ $post->title }}
 			</h2>
     	</div>
     	<div class="col-12 mt-3">
