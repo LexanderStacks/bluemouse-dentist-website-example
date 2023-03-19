@@ -64,7 +64,7 @@
                 <div class="form-check">
                     <input data-error="Dies ist ein Pflichtfeld" type="checkbox" class="form-check-input" id="terms-privacy" name="terms-privacy" required>
                     <label class="form-check-label" for="same-address">
-                        Ich habe die <a href="/privacy">Datenschutzerklärung</a> gelesen und bin mit dem Speichern meiner Daten für zum Zweck der Kontaktaufnahme einverstanden.
+                        Ich habe die <a href="/privacy" target="_blank" style="text-decoration: underline;">Datenschutzerklärung</a> gelesen und bin mit dem Speichern meiner Daten für zum Zweck der Kontaktaufnahme einverstanden.
                     </label>
                 </div>
             </div>
