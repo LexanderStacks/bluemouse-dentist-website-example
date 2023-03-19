@@ -314,6 +314,16 @@ class PageController extends Controller
             'post' => $post,
         ]);
     }
+    public function wpPage($slug)
+    {
+        $post = \App\Models\Post::type('page')->slug($slug)->published()->with('attachment')->firstOrFail();
+        return view('layouts.app', [
+            'page' => "pages.index",
+            'title' => $post->title,
+            'view' => "page",
+            'post' => $post,
+        ]);
+    }
 
 
 }
