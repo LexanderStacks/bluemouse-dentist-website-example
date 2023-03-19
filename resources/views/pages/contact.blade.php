@@ -1,5 +1,10 @@
 <section class="contact-area ptb-100">
     <div class="container">
+
+        @if(!is_null($alertTitle))
+            @include('pages.inc.alert', array('alertTitle' => $alertTitle, 'alertMessage' => $alertMessage))
+        @endif
+
         <div class="section-title">
             <span class="sub-title">
                 <i class="bi bi-hash fs-4 text-primary"></i>
@@ -9,50 +14,9 @@
             <p>Wir setzen uns mit Ihnen in Verbindung sofern Ihr Wunschtermin nicht verfügbar ist.</p>
         </div>
 
-        @if(!is_null($alertTitle))
-            @include('pages.inc.alert', array('alertTitle' => $alertTitle, 'alertMessage' => $alertMessage))
-        @endif
-
-<form action="/sendRequest" method="Post" class="php-email-form">
-    @csrf
-    <div class="row">
-        <div class="col-md-6 form-group">
-            <input type="text" name="name" class="form-control" id="name" placeholder="Ihr Name" value="" required>
-        </div>
-        <div class="col-md-6 form-group mt-3 mt-md-0">
-            <input type="email" class="form-control" name="email" id="email" placeholder="Ihre Email" required>
-        </div>
-    </div>
-    <div class="row mt-3">
-        <div class="col-md-6 form-group mt-3 mt-md-0">
-            <input type="tel" class="form-control" name="phone" id="phone" placeholder="Ihre Telefonnummer" required>
-        </div>
-        <div class="col-md-6 form-group mt-3 mt-md-0">
-            <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject..." required>
-        </div>
-    </div>
-    <div class="form-group mt-3">
-        <textarea class="form-control" name="message" rows="5" placeholder="Mitteilung" required></textarea>
-    </div>
-    <div class="my-3">
-        <div class="loading">
-            Mitteilung wird versand...
-        </div>
-        <div class="error-message">
-            <!-- ... -->
-        </div>
-        <div class="sent-message">
-            Ihre Mitteilung wurde abgeschickt. Vielen Dank!
-        </div>
-    </div>
-    <div class="text-center">
-        <input id="submit-request-btn" class="request-submit-btn" type="submit" value="Abschicken">
-    </div>
-</form>
-
-
         <div class="contact-form">
-            <form id="contactForm">
+            <form action="/sendRequest" method="Post" id="contactForm">
+                @csrf
                 <div class="row">
                     <div class="col-lg-6 col-md-6">
                         <div class="form-group">
@@ -70,14 +34,14 @@
 
                     <div class="col-lg-6 col-md-6">
                         <div class="form-group">
-                            <input type="text" name="phone_number" id="phone_number" required data-error="Bitte tragen Sie Ihre Telefonnummer ein" class="form-control" placeholder="Telefon">
+                            <input type="tel" name="phone" id="phone" required data-error="Bitte tragen Sie Ihre Telefonnummer ein" class="form-control" placeholder="Telefon">
                             <div class="help-block with-errors"></div>
                         </div>
                     </div>
 
                     <div class="col-lg-6 col-md-6">
                         <div class="form-group">
-                            <input type="text" name="msg_subject" id="msg_subject" class="form-control" required data-error="Bitte tragen Sie Ihr Anliegen ein." placeholder="Ihr Anliegen">
+                            <input type="text" name="subject" id="subject" class="form-control" required data-error="Bitte tragen Sie Ihr Anliegen ein." placeholder="Ihr Anliegen">
                             <div class="help-block with-errors"></div>
                         </div>
                     </div>
@@ -102,7 +66,7 @@
             <div class="contact-info-content">
                 <h3>Sie können uns auch telefonisch erreichen:</h3>
                 <h2>
-                    <a href="tel:+0881306298615">+088 130 629 8615</a>
+                    <a href="tel:+02119849880">+49 211 984 988 0</a>
                     <span>oder per Email:</span>
                     <a href="mailto:info@firstbiodent.de">info@firstbiodent.de</a>
                 </h2>

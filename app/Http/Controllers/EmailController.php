@@ -58,32 +58,32 @@ class EmailController extends Controller
     </td>
   </tr>
   <tr>
-  <td align='center' bgcolor='#ffffff' style='padding: 20px 0 20px 0;'>
+  <td align='center' bgcolor='#ffffff' style='padding: 20px 0 20px 0; font-size: 18px;'>
    Terminanfrage
   </td>
  </tr>
   <tr>
-  <td bgcolor='#ffffff' style='padding: 20px 0 20px 0; font-size: 24px;'>
+  <td bgcolor='#ffffff' style='padding: 20px 0 20px 0; font-size: 18px;'>
    Name: ".$request->name."
   </td>
  </tr>
  <tr>
-  <td bgcolor='#ffffff' style='padding: 20px 0 20px 0; font-size: 24px;'>
+  <td bgcolor='#ffffff' style='padding: 20px 0 20px 0; font-size: 18px;'>
    Betreff: ".$request->subject."
   </td>
 </tr>
  <tr>
-  <td bgcolor='#ffffff' style='padding: 20px 0 20px 0; font-size: 24px;'>
+  <td bgcolor='#ffffff' style='padding: 20px 0 20px 0; font-size: 18px;'>
    Email: ".$request->email."
   </td>
 </tr>
  <tr>
-  <td bgcolor='#ffffff' style='padding: 20px 0 20px 0; font-size: 24px;'>
+  <td bgcolor='#ffffff' style='padding: 20px 0 20px 0; font-size: 18px;'>
    Telefon: ".$request->phone."
   </td>
 </tr>
  <tr>
-  <td bgcolor='#ffffff' style='padding: 20px 0 20px 0; font-size: 24px;'>
+  <td bgcolor='#ffffff' style='padding: 20px 0 20px 0; font-size: 18px;'>
    Mitteilung: ".$request->message."
   </td>
 </tr>
