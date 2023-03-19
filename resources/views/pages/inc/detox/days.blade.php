@@ -1,4 +1,4 @@
-    <div class="row py-5 px-3 px-xl-5">
+    <div class="row pb-5 pt-2 px-3 px-xl-5">
       <div class="col-12">
         <h2 class="text-primary fs-1">
           Wie läuft eine Entgiftungswoche ab?
