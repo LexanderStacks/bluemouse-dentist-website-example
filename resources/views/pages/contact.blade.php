@@ -14,51 +14,31 @@
             <p>Wir setzen uns mit Ihnen in Verbindung sofern Ihr Wunschtermin nicht verfügbar ist.</p>
         </div>
 
-
-        <div class="contact-form">
-            <form action="/sendRequest" method="Post" id="contactForm">
-                @csrf
-                <div class="row">
-                    <div class="col-lg-6 col-md-6">
-                        <div class="form-group">
-                            <input type="text" name="name" id="name" class="form-control" required data-error="Bitte tragen Sie Ihren Namen ein" placeholder="Name">
-                            <div class="help-block with-errors"></div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-6 col-md-6">
-                        <div class="form-group">
-                            <input type="email" name="email" id="email" class="form-control" required data-error="Bitte tragen Sie Ihre Email Adresse ein" placeholder="Email">
-                            <div class="help-block with-errors"></div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-6 col-md-6">
-                        <div class="form-group">
-                            <input type="tel" name="phone" id="phone" required data-error="Bitte tragen Sie Ihre Telefonnummer ein" class="form-control" placeholder="Telefon">
-                            <div class="help-block with-errors"></div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-6 col-md-6">
-                        <div class="form-group">
-                            <input type="text" name="subject" id="subject" class="form-control" required data-error="Bitte tragen Sie Ihr Anliegen ein." placeholder="Ihr Anliegen">
-                            <div class="help-block with-errors"></div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-12 col-md-12">
-                        <div class="form-group">
-                            <textarea name="message" class="form-control" id="message" cols="30" rows="5" required data-error="Mitteilung eintragen" placeholder="Ihre Mitteilung"></textarea>
-                            <div class="help-block with-errors"></div>
-                        </div>
-                    </div>
+        <form action="/sendRequest" method="Post" class="php-email-form">
+            @csrf
+            <div class="row">
+                <div class="col-md-6 form-group">
+                    <input data-error="Dies ist ein Pflichtfeld" type="text" name="name" class="form-control" id="name" placeholder="Ihr Name" value="" required>
                 </div>
-                <div class="text-center">
-                    <input id="submit-request-btn" class="request-submit-btn" type="submit" value="Abschicken">
+                <div class="col-md-6 form-group mt-3 mt-md-0">
+                    <input data-error="Dies ist ein Pflichtfeld" type="email" class="form-control" name="email" id="email" placeholder="Ihre Email" required>
                 </div>
-            </form>
-        </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col-md-6 form-group mt-3 mt-md-0">
+                    <input data-error="Dies ist ein Pflichtfeld" type="tel" class="form-control" name="phone" id="phone" placeholder="Ihre Telefonnummer" required>
+                </div>
+                <div class="col-md-6 form-group mt-3 mt-md-0">
+                    <input data-error="Dies ist ein Pflichtfeld" type="text" class="form-control" name="subject" id="subject" placeholder="Subject..." required>
+                </div>
+            </div>
+            <div class="form-group mt-3">
+                <textarea class="form-control" name="message" rows="5" placeholder="Mitteilung" required></textarea>
+            </div>
+            <div class="text-center">
+                <input id="submit-request-btn" class="request-submit-btn" type="submit" value="Abschicken">
+            </div>
+        </form>
 
         <div class="contact-info">
             <div class="contact-info-content">
