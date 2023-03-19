@@ -316,7 +316,6 @@ class PageController extends Controller
     }
     public function wpPage($slot)
     {
-        dd($slot);
         $post = \App\Models\Post::type('page')->slug($slug)->published()->with('attachment')->firstOrFail();
         return view('layouts.app', [
             'page' => "pages.index",
