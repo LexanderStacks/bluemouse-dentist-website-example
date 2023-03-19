@@ -30,7 +30,7 @@
         Company: 
         <b>
             <span style="font-weight: bold;">
-            {{$company}}
+            {{$subject}}
             </span>
         </b>
     </span>
