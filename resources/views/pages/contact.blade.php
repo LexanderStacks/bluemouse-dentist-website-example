@@ -54,9 +54,11 @@
                     </div>
 
                     <div class="col-lg-12 col-md-12">
-                        <button type="submit" class="default-btn">Terminanfrage senden</button>
+                        <input type="submit" class="default-btn">Terminanfrage senden</input>
+                        <!--
                         <div id="msgSubmit" class="h3 text-center hidden"></div>
                         <div class="clearfix"></div>
+                        -->
                     </div>
                 </div>
             </form>
