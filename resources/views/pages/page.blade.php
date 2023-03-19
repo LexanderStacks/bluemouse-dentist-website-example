@@ -15,7 +15,7 @@
 	@php if(!isset($pdfAttachmentTitle)) {$pdfAttachmentTitle = null;} @endphp
     @if(!is_null($imgAttachment))
 	    <div class="row px-3 px-xl-5 pb-3">
-	        <div class="col-12 text-end pt-2">
+	        <div class="col-12 text-center text-xl-start pt-2">
 	        	<a @if(is_null($pdfAttachmentTitle)) style="pointer-events: none;" @endif href="/pdf/{{$pdfAttachmentTitle}}.pdf" download="{{$pdfAttachmentTitle}}">
         		@endif
 	            	<img src="{{$post->image}}" class="mt-2">
