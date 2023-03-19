@@ -1,4 +1,4 @@
-    <div class="row pb-5 pt-2 px-3 px-xl-5">
+    <div class="row pb-3 pt-2 px-3 px-xl-5">
       <div class="col-12">
         <h2 class="text-primary fs-1">
           Wie läuft eine Entgiftungswoche ab?
@@ -10,7 +10,7 @@
             <div class="card">
               <img src="..." class="card-img-top" alt="...">
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
+                <h5 class="card-title">Tag 1</h5>
                 <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
               </div>
               <div class="card-footer">
