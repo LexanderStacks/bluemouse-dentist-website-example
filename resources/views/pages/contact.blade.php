@@ -26,10 +26,31 @@
             </div>
             <div class="row mt-3">
                 <div class="col-md-6 form-group mt-3 mt-md-0">
-                    <input data-error="Dies ist ein Pflichtfeld" type="tel" class="form-control bg-white" name="phone" id="phone" placeholder="Ihre Telefonnummer" required>
+                    <input data-error="Dies ist ein Pflichtfeld" type="tel" class="form-control bg-white" name="phone" id="phone" placeholder="Telefonnummer" required>
                 </div>
                 <div class="col-md-6 form-group mt-3 mt-md-0">
-                    <input data-error="Dies ist ein Pflichtfeld" type="text" class="form-control bg-white" name="subject" id="subject" placeholder="Anliegen" required>
+                  <select class="form-select bg-white" id="subject" name="subject" required>
+                    <option value="Anliegen nicht geschildert">Anliegen</option>
+                    <option value="3-D-Röntgen (DVT)">3-D-Röntgen (DVT)</option>
+                    <option value="abgebrochener Zahn">abgebrochener Zahn</option>
+                    <option value="Amalgamsanierung">Amalgamsanierung</option>
+                    <option value="empfindliche Zähne">empfindliche Zähne</option>
+                    <option value="Entfernung von Wurzelfüllungen">Entfernung von Wurzelfüllungen</option>
+                    <option value="Entgiftungstherapie (Detox)">Entgiftungstherapie (Detox)</option>
+                    <option value="ganzheitliches Problem">ganzheitliches Problem</option>
+                    <option value="Implantatsprechstunde (Zirkon)">Implantatsprechstunde (Zirkon)</option>
+                    <option value="Kariesbehandlung">Kariesbehandlung</option><option value="Kieferherdverdacht (Ostitis, NICO)">Kieferherdverdacht (Ostitis, NICO)</option><option value="Kiefergelenkknacken (CMD)">Kiefergelenkknacken (CMD)</option>
+                    <option value="Metallsanierung">Metallsanierung</option><option value="Prophylaxe">Prophylaxe</option>
+                    <option value="Schnarcherschiene">Schnarcherschiene</option><option value="Umweltzahnmedizin">Umweltzahnmedizin</option>
+                    <option value="Weisheitszähne">Weisheitszähne</option>
+                    <option value="weiße Füllungen">weiße Füllungen</option>
+                    <option value="Zahnersatz">Zahnersatz</option>
+                    <option value="Zahnfleischbluten">Zahnfleischbluten</option>
+                    <option value="Zähneknirschen">Zähneknirschen</option>
+                    <option value="Zahnkontrolle">Zahnkontrolle</option>
+                    <option value="Zweitmeinung">Zweitmeinung</option>
+                    <option value="Ich habe ein anderes Anliegen">Ich habe ein anderes Anliegen</option>
+                  </select>
                 </div>
             </div>
             <div class="form-group mt-3">
