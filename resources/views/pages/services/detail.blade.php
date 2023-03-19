@@ -2,13 +2,13 @@
 
     <!-- wp content -->
     <div class="row py-5 px-3 px-xl-5 align-items-center">
-        <div class="col-xl-6">
+        <div class="col-xl-4">
             <img style="max-height: 340px; width: auto;" src="{{$post->image}}" class="img-fluid rounded rounded-3 border border-5 border-white shadow text-center">
         </div>
-        <div class="col-xl-6 position-relative text-center text-xl-end h-100">
+        <div class="col-xl-8 position-relative text-center text-xl-end h-100">
             <div class="row h-100 align-items-center">
                 <div class="d-none d-xl-block">
-                    <h2 class="text-primary bg-white px-3 py-2 shadow d-inline" style="font-size: 2.8em;">{{ $post->title }}</h2>
+                    <h2 class="text-primary bg-white p-3 shadow d-inline" style="font-size: 2.8em;">{{ $post->title }}</h2>
                 </div>
                 <div class="d-block d-xl-none">
                     <h2 class="text-primary bg-white px-3 py-2 shadow d-inline" style="font-size: 1.4em;">{{ $post->title }}</h2>
