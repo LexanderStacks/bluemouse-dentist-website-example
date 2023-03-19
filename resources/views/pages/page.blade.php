@@ -1,4 +1,6 @@
 <div class="container-fluid g-0 px-3 px-xl-5">
+
+    <!-- wp content -->
     <div class="row py-5 px-3 px-xl-5">
     	<div class="col-12">
     		<h2 class="text-primary fs-1">
@@ -11,6 +13,9 @@
 			</div>
     	</div>
     </div>
+    <!-- ./wp content -->
+
+    <!-- attached image -->
     @php if(!isset($imgAttachment)) {$imgAttachment = null;} @endphp
 	@php if(!isset($pdfAttachmentTitle)) {$pdfAttachmentTitle = null;} @endphp
     @if(!is_null($imgAttachment))
@@ -22,6 +27,9 @@
 	        </div>
 	    </div>
     @endif
+    <!-- ./ attached image -->
+
+    <!-- attached btn -->
     @php if(!isset($btnUri) && !isset($btnTitle)) {$btnUri = null; $btnTitle = null;} @endphp
     @if(!is_null($btnUri))
     	@if(!is_null($btnTitle))
@@ -34,8 +42,13 @@
 	    </div>
 	    @endif
     @endif
+    <!-- ./ attached btn -->
+
+    <!-- vertical padding -->
     <div class="row my-2">
     	<div class="col-12">
     	</div>
 	</div>
+    <!-- ./ vertical padding -->
+
 </div>
