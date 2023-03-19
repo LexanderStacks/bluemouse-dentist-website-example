@@ -50,35 +50,33 @@ class EmailController extends Controller
 
 <body style='margin: 0; padding: 0;'>
 
- <table border='1' cellpadding='0' cellspacing='0' width='100%'>
+ <table border='0' cellpadding='0' cellspacing='0' width='100%'>
   <tr>
-    <td align='center' bgcolor='#70bbd9' style='padding: 40px 0 30px 0;'>
-     <img src='/images/firstbiodent-logo.svg' alt='FirstBioDent-Logo' width='300' height='auto' style='display: block;' />
+    <td align='center' bgcolor='#ffffff' style='padding: 40px 0 30px 0;'>
+     <img src='https://firstbiodentspa.de/images/firstbiodent-logo.svg' alt='FirstBioDent-Logo' width='300' height='auto' style='display: block;' />
+    </td>
+    <td align='center' bgcolor='#ffffff' style='padding: 40px 0 30px 0;'>
+     <h1>Terminanfrage</h1>
     </td>
   </tr>
   <tr>
-  <td align='center' bgcolor='#ffffff'>
-   Terminanfrage
-  </td>
- </tr>
-  <tr>
-  <td bgcolor='#ffffff'>
-   Name: ".$request->name."
+  <td bgcolor='#ffffff' style='padding: 40px 0 30px 0;'>
+   <b>Name: ".$request->name."</b>
   </td>
  </tr>
  <tr>
-  <td bgcolor='#ee4c50'>
-   Email: ".$request->email."
+  <td bgcolor='#ffffff' style='padding: 40px 0 30px 0;'>
+   <b>Email: ".$request->email."</b>
   </td>
 </tr>
  <tr>
-  <td bgcolor='#ee4c50'>
-   Betreff: ".$request->subject."
+  <td bgcolor='#ffffff' style='padding: 40px 0 30px 0;'>
+   <b>Betreff: ".$request->subject."</b>
   </td>
 </tr>
  <tr>
-  <td bgcolor='#ee4c50'>
-   Mitteilung: ".$request->message."
+  <td bgcolor='#ffffff' style='padding: 40px 0 30px 0;'>
+   <b>Mitteilung: ".$request->message."</b>
   </td>
 </tr>
  </table>
