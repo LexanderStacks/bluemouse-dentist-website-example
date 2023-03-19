@@ -23,7 +23,7 @@
             <input type="email" class="form-control" name="email" id="email" placeholder="Ihre Email" required>
         </div>
     </div>
-    <div class="form-group mt-3">
+    <div class="row mt-3">
         <div class="col-md-6 form-group mt-3 mt-md-0">
             <input type="tel" class="form-control" name="phone" id="phone" placeholder="Ihre Telefonnummer" required>
         </div>
