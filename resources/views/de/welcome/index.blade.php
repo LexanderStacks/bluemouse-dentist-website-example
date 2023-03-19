@@ -930,7 +930,7 @@
                                     <a href="/blog/{{$post->slug}}">{{$post->title}}</a>
                                 </h3>
                                 <p>
-                                    {{ substr($post->content, 0, 72) . "..."; }}
+                                    {{ substr($post->content, 0, 102) . "..."; }}
                                 </p>
                                 <div class="text-end">
                                     <a href="/blog/{{$post->slug}}" class="blog-btn">Mehr Lesen</a>
