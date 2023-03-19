@@ -38,7 +38,53 @@ class EmailController extends Controller
                     "name" => 'User Name'
                 ]
             ],
-            "htmlContent" => "<html><head></head>" . "<p>Name: ".$request->name.", Email: ".$request->email.", Betreff: ".$request->subject.", Mitteilung: ".$request->message."</p>" . "</html>",
+            "htmlContent" => "
+
+
+<html>
+ <head>
+  <meta http-equiv='Content-Type' content='text/html; charset=UTF-8' />
+  <title>Demystifying Email Design</title>
+  <meta name='viewport' content='width=device-width, initial-scale=1.0'/>
+</head>
+
+<body style='margin: 0; padding: 0;'>
+
+ <table border='1' cellpadding='0' cellspacing='0' width='100%'>
+  <tr>
+    <td align='center' bgcolor='#70bbd9' style='padding: 40px 0 30px 0;'>
+     <img src='/images/firstbiodent-logo.svg' alt='FirstBioDent-Logo' width='300' height='auto' style='display: block;' />
+    </td>
+  </tr>
+  <tr>
+  <td align='center' bgcolor='#ffffff'>
+   Terminanfrage
+  </td>
+ </tr>
+  <tr>
+  <td bgcolor='#ffffff'>
+   Name: ".$request->name."
+  </td>
+ </tr>
+ <tr>
+  <td bgcolor='#ee4c50'>
+   Email: ".$request->email."
+  </td>
+</tr>
+ <tr>
+  <td bgcolor='#ee4c50'>
+   Betreff: ".$request->subject."
+  </td>
+</tr>
+ <tr>
+  <td bgcolor='#ee4c50'>
+   Mitteilung: ".$request->message."
+  </td>
+</tr>
+ </table>
+</body>
+</html>
+            ",
         ];
 
         $fields = json_encode($fields);
