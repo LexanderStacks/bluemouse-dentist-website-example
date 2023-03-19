@@ -321,9 +321,9 @@ class PageController extends Controller
         $title = $this->shortTitle($post->title);
 
         return view('layouts.app', [
-            'page' => "services.index",
+            'page' => "pages.index",
             'title' => $title,
-            'view' => "page",
+            'view' => "services.index",
             'post' => $post,
         ]);
     }
