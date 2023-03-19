@@ -247,17 +247,19 @@
                                 </li>
 
                                 <li class="nav-item text-nowrap">
-                                    <a href="/blog/index" class="nav-link">
+                                    <a href="/blog" class="nav-link">
                                         Blog 
                                         <i class='bx bx-caret-down'></i>
                                     </a>
                                     <ul class="dropdown-menu">
                                         <li class="nav-item">
-                                            <a href="/blog/index" class="nav-link">Interessantes</a>
+                                            <a href="/blog" class="nav-link">Interessantes</a>
                                         </li>
+                                        <!--
                                         <li class="nav-item">
                                             <a href="/publications" class="nav-link">Publikationen</a>
                                         </li>
+                                        -->
                                     </ul>
                                 </li>
     
