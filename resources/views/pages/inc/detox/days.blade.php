@@ -11,7 +11,7 @@
           <div class="card">
             <img src="{{$element->image}}" class="card-img-top" alt="...">
             <div class="card-body">
-              <h5 class="card-title">{{$element->title}}</h5>
+              <h3 class="card-title fs-2 text-primary">{{$element->title}}</h3>
               <p class="card-text">
                 {!! $element->content !!}
               </p>
