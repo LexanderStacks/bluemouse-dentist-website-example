@@ -318,13 +318,7 @@ class PageController extends Controller
     {
         $post = \App\Models\Post::type('page')->slug($slot)->published()->with('attachment')->firstOrFail();
 
-        if ( str_contains($post->title, 'in Düsseldorf') ) {
-            $title = str_replace('in Düsseldorf', '', $post->title);
-        }
-        else{
-            $title = $post->title;
-        }
-        dd($title);
+        $title = $this->shortTitle($post->title);
 
         return view('layouts.app', [
             'page' => "pages.index",
@@ -332,6 +326,15 @@ class PageController extends Controller
             'view' => "page",
             'post' => $post,
         ]);
+    }
+    public function shortTitle($longTitle)
+    {
+        if ( str_contains($longTitle, ' in Düsseldorf') ) {
+            $title = str_replace(' in Düsseldorf', '', $longTitle);
+        }
+        else{
+            $title = $longTitle;
+        }
     }
 
 
