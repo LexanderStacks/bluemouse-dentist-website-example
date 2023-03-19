@@ -17,7 +17,8 @@ class EmailController extends Controller
             'email' => $request->email,
             'subject' => $request->subject,
             'subject' => $request->phone,
-            'message' => $request->message
+            'message' => $request->message,
+            'wishDate' => $request->wishDate
         ]);
         // --- ./ Html Template for the email --- //
 
@@ -85,6 +86,11 @@ class EmailController extends Controller
  <tr>
   <td bgcolor='#ffffff' style='padding: 20px 0 20px 0; font-size: 18px;'>
    Mitteilung: ".$request->message."
+  </td>
+</tr>
+ <tr>
+  <td bgcolor='#ffffff' style='padding: 20px 0 20px 0; font-size: 18px;'>
+   Wunschdatum: ".$request->wishDate."
   </td>
 </tr>
  </table>
