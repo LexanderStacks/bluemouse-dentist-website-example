@@ -26,16 +26,16 @@
             </div>
             <div class="row mt-3">
                 <div class="col-md-4 form-group mt-3 mt-md-0">
-                    <input style="border: none; min-height: 40px;" data-error="Dies ist ein Pflichtfeld" type="tel" class="form-control bg-white shadow no-border" name="phone" id="phone" placeholder="Telefonnummer" required>
+                    <input style="border: none; min-height: 38px;" data-error="Dies ist ein Pflichtfeld" type="tel" class="form-control bg-white shadow no-border" name="phone" id="phone" placeholder="Telefonnummer" required>
                 </div>
                 <div class="col-md-4 mt-3 mt-md-0">
-                    <input style="border: none; min-height: 40px;" data-error="Dies ist ein Pflichtfeld" type="date" class="bg-white shadow no-border py-2" name="wishDate" id="wishDate" placeholder="Ihr Wunschdatum">
+                    <input style="border: none; min-height: 38px;" data-error="Dies ist ein Pflichtfeld" type="date" class="bg-white shadow no-border py-2" name="wishDate" id="wishDate" placeholder="Ihr Wunschdatum">
 
                 </div>
                 <div class="col-md-4 mt-3 mt-md-0">
                     <div>
 
-                      <select class="bg-white shadow maxwidth" id="subject" name="subject" required>
+                      <select class="bg-white shadow" id="subject" name="subject" required>
                         <option class="w-100" value="Anliegen nicht geschildert">Anliegen</option>
                         <option class="w-100" value="3-D-Röntgen (DVT)">3-D-Röntgen (DVT)</option>
                         <option class="w-100" value="abgebrochener Zahn">abgebrochener Zahn</option>
