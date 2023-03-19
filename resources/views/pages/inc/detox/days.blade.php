@@ -8,20 +8,7 @@
       <div>
         <div class="d-none d-xl-block card-group">
           @foreach($elements as $element)
-          <div class="card">
-            <img src="{{$element->image}}" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h3 class="card-title fs-2 text-primary">{{$element->title}}</h3>
-              <p class="card-text">
-                {!! $element->content !!}
-              </p>
-            </div>
-          </div>
-          @endforeach
-        </div>
-        <div class="d-block d-xl-none">
-          @foreach($elements as $element)
-          <div class="card">
+          <div id="element-{{$loop->index}}-{{$element->slug}}" class="card">
             <img src="{{$element->image}}" class="card-img-top" alt="...">
             <div class="card-body">
               <h3 class="card-title fs-2 text-primary">{{$element->title}}</h3>
