@@ -11,6 +11,7 @@
 			</div>
     	</div>
     </div>
+    <img src="{{$post->image}}">
     @php if(!isset($imgAttachment)) {$imgAttachment = null;} @endphp
 	@php if(!isset($pdfAttachmentTitle)) {$pdfAttachmentTitle = null;} @endphp
     @if(!is_null($imgAttachment))
