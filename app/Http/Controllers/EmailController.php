@@ -25,19 +25,19 @@ class EmailController extends Controller
         $fields = [
             'to' => [
                 [
-                    "email" => 'a.kucharski@posteo.de',
+                    "email" => 'info@firstbiodent.de',
                     "name" => 'FirstBioDent'
                 ]
             ],
             "sender" => [
                 "name" => 'FirstBioDent',
-                "email" => 'a.kucharski@posteo.de'
+                "email" => 'info@firstbiodent.de'
             ],
             "subject" => 'FirstBioDent Terminanfrage',
             "cc" => [
                 [
-                    "email" => 'a.kucharski@posteo.de',
-                    "name" => 'User Name'
+                    "email" => 'info@firstbiodent.de',
+                    "name" => 'FirstBioDent'
                 ]
             ],
             "htmlContent" => "
@@ -155,18 +155,18 @@ class EmailController extends Controller
         $fields = [
             'to' => [
                 [
-                    "email" => 'a.kucharski@posteo.de',
+                    "email" => 'info@firstbiodent.de',
                     "name" => 'FirstBioDent'
                 ]
             ],
             "sender" => [
                 "name" => 'FirstBioDent',
-                "email" => 'a.kucharski@posteo.de'
+                "email" => 'info@firstbiodent.de'
             ],
             "subject" => 'FirstBioDent Terminanfrage',
             "cc" => [
                 [
-                    "email" => 'a.kucharski@posteo.de',
+                    "email" => 'info@firstbiodent.de',
                     "name" => 'FirstBioDent'
                 ]
             ],
