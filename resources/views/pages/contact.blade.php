@@ -118,5 +118,14 @@
 
 
 <script>
-
+    document.addEventListener("DOMContentLoaded", () => {
+        flatpickr("#wishDate", {
+            enableTime: false,
+            dateFormat: "Y-m-d",
+            weekNumbers: true,
+            altInput: true,
+            altFormat: "j. F Y",  
+            locale: "de",
+        });
+    });
 </script>
