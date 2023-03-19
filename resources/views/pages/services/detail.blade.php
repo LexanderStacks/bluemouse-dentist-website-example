@@ -68,7 +68,7 @@
     <!-- ./ attached btn -->
 
     <!-- vertical padding -->
-    <div class="row my-3">
+    <div class="row my-1">
         <div class="col-12">
         </div>
     </div>
