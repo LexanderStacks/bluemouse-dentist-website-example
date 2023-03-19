@@ -18,15 +18,15 @@
             @csrf
             <div class="row">
                 <div class="col-md-6 form-group">
-                    <input style="border: none; min-height: 18px;" data-error="Dies ist ein Pflichtfeld" type="text" name="name" class="form-control bg-white shadow no-border" id="name" placeholder="Ihr voller Name" value="" required>
+                    <input style="border: none; min-height: 40px;" data-error="Dies ist ein Pflichtfeld" type="text" name="name" class="form-control bg-white shadow no-border" id="name" placeholder="Ihr voller Name" value="" required>
                 </div>
                 <div class="col-md-6 form-group mt-3 mt-md-0">
-                    <input style="border: none; min-height: 18px;" data-error="Dies ist ein Pflichtfeld" type="email" class="form-control bg-white shadow no-border" name="email" id="email" placeholder="Ihre Email" required>
+                    <input style="border: none; min-height: 40px;" data-error="Dies ist ein Pflichtfeld" type="email" class="form-control bg-white shadow no-border" name="email" id="email" placeholder="Ihre Email" required>
                 </div>
             </div>
             <div class="row mt-3">
                 <div class="col-md-6 form-group mt-3 mt-md-0">
-                    <input style="border: none; min-height: 18px;" data-error="Dies ist ein Pflichtfeld" type="tel" class="form-control bg-white shadow no-border" name="phone" id="phone" placeholder="Telefonnummer" required>
+                    <input style="border: none; min-height: 40px;" data-error="Dies ist ein Pflichtfeld" type="tel" class="form-control bg-white shadow no-border" name="phone" id="phone" placeholder="Telefonnummer" required>
                 </div>
                 <div class="col-md-6 mt-3 mt-md-0">
                   <select class="bg-white shadow" id="subject" name="subject" required style="max-height: 380px; overflow-y: scroll; width: 100%;">
