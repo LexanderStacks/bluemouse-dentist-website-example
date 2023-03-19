@@ -94,7 +94,9 @@ class PageController extends Controller
         return view('layouts.app', [
             'page' => "pages.index",
             'title' => "Online Termin",
-            'view' => "contact-online"
+            'view' => "contact-online",
+            'alertTitle' => null,
+            'alertMessage' => null,
         ]);
     }
     public function aboutCovid()

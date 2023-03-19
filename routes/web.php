@@ -59,6 +59,9 @@ Route::post('/sendRequest',
 Route::get('/contact-online', 
     [App\Http\Controllers\PageController::class, 'contactOnline']
 );
+Route::post('/sendOnlineRequest', 
+    [App\Http\Controllers\EmailController::class, 'sendOnlineRequest']
+);
 Route::get('/about-covid', 
     [App\Http\Controllers\PageController::class, 'aboutCovid']
 );
