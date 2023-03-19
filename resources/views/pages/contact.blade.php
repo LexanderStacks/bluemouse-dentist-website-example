@@ -1,3 +1,19 @@
+<style>
+.maxwidth {
+  max-width:100%;
+}
+
+.maxwidth > option {
+  max-width:100%;
+  background: #fff;
+  color: #000;
+}
+
+.maxwidth > option:hover {
+  background:red;
+}
+</style>
+
 <section class="contact-area ptb-100">
     <div class="container">
 
@@ -31,7 +47,7 @@
                 <div class="col-md-6 mt-3 mt-md-0">
                     <div>
 
-                      <select class="bg-white shadow" id="subject" name="subject" required style="width:550px;">
+                      <select class="bg-white shadow maxWidth" id="subject" name="subject" required>
                         <option class="w-100" value="Anliegen nicht geschildert">Anliegen</option>
                         <option class="w-100" value="3-D-Röntgen (DVT)">3-D-Röntgen (DVT)</option>
                         <option class="w-100" value="abgebrochener Zahn">abgebrochener Zahn</option>
