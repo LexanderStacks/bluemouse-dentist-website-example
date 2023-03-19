@@ -17,7 +17,6 @@
 	    <div class="row px-3 px-xl-5 pb-3">
 	        <div class="col-12 text-center text-xl-start pt-2">
 	        	<a @if(is_null($pdfAttachmentTitle)) style="pointer-events: none;" @endif href="/pdf/{{$pdfAttachmentTitle}}.pdf" download="{{$pdfAttachmentTitle}}">
-        		@endif
 	            	<img src="{{$post->image}}" class="mt-2">
 	            </a>             
 	        </div>
