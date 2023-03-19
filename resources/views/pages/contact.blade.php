@@ -8,7 +8,7 @@
             <h2>Reservien Sie bequem Ihren Termin</h2>
             <p>Wir setzen uns mit Ihnen in Verbindung sofern Ihr Wunschtermin nicht verfügbar ist.</p>
         </div>
-        
+
         @if(!is_null($alertTitle))
             @include('pages.inc.alert', array('alertTitle' => $alertTitle, 'alertMessage' => $alertMessage))
         @endif
@@ -22,12 +22,14 @@
         <div class="col-md-6 form-group mt-3 mt-md-0">
             <input type="email" class="form-control" name="email" id="email" placeholder="Ihre Email" required>
         </div>
+    </div>
+    <div class="form-group mt-3">
         <div class="col-md-6 form-group mt-3 mt-md-0">
             <input type="tel" class="form-control" name="phone" id="phone" placeholder="Ihre Telefonnummer" required>
         </div>
-    </div>
-    <div class="form-group mt-3">
-        <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject..." required>
+        <div class="col-md-6 form-group mt-3 mt-md-0">
+            <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject..." required>
+        </div>
     </div>
     <div class="form-group mt-3">
         <textarea class="form-control" name="message" rows="5" placeholder="Mitteilung" required></textarea>
