@@ -317,13 +317,11 @@ class PageController extends Controller
     public function wpPage($slot)
     {
         $post = \App\Models\Post::type('page')->slug($slot)->published()->with('attachment')->firstOrFail();
-        dd($post->acf->url);
         return view('layouts.app', [
             'page' => "pages.index",
             'title' => $post->title,
             'view' => "page",
             'post' => $post,
-            'shortTitle' => $post->acf->text('short-title'),
         ]);
     }
 
