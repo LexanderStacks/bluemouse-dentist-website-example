@@ -49,7 +49,7 @@
     <!-- ./ attached btn -->
 
     <!-- vertical padding -->
-    <div class="row my-2">
+    <div class="row my-3">
     	<div class="col-12">
     	</div>
 	</div>
