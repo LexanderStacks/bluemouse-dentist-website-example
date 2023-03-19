@@ -36,7 +36,7 @@
                 <textarea class="form-control" name="message" rows="5" placeholder="Mitteilung" required></textarea>
             </div>
             <div class="text-center">
-                <input id="submit-request-btn" class="request-submit-btn" type="submit" value="Abschicken">
+                <input id="submit-request-btn" class="btn btn-primary" type="submit" value="Abschicken">
             </div>
         </form>
 

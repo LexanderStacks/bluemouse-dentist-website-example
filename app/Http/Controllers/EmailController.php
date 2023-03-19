@@ -53,8 +53,8 @@ class EmailController extends Controller
 
  <table border='0' cellpadding='0' cellspacing='0' width='100%'>
   <tr>
-    <td align='center' bgcolor='#ffffff' style='padding: 40px 0 30px 0;'>
-     <img src='https://firstbiodentspa.de/images/firstbiodent-logo.svg' alt='FirstBioDent-Logo' width='300' height='auto' style='display: block;' />
+    <td align='center' bgcolor='#ffffff' style='padding: 40px 0 30px 0; font-size: 24px;'>
+     FirstBioDent
     </td>
   </tr>
   <tr>
