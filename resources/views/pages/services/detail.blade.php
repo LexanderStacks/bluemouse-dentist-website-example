@@ -67,12 +67,6 @@
     @endif
     <!-- ./ attached btn -->
 
-    <!-- vertical padding -->
-    <div class="row my-1">
-        <div class="col-12">
-        </div>
-    </div>
-    <!-- ./ vertical padding -->
     @include('pages.services.index')
 
 </div>
