@@ -11,7 +11,7 @@
       <div class="col-6 mt-3">
 
         <div class="card mb-3 border-none no-border shadow w-100" style="border: none;">
-          <div class="row g-0">
+          <div class="row g-0 align-items-center">
             <div class="col-md-4 pt-4 pb-4">
               <img src="/images/gesunder-zahn.png" class="img-fluid rounded-start" alt="...">
             </div>
@@ -29,7 +29,7 @@
       <div class="col-6 mt-3">
 
         <div class="card mb-3 shadow w-100" style="border: none;">
-          <div class="row g-0">
+          <div class="row g-0 align-items-center">
             <div class="col-md-4 pt-4 pb-4">
               <img src="/images/toter-zahn.png" class="img-fluid rounded-start" alt="...">
             </div>
