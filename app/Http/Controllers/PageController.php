@@ -205,6 +205,8 @@ class PageController extends Controller
             'title' => "Ganzheitliche Zahnmedizin",
             'view' => "page",
             'post' => $post,
+            'imgAttachment' => true,
+            'pdfAttachmentTitle' => "zertifikat_zeramex",
         ]);
     }
     public function amalgamDetox()
