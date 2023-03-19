@@ -11,7 +11,7 @@
                     <h2 class="text-primary bg-white px-3 py-2 shadow" style="font-size: 2.8em;">{{ $post->title }}</h2>
                 </div>
                 <div class="d-none d-xl-block">
-                    <h2 class="text-primary bg-white px-3 py-2 shadow" style="font-size: 1.4em;">{{ $post->title }}</h2>
+                    <h2 class="text-primary bg-white px-3 py-2 shadow d-inline" style="font-size: 1.4em;">{{ $post->title }}</h2>
                 </div>
             </div>
         </div>
