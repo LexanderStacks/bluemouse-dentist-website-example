@@ -8,6 +8,10 @@
             <h2>Reservien Sie bequem Ihren Termin</h2>
             <p>Wir setzen uns mit Ihnen in Verbindung sofern Ihr Wunschtermin nicht verfügbar ist.</p>
         </div>
+        
+        @if(!is_null($alertTitle))
+            @include('pages.inc.alert', array('alertTitle' => $alertTitle, 'alertMessage' => $alertMessage))
+        @endif
 
 <form action="/sendRequest" method="Post" class="php-email-form">
     @csrf
@@ -91,10 +95,6 @@
                 </div>
             </form>
         </div>
-
-        @if(!is_null($alertTitle))
-            @include('pages.inc.alert', array('alertTitle' => $alertTitle, 'alertMessage' => $alertMessage))
-        @endif
 
         <div class="contact-info">
             <div class="contact-info-content">
