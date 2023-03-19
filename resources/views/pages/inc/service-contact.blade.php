@@ -1,5 +1,5 @@
 
-	<div class="row px-3 px-xl-5 bg-white rounded rounded-3 shadow">
+	<div class="row px-2 px-xl-5 bg-white rounded rounded-3 shadow">
 	    <div class="col-12 text-start py-5">
 	        <h3 class="text-primary">Beratung und Termine</h3>
 	        <p style="text-black">
