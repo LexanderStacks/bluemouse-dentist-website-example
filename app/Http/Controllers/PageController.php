@@ -234,12 +234,14 @@ class PageController extends Controller
     {
         $post = \App\Models\Post::type('page')->slug('detox')->published()->with('attachment')->firstOrFail();
         $secondPost = \App\Models\Post::type('page')->slug('detox-2')->published()->with('attachment')->firstOrFail();
+        $elements = \App\Models\Post::published()->type('detox-day')->with('attachment')->orderBy('menu_order')->get();
         return view('layouts.app', [
             'page' => "pages.index",
             'title' => "Detox",
             'view' => "page",
             'post' => $post,
             'secondPost' => $secondPost,
+            'elements' => $elements,
         ]);
     }
     public function integrativeDentistry()

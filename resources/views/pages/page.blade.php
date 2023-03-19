@@ -31,10 +31,11 @@
 
     <!-- manual special sections -->
     @php if(!isset($secondPost)) {$secondPost = null;} @endphp
+    @php if(!isset($elements)) {$elements = null;} @endphp
 
     @if($post->slug == 'detox')
     	@include('pages.inc.detox.comparison')
-    	@include('pages.inc.detox.days')
+    	@include('pages.inc.detox.days', array('elements' => $elements))
     	@include('pages.inc.second-post', array('secondPost' => $secondPost))
 	@endif
     <!-- ./ manual special sections -->
