@@ -30,6 +30,8 @@
     <!-- ./ attached image -->
 
     <!-- manual special sections -->
+    @php if(!isset($secondPost)) {$secondPost = null;} @endphp
+    
     @if($post->slug == 'detox')
     	@include('pages.inc.detox.comparison')
     	@include('pages.inc.detox.days')
