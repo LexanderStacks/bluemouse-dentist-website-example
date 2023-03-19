@@ -35,7 +35,7 @@
                 <div class="col-md-4 mt-3 mt-md-0">
                     <div>
 
-                      <select class="bg-white shadow" id="subject" name="subject" required>
+                      <select style="max-height: 38px;" class="bg-white shadow" id="subject" name="subject" required>
                         <option class="w-100" value="Anliegen nicht geschildert">Anliegen</option>
                         <option class="w-100" value="3-D-Röntgen (DVT)">3-D-Röntgen (DVT)</option>
                         <option class="w-100" value="abgebrochener Zahn">abgebrochener Zahn</option>
