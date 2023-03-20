@@ -74,36 +74,40 @@ li.hover-no-underline:hover{
                             
                             <div class="footer-widget-blog">
                                 <article class="item">
-                                    <a href="/blog" class="thumb">
+                                    <a href="/holistic-dentistry" class="thumb">
                                         <!--
                                         <span class="fullimage bg1" role="img"></span>
                                     -->
                                     <img alt="Blogartikel 1" title="Blogartikel 1" height="140" width="140" src="/template-assets/images/blog/blog-1.jpg">
                                     </a>
                                     <div class="info">
-                                        <span>Von<a href="/blog" style="color:  #8eff97;">Dr. med. Hansjörg Lammers</a></span>
+                                        <span>Von<a href="/holistic-dentistry" style="color:  #8eff97;">Dr. med. Hansjörg Lammers</a></span>
                                         <p><a class="text-white" href="/blog">Ganzheitliche Zahnmedizin</a></p>
-                                    </div>
-                                </article>
-                                <article class="item">
-                                    <a href="/blog" class="thumb">
-                                    <img alt="Blogartikel 2" title="Blogartikel 2" height="140" width="140" src="/template-assets/images/blog/blog-2.jpg">
-                                    </a>
-                                    <div class="info">
-                                        <span>Von<a href="/blog" style="color:  #8eff97;">Dr. med. Hansjörg Lammers</a></span>
-                                        <p><a class="text-white" href="/blog">Zahnzusatzversicherung</a></p>
                                     </div>
                                 </article>
 
                                 <article class="item">
-                                    <a href="/blog" class="thumb" style="color:white;">
+                                    <a href="/detox" class="thumb" style="color:white;">
                                         <img alt="Blogartikel 3" title="Blogartikel 3" height="140" width="140" src="/template-assets/images/blog/blog-3.jpg">
                                     </a>
                                     <div class="info">
                                         <span>Von<a href="/blog" style="color:  #8eff97;">Dr. med. Hansjörg Lammers</a></span>
-                                        <p><a class="text-white" href="/blog">Detox</a></p>
+                                        <p><a class="text-white" href="/detox">Detox</a></p>
                                     </div>
                                 </article>
+
+                                @foreach($posts as $post)
+                                    <article class="item">
+                                        <a href="/blog/{{$post->slug}}" class="thumb">
+                                        <img alt="Blogartikel 2" title="Blogartikel 2" height="140" width="140" src="{{$post->image}}">
+                                        </a>
+                                        <div class="info">
+                                            <span>Von<a href="/blog" style="color:  #8eff97;">Dr. med. Hansjörg Lammers</a></span>
+                                            <p><a class="text-white" href="/blog/{{$post->slug}}">{{$post->title}}</a></p>
+                                        </div>
+                                    </article>
+                                @endforeach
+
                             </div>
                         </div>
                     </div>
