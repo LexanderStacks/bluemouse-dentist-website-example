@@ -49,7 +49,7 @@
                     <div class="col-lg-4 col-md-12 pt-1">
                         <div class="middle-header d-flex">
                             <a class="pointer" href="/">
-                                <img alt="FirstBiodent Logo" title="FirstBiodent Logo" class="d-none d-xl-block" style="height: 4.4em; widht: auto;" src="/template-assets/images/firstbiodent-logo.svg"></img>
+                                <img alt="FirstBiodent Logo" title="FirstBiodent Logo" class="d-none d-xl-block" style="height: 4.4em; widht: auto;" src="/template-assets/images/firstbiodent-logo-3.svg"></img>
                             </a>
                         </div>
                     </div>
