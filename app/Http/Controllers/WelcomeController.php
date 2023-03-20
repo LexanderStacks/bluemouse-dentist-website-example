@@ -15,6 +15,8 @@ class WelcomeController extends Controller
             'page' => "de.welcome.index",
             'title' => "welcome",
             'blogPosts' => $blogPosts,
+            'alertTitle' => null,
+            'alertMessage' => null,
         ]);
     }
     public function showWelcomeViewEnglish()

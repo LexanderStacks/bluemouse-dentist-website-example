@@ -62,6 +62,9 @@ Route::get('/contact-online',
 Route::post('/sendOnlineRequest', 
     [App\Http\Controllers\EmailController::class, 'sendOnlineRequest']
 );
+Route::post('/callBackRequest', 
+    [App\Http\Controllers\EmailController::class, 'callBackRequest']
+);
 Route::get('/about-covid', 
     [App\Http\Controllers\PageController::class, 'aboutCovid']
 );
