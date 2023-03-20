@@ -137,12 +137,14 @@ class EmailController extends Controller
             $alertMessage = "Wir werden uns schnellstmöglich um Ihr Anliegen kümmern und bedanken uns für Ihre Geduld."; 
         }
 
+        $blogPosts = \App\Models\Post::taxonomy('category', 'blog')->with('attachment')->limit(1)->get();
         return view('layouts.app', [
             'page' => "pages.index",
             'title' => "Kontakt",
             'view' => "contact",
             'alertTitle' => $alertTitle,
             'alertMessage' => $alertMessage,
+            'blogPosts' => $blogPosts,
         ]);
 
         /* --- ./ Redirect To Reply Route --- */
@@ -257,12 +259,14 @@ class EmailController extends Controller
             $alertMessage = "Wir werden uns schnellstmöglich um Ihr Anliegen kümmern und bedanken uns für Ihre Geduld."; 
         }
 
+        $blogPosts = \App\Models\Post::taxonomy('category', 'blog')->with('attachment')->limit(1)->get();
         return view('layouts.app', [
             'page' => "pages.index",
             'title' => "Online Termin",
             'view' => "contact-online",
             'alertTitle' => $alertTitle,
             'alertMessage' => $alertMessage,
+            'blogPosts' => $blogPosts,
         ]);
 
         /* --- ./ Redirect To Reply Route --- */
@@ -372,12 +376,14 @@ class EmailController extends Controller
             $alertMessage = "Wir werden uns schnellstmöglich um Ihr Anliegen kümmern und bedanken uns für Ihre Geduld."; 
         }
 
+        $blogPosts = \App\Models\Post::taxonomy('category', 'blog')->with('attachment')->limit(1)->get();
         return view('layouts.app', [
             'page' => "pages.index",
             'title' => "Kontakt",
             'view' => "contact",
             'alertTitle' => $alertTitle,
             'alertMessage' => $alertMessage,
+            'blogPosts' => $blogPosts,
         ]);
 
         /* --- ./ Redirect To Reply Route --- */
