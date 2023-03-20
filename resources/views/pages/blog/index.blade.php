@@ -41,151 +41,114 @@
                         </div>
                     </div>
 
+                   <div class="row">
                     <div class="col-lg-4 col-md-6">
                         <div class="single-blog">
                             <div class="blog-image">
-                                <a href="blog-details.html"><img src="assets/images/blog/blog-2.jpg" alt="image"></a>
-
-                                <div class="tag">11 Jun</div>
-                                <div class="tag-two"><a href="blog.html">Dental</a></div>
-                            </div>
-                            <div class="blog-content">
-                                <h3>
-                                    <a href="blog-details.html">Regular Dental care make Your Smile Brighter</a>
-                                </h3>
-                                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod.</p>
-                                <a href="blog-details.html" class="blog-btn">Read More</a>
-                                
-                                <ul class="entry-meta">
-                                    <li>
-                                        <i class='bx bxs-user'></i>
-                                        <span>By <a href="blog-right-sidebar.html">Babatunde Jon</a></span>
-                                    </li>
-                                    <li>
-                                        <i class='bx bxs-comment'></i>
-                                        2 Comments
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6">
-                        <div class="single-blog">
-                            <div class="blog-image">
-                                <a href="blog-details.html"><img src="assets/images/blog/blog-3.jpg" alt="image"></a>
-
-                                <div class="tag">12 Jun</div>
-                                <div class="tag-two"><a href="blog.html">Hygiene</a></div>
-                            </div>
-                            <div class="blog-content">
-                                <h3>
-                                    <a href="blog-details.html">Dental Hygiene for All Age to Make Smile</a>
-                                </h3>
-                                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod.</p>
-                                <a href="blog-details.html" class="blog-btn">Read More</a>
-                                
-                                <ul class="entry-meta">
-                                    <li>
-                                        <i class='bx bxs-user'></i>
-                                        <span>By <a href="blog-right-sidebar.html">Daisy Gabriela</a></span>
-                                    </li>
-                                    <li>
-                                        <i class='bx bxs-comment'></i>
-                                        2 Comments
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6">
-                        <div class="single-blog">
-                            <div class="blog-image">
-                                <a href="blog-details.html"><img src="assets/images/blog/blog-4.jpg" alt="image"></a>
-
+                                <a href="/holistic-dentistry"><img src="/template-assets/images/blog/blog-1.jpg" alt="image"></a>
+                                <!--
                                 <div class="tag">10 Jun</div>
-                                <div class="tag-two"><a href="blog.html">Technology</a></div>
+                                -->
+                                <div class="tag-two"><a href="/blog">Ganzheitliche Zahnmedizin</a></div>
                             </div>
                             <div class="blog-content">
                                 <h3>
-                                    <a href="blog-details.html">10 Dental Technology That Really Help</a>
+                                    <a href="/holistic-dentistry">Ganzheitliche Zahnmedizin in Düsseldorf</a>
                                 </h3>
-                                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod.</p>
-                                <a href="blog-details.html" class="blog-btn">Read More</a>
+                                <p>Ganzheitliche Zahnmedizin betrachtet Zähne, Mundhöhle und Kiefer nicht isoliert vom restlichen Organismus.</p>
+                                <div class="text-end">
+                                    <a href="/holistic-dentistry" class="blog-btn">Mehr Lesen</a>
+                                </div>
 
                                 <ul class="entry-meta">
                                     <li>
                                         <i class='bx bxs-user'></i>
-                                        <span>By <a href="blog-right-sidebar.html">Ronnie Aaron</a></span>
+                                        <span>Von <a href="/doc/main">Dr. Med. Hansjörg Lammers</a></span>
                                     </li>
+                                    <!--
                                     <li>
                                         <i class='bx bxs-comment'></i>
                                         2 Comments
                                     </li>
+                                    -->
                                 </ul>
                             </div>
                         </div>
                     </div>
 
-                    <div class="col-lg-4 col-md-6">
+                    <div class="col-lg-4 col-md-6 offset-lg-0 offset-md-3">
                         <div class="single-blog">
                             <div class="blog-image">
-                                <a href="blog-details.html"><img src="assets/images/blog/blog-5.jpg" alt="image"></a>
-
-                                <div class="tag">11 Jun</div>
-                                <div class="tag-two"><a href="blog.html">Dental</a></div>
-                            </div>
-                            <div class="blog-content">
-                                <h3>
-                                    <a href="blog-details.html">World Best Dentist Meetup in Workshop</a>
-                                </h3>
-                                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod.</p>
-                                <a href="blog-details.html" class="blog-btn">Read More</a>
-                                
-                                <ul class="entry-meta">
-                                    <li>
-                                        <i class='bx bxs-user'></i>
-                                        <span>By <a href="blog-right-sidebar.html">Daisy Gabriela</a></span>
-                                    </li>
-                                    <li>
-                                        <i class='bx bxs-comment'></i>
-                                        2 Comments
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6">
-                        <div class="single-blog">
-                            <div class="blog-image">
-                                <a href="blog-details.html"><img src="assets/images/blog/blog-6.jpg" alt="image"></a>
-
+                                <a href="/detox"><img src="/template-assets/images/blog/blog-3.jpg" alt="image"></a>
+                                <!--
                                 <div class="tag">12 Jun</div>
-                                <div class="tag-two"><a href="blog.html">Hygiene</a></div>
+                                -->
+                                <div class="tag-two"><a href="/detox">Detox</a></div>
                             </div>
                             <div class="blog-content">
                                 <h3>
-                                    <a href="blog-details.html">Hygiene for All Age to Make Smile Brighter</a>
+                                    <a href="/detox">DETOX in Düsseldorf – Körper und Mundraum entgiften</a>
                                 </h3>
-                                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod.</p>
-                                <a href="blog-details.html" class="blog-btn">Read More</a>
-                                
+                                <p>Schwermetalle, wie Palladium, aus Zahngoldlegierungen, Quecksilber in Amalgamfüllungen, Arsen im Reis...</p>
+                                <div class="text-end">
+                                    <a href="/detox" class="blog-btn">Mehr Lesen</a>
+                                </div>
+
                                 <ul class="entry-meta">
                                     <li>
                                         <i class='bx bxs-user'></i>
-                                        <span>By <a href="blog-right-sidebar.html">Babatunde Jon</a></span>
+                                        <span>Von <a href="/doc/main">Dr. Med. Hansjörg Lammers</a></span>
                                     </li>
+                                    <!--
                                     <li>
                                         <i class='bx bxs-comment'></i>
                                         2 Comments
                                     </li>
+                                    -->
                                 </ul>
                             </div>
                         </div>
                     </div>
 
+                    @foreach($blogPosts as $post)
+                    <div class="col-lg-4 col-md-6">
+                        <div class="single-blog">
+                            <div class="blog-image">
+                                <a href="/blog/{{$post->slug}}"><img src="{{$post->image}}" alt="image"></a>
+                                <!--
+                                <div class="tag">11 Jun</div>
+                                -->
+                                <div class="tag-two"><a href="/blog/{{$post->slug}}">{{$post->title}}</a></div>
+                            </div>
+                            <div class="blog-content">
+                                <h3>
+                                    <a href="/blog/{{$post->slug}}">{{$post->title}}</a>
+                                </h3>
+                                <p>
+                                    {{ substr($post->content, 0, 102) . "..."; }}
+                                </p>
+                                <div class="text-end">
+                                    <a href="/blog/{{$post->slug}}" class="blog-btn">Mehr Lesen</a>
+                                </div>
+
+                                <ul class="entry-meta">
+                                    <li>
+                                        <i class='bx bxs-user'></i>
+                                        <span>Von <a href="/doc/main">Dr. Med. Hansjörg Lammers</a></span>
+                                    </li>
+                                    <!--
+                                    <li>
+                                        <i class='bx bxs-comment'></i>
+                                        2 Comments
+                                    </li>
+                                    -->
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    @endforeach
+
+                    <!--
                     <div class="col-lg-12 col-md-12">
                         <div class="pagination-area">
                             <a href="#" class="prev page-numbers">
@@ -201,6 +164,7 @@
                             </a>
                         </div>
                     </div>
+                    -->
                 </div>
             </div>
         </section>
