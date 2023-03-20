@@ -50,10 +50,12 @@ class PageController extends Controller
     }
     public function blogHome()
     {
+        $blogPosts = \App\Models\Post::taxonomy('category', 'blog')->with('attachment')->limit(1)->get();
         return view('layouts.app', [
             'page' => "pages.index",
             'title' => "Blog",
-            'view' => "blog.index"
+            'view' => "blog.index",
+            'blogPosts' => $blogPosts,
         ]);
     }
     public function blogDetail()
