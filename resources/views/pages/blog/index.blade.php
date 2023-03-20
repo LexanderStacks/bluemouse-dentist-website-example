@@ -6,40 +6,11 @@
                     <span class="sub-title">
                         
                         <i class="bi bi-hash fs-4 text-primary"></i>
-                        Update News and Blogs
+                        Interessante Neuigkeiten & Blogartikel
                     </span>
-                    <h2>Stay Updated with Our Latest News and Blog</h2>
+                    <h2>Hier ensteht ein gepflegtest Informationsarchiv von FirstBioDent</h2>
                 </div>
 
-                <div class="row">
-                    <div class="col-lg-4 col-md-6">
-                        <div class="single-blog">
-                            <div class="blog-image">
-                                <a href="blog-details.html"><img src="assets/images/blog/blog-1.jpg" alt="image"></a>
-
-                                <div class="tag">10 Jun</div>
-                                <div class="tag-two"><a href="blog.html">Technology</a></div>
-                            </div>
-                            <div class="blog-content">
-                                <h3>
-                                    <a href="blog-details.html">New Technology Make for Dental Operation</a>
-                                </h3>
-                                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod.</p>
-                                <a href="blog-details.html" class="blog-btn">Read More</a>
-
-                                <ul class="entry-meta">
-                                    <li>
-                                        <i class='bx bxs-user'></i>
-                                        <span>By <a href="blog-right-sidebar.html">Daisy Gabriela</a></span>
-                                    </li>
-                                    <li>
-                                        <i class='bx bxs-comment'></i>
-                                        2 Comments
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
 
                    <div class="row">
                     <div class="col-lg-4 col-md-6">
