@@ -1,10 +1,10 @@
 <style>
   .scale{
-    transition: .2s;
+    transition: .7s;
     cursor: pointer;
   }
   .scale:hover{
-    transform: scale(1.1);
+    transform: scale(1.05);
   }
 </style>
 
