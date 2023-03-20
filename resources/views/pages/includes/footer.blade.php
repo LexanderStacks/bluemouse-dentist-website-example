@@ -81,8 +81,8 @@ li.hover-no-underline:hover{
                                     <img alt="Blogartikel 1" title="Blogartikel 1" height="140" width="140" src="/template-assets/images/blog/blog-1.jpg">
                                     </a>
                                     <div class="info">
-                                        <span>Von<a href="/holistic-dentistry" style="color:  #8eff97;">Dr. med. Hansjörg Lammers</a></span>
-                                        <p><a class="text-white" href="/blog">Ganzheitliche Zahnmedizin</a></p>
+                                        <span>Von<a href="/doc/main" style="color:  #8eff97;">Dr. med. Hansjörg Lammers</a></span>
+                                        <p><a class="text-white" href="/holistic-dentistry">Ganzheitliche Zahnmedizin</a></p>
                                     </div>
                                 </article>
 
@@ -91,7 +91,7 @@ li.hover-no-underline:hover{
                                         <img alt="Blogartikel 2" title="Blogartikel 2" height="140" width="140" src="/template-assets/images/blog/blog-3.jpg">
                                     </a>
                                     <div class="info">
-                                        <span>Von<a href="/detox" style="color:  #8eff97;">Dr. med. Hansjörg Lammers</a></span>
+                                        <span>Von<a href="/doc/main" style="color:  #8eff97;">Dr. med. Hansjörg Lammers</a></span>
                                         <p><a class="text-white" href="/detox">Detox</a></p>
                                     </div>
                                 </article>
@@ -102,7 +102,7 @@ li.hover-no-underline:hover{
                                         <img alt="Blogartikel 3" title="Blogartikel 3" height="140" width="140" src="{{$post->image}}">
                                         </a>
                                         <div class="info">
-                                            <span>Von<a href="/blog" style="color:  #8eff97;">Dr. med. Hansjörg Lammers</a></span>
+                                            <span>Von<a href="/doc/main" style="color:  #8eff97;">Dr. med. Hansjörg Lammers</a></span>
                                             <p><a class="text-white" href="/blog/{{$post->slug}}">{{$post->title}}</a></p>
                                         </div>
                                     </article>
