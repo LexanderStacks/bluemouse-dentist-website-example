@@ -88,7 +88,7 @@ li.hover-no-underline:hover{
 
                                 <article class="item">
                                     <a href="/detox" class="thumb" style="color:white;">
-                                        <img alt="Blogartikel 3" title="Blogartikel 3" height="140" width="140" src="/template-assets/images/blog/blog-3.jpg">
+                                        <img alt="Blogartikel 2" title="Blogartikel 2" height="140" width="140" src="/template-assets/images/blog/blog-2.jpg">
                                     </a>
                                     <div class="info">
                                         <span>Von<a href="/blog" style="color:  #8eff97;">Dr. med. Hansjörg Lammers</a></span>
@@ -96,10 +96,10 @@ li.hover-no-underline:hover{
                                     </div>
                                 </article>
 
-                                @foreach($posts as $post)
+                                @foreach($blogPosts as $post)
                                     <article class="item">
                                         <a href="/blog/{{$post->slug}}" class="thumb">
-                                        <img alt="Blogartikel 2" title="Blogartikel 2" height="140" width="140" src="{{$post->image}}">
+                                        <img alt="Blogartikel 3" title="Blogartikel 3" height="140" width="140" src="{{$post->image}}">
                                         </a>
                                         <div class="info">
                                             <span>Von<a href="/blog" style="color:  #8eff97;">Dr. med. Hansjörg Lammers</a></span>

@@ -915,7 +915,7 @@
                         </div>
                     </div>
 
-                    @foreach($posts as $post)
+                    @foreach($blogPosts as $post)
                     <div class="col-lg-4 col-md-6">
                         <div class="single-blog">
                             <div class="blog-image">
