@@ -423,24 +423,26 @@
 
                                 <div class="col-xl-6">
                                     <div class="make-appointment-content d-none d-xl-block">
-                                        <h4 class="text-center"><i class="flaticon-calendar"></i> Terminabsprache <br>Rückruf anfragen</h4>
+                                        <h4 class="text-center"><i class="flaticon-calendar"></i>
+                                            Terminabsprache <br>
+                                            Rückruf anfragen
+                                        </h4>
 
-                                        <form>
+                                        <form action="/callBackRequest" method="Post">
+                                        @csrf
                                             <div class="form-group">
-                                                <input type="text" class="form-control" placeholder="Name">
+                                                <input id="name" name="name" type="text" class="form-control" placeholder="Name">
                                             </div>
 
                                             <div class="form-group">
-                                                <input type="text" class="form-control" placeholder="Email">
+                                                <input id="email" name="email" type="text" class="form-control" placeholder="Email">
                                             </div>
 
                                             <div class="form-group">
-                                                <input type="text" class="form-control" placeholder="Telefon">
+                                                <input id="phone" name="phone" type="text" class="form-control" placeholder="Telefon">
                                             </div>
-            
-                                            <button type="submit" class="default-btn">  
-                                                Rückruf anfragen
-                                            </button>
+
+                                            <input id="submit-request-btn" class="btn btn-lg btn-primary" type="submit" value="Rückruf anfragen">
                                         </form>
                                     </div>
                                 </div>
