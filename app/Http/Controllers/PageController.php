@@ -80,7 +80,6 @@ class PageController extends Controller
     {
         $posts = \App\Models\Post::published()->type('spa_elements')->with('attachment')->orderBy('menu_order')->get();
         $secondPost = \App\Models\Post::published()->type('page')->slug('spa-description')->with('attachment')->firstOrFail();
-        $blogPosts = \App\Models\Post::taxonomy('category', 'blog')->with('attachment')->limit(1)->get();
         return view('layouts.app', [
             'page' => "pages.index",
             'title' => "Medical Detox SPA",
@@ -88,7 +87,6 @@ class PageController extends Controller
             'imageType' => "round",
             'posts' => $posts,
             'secondPost' => $secondPost,
-            'blogPosts' => $blogPosts,
         ]);
     }
     public function contact()
