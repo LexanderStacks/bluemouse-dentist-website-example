@@ -6,9 +6,9 @@
                     <span class="sub-title">
                         
                         <i class="bi bi-hash fs-4 text-primary"></i>
-                        Interessante Neuigkeiten & Blogartikel
+                        Blogartikel
                     </span>
-                    <h2>Hier ensteht ein gepflegtest Informationsarchiv von FirstBioDent</h2>
+                    <h2>Interessantes und Neues aus unserer Praxis</h2>
                 </div>
 
 
