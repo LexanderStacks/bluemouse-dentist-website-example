@@ -279,7 +279,7 @@ class EmailController extends Controller
         $fields = [
             'to' => [
                 [
-                    "email" => 'a.kucharski@posteo.de',
+                    "email" => 'info@firstbiodent.de',
                     "name" => 'FirstBioDent'
                 ]
             ],
@@ -290,7 +290,7 @@ class EmailController extends Controller
             "subject" => 'FirstBioDent Terminanfrage',
             "cc" => [
                 [
-                    "email" => 'a.kucharski@posteo.de',
+                    "email" => 'info@firstbiodent.de',
                     "name" => 'FirstBioDent'
                 ]
             ],
