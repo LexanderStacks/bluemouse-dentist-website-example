@@ -271,7 +271,7 @@
                                             <a href="/contact" class="nav-link">Praxistermin</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a href="contact-online" class="nav-link">Online Termin</a>
+                                            <a href="/contact-online" class="nav-link">Online Termin</a>
                                         </li>
                                         <!--
                                         <li class="nav-item">
@@ -295,7 +295,7 @@
 
                                 <div class="option-item d-none d-xl-block">
                                     <div class="navbar-btn">
-                                        <a href="contact-online" class="default-btn">Online Termin</a>
+                                        <a href="/contact-online" class="default-btn">Online Termin</a>
                                     </div>
                                 </div>
                             </div>
