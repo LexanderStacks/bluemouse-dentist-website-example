@@ -397,6 +397,21 @@ class PageController extends Controller
             'blogPosts' => $blogPosts,
         ]);
     }
+    public function blogPage($slot)
+    {
+        $post = \App\Models\Post::published()->slug($slot)->with('attachment')->firstOrFail();
+        $blogPosts = \App\Models\Post::taxonomy('category', 'blog')->with('attachment')->limit(1)->get();
+
+        $title = $this->shortTitle($post->title);
+
+        return view('layouts.app', [
+            'page' => "pages.index",
+            'title' => $title,
+            'view' => "services.detail",
+            'post' => $post,
+            'blogPosts' => $blogPosts,
+        ]);
+    }
     public function shortTitle($longTitle)
     {
         if ( str_contains($longTitle, ' in Düsseldorf') ) {
@@ -405,6 +420,11 @@ class PageController extends Controller
         else{
             $title = $longTitle;
         }
+        return $title;
+    }
+    public function uriToTitle($uri)
+    {
+        $title = $uri; 
         return $title;
     }
 

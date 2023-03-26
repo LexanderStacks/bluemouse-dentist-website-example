@@ -137,6 +137,9 @@ Route::get('/metal-detox',
 Route::get('/service/{slot?}', 
     [App\Http\Controllers\PageController::class, 'servicePage']
 );
+Route::get('/blog/{slot?}', 
+    [App\Http\Controllers\PageController::class, 'blogPage']
+);
 /* -- OBJECTORIENTATEST PAGE -- */
 
 Auth::routes();
