@@ -3,7 +3,14 @@
 <div class="page-banner-area">
     <div class="container">
         <div class="page-banner-content">
-            <h2>{{$title}}</h2>
+            <div class="d-none d-xl-block">
+                <h2 class="text-primary fs-1">
+                    <h2>{{$title}}</h2>
+                </h2>
+            </div>
+            <div class="d-block d-xl-none">
+                <h2 class="fs-4">{{$title}}</h2>
+            </div>
             <ul class="pages-list">
                 <li><a href="/">Startseite</a></li>
                 <li>{{$title}}</li>
