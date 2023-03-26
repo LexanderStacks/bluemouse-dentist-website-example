@@ -55,9 +55,11 @@ li.hover-no-underline:hover{
                                 <li>
                                     <a href="/blog">Blog</a>
                                 </li>
-                                <li>
-                                    <a href="/faq">FAQs</a>
-                                </li>
+                                <!--
+                                    <li>
+                                        <a href="/faq">FAQs</a>
+                                    </li>
+                                -->
                                 <li>
                                     <a href="/privacy">Datenschutzrichtlinien</a>
                                 </li>
