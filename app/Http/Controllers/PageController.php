@@ -407,7 +407,7 @@ class PageController extends Controller
         return view('layouts.app', [
             'page' => "pages.index",
             'title' => $title,
-            'view' => "services.detail",
+            'view' => "blog.detail",
             'post' => $post,
             'blogPosts' => $blogPosts,
         ]);
