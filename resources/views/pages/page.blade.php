@@ -3,9 +3,16 @@
     <!-- wp content -->
     <div class="row py-5 px-3 px-xl-5">
     	<div class="col-12">
-    		<h2 class="text-primary fs-1">
-				{{ $post->title }}
-			</h2>
+    		<div class="d-none d-xl-block">
+	    		<h2 class="text-primary fs-1">
+					{{ $post->title }}
+				</h2>
+			</div>
+    		<div class="d-block d-xl-none">
+	    		<h2 class="text-primary fs-3">
+					{{ $post->title }}
+				</h2>
+			</div>
     	</div>
     	<div class="col-12 mt-3">
 			<div>
