@@ -250,7 +250,7 @@ li.hover-no-underline:hover{
                 <a href="mailto:info@firstbiodent.de">
                     info@firstbiodent.de
                 </a>
-                &nbsp; Web: <span class="text-black">WebsApps</span>
+                &nbsp; Web: <span class="text-black">Alexander Kucharski</span>
             </p>
             <p class="d-block d-lg-none pb-3 pb-xl-1" style="padding-top: 45px;">
                 © 2022
