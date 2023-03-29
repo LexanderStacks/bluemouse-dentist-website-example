@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 
 class EmailController extends Controller
 {
-    //
+    /* --- Book an appointment --- */
 
      public function send(Request $request)
      {
@@ -41,61 +41,57 @@ class EmailController extends Controller
                 ]
             ],
             "htmlContent" => "
-
-
-<html>
- <head>
-  <meta http-equiv='Content-Type' content='text/html; charset=UTF-8' />
-  <title>Demystifying Email Design</title>
-  <meta name='viewport' content='width=device-width, initial-scale=1.0'/>
-</head>
-
-<body style='margin: 0; padding: 0;'>
-
- <table border='0' cellpadding='0' cellspacing='0' width='100%'>
-  <tr>
-    <td align='center' bgcolor='#ffffff' style='padding: 40px 0 30px 0; font-size: 24px;'>
-     FirstBioDent
-    </td>
-  </tr>
-  <tr>
-  <td align='center' bgcolor='#ffffff' style='padding: 20px 0 20px 0; font-size: 18px;'>
-   Terminanfrage
-  </td>
- </tr>
-  <tr>
-  <td bgcolor='#ffffff' style='padding: 20px 0 20px 0; font-size: 18px;'>
-   Name: ".$request->name."
-  </td>
- </tr>
- <tr>
-  <td bgcolor='#ffffff' style='padding: 20px 0 20px 0; font-size: 18px;'>
-   Betreff: ".$request->subject."
-  </td>
-</tr>
- <tr>
-  <td bgcolor='#ffffff' style='padding: 20px 0 20px 0; font-size: 18px;'>
-   Email: ".$request->email."
-  </td>
-</tr>
- <tr>
-  <td bgcolor='#ffffff' style='padding: 20px 0 20px 0; font-size: 18px;'>
-   Telefon: ".$request->phone."
-  </td>
-</tr>
- <tr>
-  <td bgcolor='#ffffff' style='padding: 20px 0 20px 0; font-size: 18px;'>
-   Mitteilung: ".$request->message."
-  </td>
-</tr>
- <tr>
-  <td bgcolor='#ffffff' style='padding: 20px 0 20px 0; font-size: 18px;'>
-   Wunschdatum: ".$request->wishDate."
-  </td>
-</tr>
- </table>
-</body>
-</html>
+                <html>
+                 <head>
+                  <meta http-equiv='Content-Type' content='text/html; charset=UTF-8' />
+                  <title>Demystifying Email Design</title>
+                  <meta name='viewport' content='width=device-width, initial-scale=1.0'/>
+                </head>
+                <body style='margin: 0; padding: 0;'>
+                 <table border='0' cellpadding='0' cellspacing='0' width='100%'>
+                  <tr>
+                    <td align='center' bgcolor='#ffffff' style='padding: 40px 0 30px 0; font-size: 24px;'>
+                     FirstBioDent
+                    </td>
+                  </tr>
+                  <tr>
+                  <td align='center' bgcolor='#ffffff' style='padding: 20px 0 20px 0; font-size: 18px;'>
+                   Terminanfrage
+                  </td>
+                 </tr>
+                  <tr>
+                  <td bgcolor='#ffffff' style='padding: 20px 0 20px 0; font-size: 18px;'>
+                   Name: ".$request->name."
+                  </td>
+                 </tr>
+                 <tr>
+                  <td bgcolor='#ffffff' style='padding: 20px 0 20px 0; font-size: 18px;'>
+                   Betreff: ".$request->subject."
+                  </td>
+                </tr>
+                 <tr>
+                  <td bgcolor='#ffffff' style='padding: 20px 0 20px 0; font-size: 18px;'>
+                   Email: ".$request->email."
+                  </td>
+                </tr>
+                 <tr>
+                  <td bgcolor='#ffffff' style='padding: 20px 0 20px 0; font-size: 18px;'>
+                   Telefon: ".$request->phone."
+                  </td>
+                </tr>
+                 <tr>
+                  <td bgcolor='#ffffff' style='padding: 20px 0 20px 0; font-size: 18px;'>
+                   Mitteilung: ".$request->message."
+                  </td>
+                </tr>
+                 <tr>
+                  <td bgcolor='#ffffff' style='padding: 20px 0 20px 0; font-size: 18px;'>
+                   Wunschdatum: ".$request->wishDate."
+                  </td>
+                </tr>
+                 </table>
+                </body>
+                </html>
             ",
         ];
 
@@ -154,6 +150,8 @@ class EmailController extends Controller
      public function sendOnlineRequest(Request $request)
      {
 
+        /* --- Book an appointment ONLINE --- */
+
         $fields = [
             'to' => [
                 [
@@ -173,51 +171,49 @@ class EmailController extends Controller
                 ]
             ],
             "htmlContent" => "
+                <html>
+                 <head>
+                  <meta http-equiv='Content-Type' content='text/html; charset=UTF-8' />
+                  <title>Demystifying Email Design</title>
+                  <meta name='viewport' content='width=device-width, initial-scale=1.0'/>
+                </head>
 
+                <body style='margin: 0; padding: 0;'>
 
-<html>
- <head>
-  <meta http-equiv='Content-Type' content='text/html; charset=UTF-8' />
-  <title>Demystifying Email Design</title>
-  <meta name='viewport' content='width=device-width, initial-scale=1.0'/>
-</head>
-
-<body style='margin: 0; padding: 0;'>
-
- <table border='0' cellpadding='0' cellspacing='0' width='100%'>
-  <tr>
-    <td align='center' bgcolor='#ffffff' style='padding: 40px 0 30px 0; font-size: 24px;'>
-     FirstBioDent
-    </td>
-  </tr>
-  <tr>
-  <td align='center' bgcolor='#ffffff' style='padding: 20px 0 20px 0; font-size: 18px;'>
-   Terminanfrage ONLINE (Video-Meeting)
-  </td>
- </tr>
-  <tr>
-  <td bgcolor='#ffffff' style='padding: 20px 0 20px 0; font-size: 18px;'>
-   Name: ".$request->name."
-  </td>
- </tr>
- <tr>
-  <td bgcolor='#ffffff' style='padding: 20px 0 20px 0; font-size: 18px;'>
-   Email: ".$request->email."
-  </td>
-</tr>
- <tr>
-  <td bgcolor='#ffffff' style='padding: 20px 0 20px 0; font-size: 18px;'>
-   Telefon: ".$request->phone."
-  </td>
-</tr>
- <tr>
-  <td bgcolor='#ffffff' style='padding: 20px 0 20px 0; font-size: 18px;'>
-   Wunschdatum: ".$request->wishDateOnline."
-  </td>
-</tr>
- </table>
-</body>
-</html>
+                 <table border='0' cellpadding='0' cellspacing='0' width='100%'>
+                  <tr>
+                    <td align='center' bgcolor='#ffffff' style='padding: 40px 0 30px 0; font-size: 24px;'>
+                     FirstBioDent
+                    </td>
+                  </tr>
+                  <tr>
+                  <td align='center' bgcolor='#ffffff' style='padding: 20px 0 20px 0; font-size: 18px;'>
+                   Terminanfrage ONLINE (Video-Meeting)
+                  </td>
+                 </tr>
+                  <tr>
+                  <td bgcolor='#ffffff' style='padding: 20px 0 20px 0; font-size: 18px;'>
+                   Name: ".$request->name."
+                  </td>
+                 </tr>
+                 <tr>
+                  <td bgcolor='#ffffff' style='padding: 20px 0 20px 0; font-size: 18px;'>
+                   Email: ".$request->email."
+                  </td>
+                </tr>
+                 <tr>
+                  <td bgcolor='#ffffff' style='padding: 20px 0 20px 0; font-size: 18px;'>
+                   Telefon: ".$request->phone."
+                  </td>
+                </tr>
+                 <tr>
+                  <td bgcolor='#ffffff' style='padding: 20px 0 20px 0; font-size: 18px;'>
+                   Wunschdatum: ".$request->wishDateOnline."
+                  </td>
+                </tr>
+                 </table>
+                </body>
+                </html>
             ",
         ];
 
@@ -276,6 +272,8 @@ class EmailController extends Controller
      public function callBackRequest(Request $request)
      {
 
+        /* --- Request a CALL BACK --- */
+
         $fields = [
             'to' => [
                 [
@@ -295,46 +293,43 @@ class EmailController extends Controller
                 ]
             ],
             "htmlContent" => "
+                <html>
+                 <head>
+                  <meta http-equiv='Content-Type' content='text/html; charset=UTF-8' />
+                  <title>Demystifying Email Design</title>
+                  <meta name='viewport' content='width=device-width, initial-scale=1.0'/>
+                </head>
+                <body style='margin: 0; padding: 0;'>
 
-
-<html>
- <head>
-  <meta http-equiv='Content-Type' content='text/html; charset=UTF-8' />
-  <title>Demystifying Email Design</title>
-  <meta name='viewport' content='width=device-width, initial-scale=1.0'/>
-</head>
-
-<body style='margin: 0; padding: 0;'>
-
- <table border='0' cellpadding='0' cellspacing='0' width='100%'>
-  <tr>
-    <td align='center' bgcolor='#ffffff' style='padding: 40px 0 30px 0; font-size: 24px;'>
-     FirstBioDent
-    </td>
-  </tr>
-  <tr>
-  <td align='center' bgcolor='#ffffff' style='padding: 20px 0 20px 0; font-size: 18px;'>
-   Rückruf-Anfrage zur Terminfindung
-  </td>
- </tr>
-  <tr>
-  <td bgcolor='#ffffff' style='padding: 20px 0 20px 0; font-size: 18px;'>
-   Name: ".$request->name."
-  </td>
- </tr>
- <tr>
-  <td bgcolor='#ffffff' style='padding: 20px 0 20px 0; font-size: 18px;'>
-   Email: ".$request->email."
-  </td>
-</tr>
- <tr>
-  <td bgcolor='#ffffff' style='padding: 20px 0 20px 0; font-size: 18px;'>
-   Telefon: ".$request->phone."
-  </td>
-</tr>
- </table>
-</body>
-</html>
+                 <table border='0' cellpadding='0' cellspacing='0' width='100%'>
+                  <tr>
+                    <td align='center' bgcolor='#ffffff' style='padding: 40px 0 30px 0; font-size: 24px;'>
+                     FirstBioDent
+                    </td>
+                  </tr>
+                  <tr>
+                  <td align='center' bgcolor='#ffffff' style='padding: 20px 0 20px 0; font-size: 18px;'>
+                   Rückruf-Anfrage zur Terminfindung
+                  </td>
+                 </tr>
+                  <tr>
+                  <td bgcolor='#ffffff' style='padding: 20px 0 20px 0; font-size: 18px;'>
+                   Name: ".$request->name."
+                  </td>
+                 </tr>
+                 <tr>
+                  <td bgcolor='#ffffff' style='padding: 20px 0 20px 0; font-size: 18px;'>
+                   Email: ".$request->email."
+                  </td>
+                </tr>
+                 <tr>
+                  <td bgcolor='#ffffff' style='padding: 20px 0 20px 0; font-size: 18px;'>
+                   Telefon: ".$request->phone."
+                  </td>
+                </tr>
+                 </table>
+                </body>
+                </html>
             ",
         ];
 

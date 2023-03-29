@@ -13,14 +13,12 @@
     </div>
     <!-- ./ Test -->
 
-
         <!-- Start FAQ Area -->
         <section class="faq-area ptb-100">
             <div class="container">
                 <div class="section-title">
                     <span class="sub-title">
-                        
-<i class="bi bi-hash fs-4 text-primary"></i>
+                        <i class="bi bi-hash fs-4 text-primary"></i>
                         Oft gestellte Fragen
                     </span>
                     <h2>Beispiel</h2>

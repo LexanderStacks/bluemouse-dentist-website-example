@@ -1,5 +1,5 @@
 /*
-@File: Grin Template Styles
+@File: Template Styles
 
 * This file contains the styling for the actual template, this
 is the file you need to edit to change the look of the
@@ -11190,11 +11190,11 @@ Covid Footer Area CSS
 /* End "Covid 19 Vaccination Center Demo CSS" */
 
 
-/* Start "Hospital Website Demo CSS" */
+/* Start "Dentist Website Demo CSS" */
 
 @import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-// Hospital Website "Color & Font" 
+// Dentist Website "Color & Font" 
 $hospital-main-color: #13A8B4;
 $hospital-black-color: #0A335B;
 $hospital-font-family: 'Jost', sans-serif;
@@ -11218,7 +11218,7 @@ $hospital-font-family: 'Jost', sans-serif;
     }
 }
 
-// Hospital Pagination
+// Dentist Pagination
 .hospital-pagination {
     .page-numbers {
         background-color: transparent;
@@ -11238,7 +11238,7 @@ $hospital-font-family: 'Jost', sans-serif;
 }
 
 /*================================================
-Hospital Bar Area CSS
+Dentist Bar Area CSS
 =================================================*/
 .hospital-top-area {
     background-color: $hospital-black-color;
@@ -11306,7 +11306,7 @@ Hospital Bar Area CSS
 }
 
 /*================================================
-Hospital Navbar Area CSS
+Dentist Navbar Area CSS
 =================================================*/
 .hospital-navbar-area {
     .main-navbar {
@@ -11530,7 +11530,7 @@ Hospital Navbar Area CSS
 }
 
 /*================================================
-Hospital Banner Area CSS
+Dentist Banner Area CSS
 =================================================*/
 .hospital-banner-area {
     background-image: url(../../template-assets/images/hospital/banner/banner-bg.jpg);
@@ -11611,7 +11611,7 @@ Hospital Banner Area CSS
 }
 
 /*================================================
-Hospital Specialist Area CSS
+Dentist Specialist Area CSS
 =================================================*/
 .hospital-specialist-card {
     background-color: $white-color;
@@ -11659,7 +11659,7 @@ Hospital Specialist Area CSS
 }
 
 /*================================================
-Hospital About Area CSS
+Dentist About Area CSS
 =================================================*/
 .hospital-about-area {
     background-color: #F8F8F8;
@@ -11744,7 +11744,7 @@ Hospital About Area CSS
 }
 
 /*================================================
-Hospital Appointment Area CSS
+Dentist Appointment Area CSS
 =================================================*/
 .hospital-appointment-area {
     background-image: url(../../template-assets/images/hospital/appointment-bg.jpg);
@@ -11924,7 +11924,7 @@ Hospital Appointment Area CSS
 }
 
 /*================================================
-Hospital Services Area CSS
+Dentist Services Area CSS
 =================================================*/
 .hospital-services-area {
     .section-title {
@@ -12037,7 +12037,7 @@ Hospital Services Area CSS
 }
 
 /*================================================
-Hospital Skills Area CSS
+Dentist Skills Area CSS
 =================================================*/
 .hospital-skills-area {
     background: #F8F8F8;
@@ -12138,7 +12138,7 @@ Hospital Skills Area CSS
 }
 
 /*================================================
-Hospital Fun Facts Area CSS
+Dentist Fun Facts Area CSS
 =================================================*/
 .hospital-fun-facts-area {
     background-image: url(../../template-assets/images/hospital/fun-fact/fun-facts-bg.jpg);
@@ -12185,7 +12185,7 @@ Hospital Fun Facts Area CSS
 }
 
 /*================================================
-Hospital Team Area CSS
+Dentist Team Area CSS
 =================================================*/
 .hospital-team-card {
     margin-bottom: 25px;
@@ -12312,7 +12312,7 @@ Hospital Team Area CSS
 }
 
 /*================================================
-Hospital App Area CSS
+Dentist App Area CSS
 =================================================*/
 .hospital-app-area {
     background: #F8F8F8;
@@ -12415,7 +12415,7 @@ Hospital App Area CSS
 }
 
 /*================================================
-Hospital Call To Action Area CSS
+Dentist Call To Action Area CSS
 =================================================*/
 .hospital-call-to-action-area {
     background-image: url(../../template-assets/images/hospital/call-to-action.jpg);
@@ -12499,7 +12499,7 @@ Hospital Call To Action Area CSS
 }
 
 /*================================================
-Hospital Testimonials Area CSS
+Dentist Testimonials Area CSS
 =================================================*/
 .hospital-testimonials-area {
     .section-title {
@@ -12682,7 +12682,7 @@ Hospital Testimonials Area CSS
 }
 
 /*================================================
-Hospital Blog Area CSS
+Dentist Blog Area CSS
 =================================================*/
 .hospital-blog-area {
     background: #F8F8F8;
@@ -12817,7 +12817,7 @@ Hospital Blog Area CSS
 }
 
 /*================================================
-Hospital Information Area CSS
+Dentist Information Area CSS
 =================================================*/
 .hospital-information-area {
     background: linear-gradient(90deg, #19ABAE 0.39%, #3DBD8D 101.54%);
@@ -12888,7 +12888,7 @@ Hospital Information Area CSS
 }
 
 /*================================================
-Hospital Page Banner Area CSS
+Dentist Page Banner Area CSS
 =================================================*/
 .hospital-page-banner-area {
     background-image: url(../../template-assets/images/hospital/page-banner/bg-1.jpg);
@@ -12958,7 +12958,7 @@ Hospital Page Banner Area CSS
 }
 
 /*================================================
-Hospital Choice Area CSS
+Dentist Choice Area CSS
 =================================================*/
 .hospital-choice-content {
     span {
@@ -13008,7 +13008,7 @@ Hospital Choice Area CSS
 }
 
 /*================================================
-Hospital Choice Area CSS
+Dentist Choice Area CSS
 =================================================*/
 .hospital-services-details-desc {
     padding-left: 25px;
@@ -13184,7 +13184,7 @@ Hospital Choice Area CSS
 }
 
 /*================================================
-Hospital Portfolio Area CSS
+Dentist Portfolio Area CSS
 =================================================*/
 .hospital-portfolio-card {
     margin-bottom: 25px;
@@ -13303,7 +13303,7 @@ Hospital Portfolio Area CSS
 }
 
 /*================================================
-Hospital Portfolio Details Area CSS
+Dentist Portfolio Details Area CSS
 =================================================*/
 .hospital-portfolio-details-desc {
     img {
@@ -13394,7 +13394,7 @@ Hospital Portfolio Details Area CSS
 }
 
 /*================================================
-Hospital Blog Details Area CSS
+Dentist Blog Details Area CSS
 =================================================*/
 .hospital-blog-details-desc {
     padding-left: 25px;
@@ -13667,7 +13667,7 @@ Hospital Blog Details Area CSS
 }
 
 /*================================================
-Hospital Contact Area CSS
+Dentist Contact Area CSS
 =================================================*/
 .hospital-contact-form {
     background: #F8F8F8;
@@ -13735,7 +13735,7 @@ Hospital Contact Area CSS
 }
 
 /*================================================
-Hospital Contact Information Area CSS
+Dentist Contact Information Area CSS
 =================================================*/
 .hospital-contact-information-area {
     background-image: url(../../template-assets/images/hospital/information/information-bg.jpg);
@@ -13796,7 +13796,7 @@ Hospital Contact Information Area CSS
 }
 
 /*================================================
-Hospital Widget Area CSS
+Dentist Widget Area CSS
 =================================================*/
 .hospital-widget-area {
     .widget {
@@ -14172,4 +14172,4 @@ Covid Footer Area CSS
     }
 }
 
-/* End "Hospital Website Demo CSS" */
+/* End "Dentist Website Demo CSS" */

@@ -80,7 +80,7 @@
 
                         <p><span>Seit 1990</span><br>Weiterbildung auf den Gebieten der Grundregulation (über die D.A.H. = Deutsche medizinische Arbeitsgemeinschaft für Herd- und Regulationsforschung), dentale Werkstoffkunde, Energiemedizin (Quantenphysik in der Medizin – Prof. Warnke) und Toxinausschwämmung mittels der Funktionellen Medizin nach Prof. Jeffrey Bland/Gig Harbour (Washington).</p>
 
-                        <p><span>2003 – 2005</span><br>Ausbilder und Konsil-Arzt am Specialized Medical Center Hospital, Riad, Saudi Arabien</p>
+                        <p><span>2003 – 2005</span><br>Ausbilder und Konsil-Arzt am Specialized Medical Center Dentist, Riad, Saudi Arabien</p>
 
                     </div>
                     <div class="overview-text">

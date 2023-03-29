@@ -555,9 +555,9 @@ jQuery(function ($) {
 	/* End "Covid 19 Vaccination Center Demo JS" */
 
 
-	/* Start "Hospital Website Demo JS" */
+	/* Start "Dentist Website Demo JS" */
 
-	// Hospital Services JS
+	// Dentist Services JS
 	$('.hospital-services-slides').owlCarousel({
 		loop: true,
 		nav: true,
@@ -620,7 +620,7 @@ jQuery(function ($) {
 		},{accY: 0});
 	}
 
-	// Hospital Team JS
+	// Dentist Team JS
 	$('.hospital-team-slides').owlCarousel({
 		loop: true,
 		nav: true,
@@ -645,7 +645,7 @@ jQuery(function ($) {
 		}
 	});
 
-	// Hospital Testimonials JS
+	// Dentist Testimonials JS
 	$('.hospital-testimonials-slides').owlCarousel({
 		loop: true,
 		nav: true,
@@ -693,7 +693,7 @@ jQuery(function ($) {
 		}
 	});
 
-	/* End "Hospital Website Demo JS" */
+	/* End "Dentist Website Demo JS" */
 
 }(jQuery));
 

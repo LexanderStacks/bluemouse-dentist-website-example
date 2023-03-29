@@ -25,7 +25,7 @@ Route::get('/',
 Route::get('/en/', 
     [App\Http\Controllers\WelcomeController::class, 'showWelcomeViewEnglish']
 );
-/* --- PAGES --- */
+/* --- Custom Pages --- */
 Route::get('/publications', 
     [App\Http\Controllers\PageController::class, 'publications']
 );
@@ -131,16 +131,16 @@ Route::get('/halitosis',
 Route::get('/metal-detox', 
     [App\Http\Controllers\PageController::class, 'metalDetox']
 );
-/* --- ./ PAGES --- */
+/* --- ./ Custom Pages --- */
 
-/* -- OBJECTORIENTATEST PAGE -- */
+/* -- OOP Pages -- */
 Route::get('/service/{slot?}', 
     [App\Http\Controllers\PageController::class, 'servicePage']
 );
 Route::get('/blog/{slot?}', 
     [App\Http\Controllers\PageController::class, 'blogPage']
 );
-/* -- OBJECTORIENTATEST PAGE -- */
+/* -- ./ OOP Pages -- */
 
 Auth::routes();
 
